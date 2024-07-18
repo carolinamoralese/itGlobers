@@ -1,0 +1,48 @@
+{
+  "list-context.image-list#know-our-activities": {
+    "title": "list image home",
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "assets/img/img-un-minuto-para-ganar.webp",
+          "description": "advertising game one minute to win",
+          "width": "95%"
+        },
+        {
+          "src": "assets/img/img-combo-futbulero.webp",
+          "description": "elements to make a barbecue at home",
+          "width": "95%"
+        },
+        {
+          "src": "assets/img/img-bbva.webp",
+          "description": "ara bbva credit card",
+          "width": "95%"
+        },
+        {
+          "src": "assets/img/img-tarjeta-de-regalo.webp",
+          "description": "ara gift card",
+          "width": "95%"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "title": "Slider home demo images empty",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+       "showPaginationDots": "always",
+       "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true,
+        "pauseOnInteraction": true
+      }
+    }
+  }
+}

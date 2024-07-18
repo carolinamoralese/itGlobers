@@ -2,8 +2,7 @@
   "flex-layout.row#text_one--home":{
     "title":"text row one home",
     "children": [
-      "flex-layout.col#text_one--home",
-      "flex-layout.col#text_two--home"
+      "flex-layout.col#text_one--home"
     ],
     "props":{}
   },
@@ -13,24 +12,16 @@
       "rich-text"
     ],
     "props":{
-      "width": "20%"
+      "width": "100%"
     }
   },
-  "flex-layout.col#text_two--home":{
-    "title":"text col two home",
-    "children": [
-      "rich-text"
-    ],
-    "props":{
-        "width": "80%"
-    }
-  },
+
   "rich-text": { 
     "props": { 
-      "text": "prueb  sssddddd a",
+      "text": "CONOCE NUESTRAS ACTIVIDADES",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-10"
     }
   }
 }

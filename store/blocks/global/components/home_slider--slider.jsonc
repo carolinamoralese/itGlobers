@@ -1,75 +1,42 @@
 {
-  "slider-layout#text-test": {
-    "title": "list home image full",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    },
-    "children": [ "flex-layout.row#test_one--slider-home","image#example__1", "image#example__2", "image#example__3"]
-  },
+  // "slider-layout#text-test": {
+  //   "title": "list home image full",
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 1,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "infinite": true,
+  //     "showNavigationArrows": "desktopOnly",
+  //     "blockClass": "carousel"
+  //   },
+  //   "children": [ "flex-layout.row#test_one--slider-home","image#example__1", "image#example__2"]
+  // },
+  // "image#example__1": {
+  //   "title": "image one",
+  //   "props": {
+  //     "src": "assets/img/slider-img-baby.png"
+  //   }
+  // },
+  // "image#example__2": {
+  //   "title": "image two",
+  //   "props": {
+  //     "src": "assets/img/slider-img-mother&baby.png"
+  //   }
+  // },
+  // "flex-layout.row#test_one--slider-home": {
+  //   "title": "slider row test one",
+  //   "children": [
+  //     "flex-layout.col#test_one--slider-home"
+  //   ]
+  // },
+  // "flex-layout.col#test_one--slider-home": {
+  //   "title": "slider col test one",
+  //   "children": ["image#example__1"],
+  //   "props": {
+  //     "width": "50%"
+  //   }
+  // }
 
-  "rich-text#1": {
-    "title": "text one",
-    "props": {
-      "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas , las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum"
-    }
-  },
-  "rich-text#2": {
-    "title": "text two",
-    "props": {
-      "text": "Test2"
-    }
-  },
-  "rich-text#3": {
-    "title": "text three",
-    "props": {
-      "text": "Test3"
-    }
-  },
-  "image#example__1": {
-    "title": "image one",
-    "props": {
-      "src": "assets/img/img-1.avif"
-    }
-  },
-  "image#example__2": {
-    "title": "image two",
-    "props": {
-      "src": "assets/img/img-2.webp"
-    }
-  },
-  "image#example__3": {
-    "title": "image two",
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
-    }
-  },
-  "flex-layout.row#test_one--slider-home": {
-    "title": "slider row test one",
-    "children": [
-      "flex-layout.col#test_one--slider-home",
-      "flex-layout.col#test_two--slider-home"
-    ]
-  },
-  "flex-layout.col#test_one--slider-home": {
-    "title": "slider col test one",
-    "children": ["image#example__1"],
-    "props": {
-      "width": "50%"
-    }
-  },
-
-  "flex-layout.col#test_two--slider-home": {
-    "title": "slider col test two",
-    "children": ["rich-text#1"],
-    "props": {
-      "width": "50%"
-    }
-  }
 }
