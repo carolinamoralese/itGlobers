@@ -1,0 +1,73 @@
+{
+  "list-context.image-list#generl-info": {
+    "title": "list image home info",
+    "children": ["slider-layout#info-images"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "assets/img/img-ollas-cocina.webp",
+          "description": "pots for the kitchen",
+          "width": "95%"
+        },
+        {
+          "image": "assets/img/img-concentrado-perro.webp",
+          "description": "Dog food",
+          "width": "95%"
+        },
+        {
+          "image": "assets/img/img-ahorre-en-ara.webp",
+          "description": "advertising low prices in ara",
+          "width": "95%"
+        },
+        {
+          "image": "assets/img/img-donaciones-abaco.webp",
+          "description": "abaco food bank donations",
+          "width": "95%"
+        },
+        {
+          "image": "assets/img/img-productos-aseo-eden.webp",
+          "description": "Eden brand cleaning products",
+          "width": "95%"
+        },
+        {
+          "image": "assets/img/img-seleccion-femenina-futbol.webp",
+          "description": "women's soccer team",
+          "width": "95%"
+        },
+        {
+          "image": "assets/img/img-carnes.webp",
+          "description": "meat",
+          "width": "95%"
+        },
+        {
+          "src": "assets/img/img-tarjeta-de-regalo.webp",
+          "description": "ara gift card",
+          "width": "95%"
+        },
+        {
+          "src": "assets/img/img-resolucion-2499.webp",
+          "description": "document 2499",
+          "width": "95%"
+        }
+      ]
+    }
+  },
+  "slider-layout#info-images": {
+    "title": "Slider home info images empty",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+       "showPaginationDots": "always",
+       "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true,
+        "pauseOnInteraction": true
+      }
+    }
+  }
+}

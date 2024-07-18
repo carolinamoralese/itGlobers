@@ -1,0 +1,10 @@
+{
+    "image#promotion-week": {
+        "title": "promotion week",
+        "props": {
+          "src": "assets/img/banner-los-impredibles-ara.webp",
+          "width": "80%",
+          "blockClass": "promotion-week-image"
+        }
+      }
+}
