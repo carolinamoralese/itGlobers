@@ -1,13 +1,5 @@
-/* @font-face {
-    font-family: 'EduAUVICWANTHand';
-    src: url('/assets/fonts/EduAUVICWANTHand-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  } */
-  @font-face {
-    font-family: 'PlaywriteCU-VariableFont_wght';
-    src: url(assets/fonts/PlaywriteCU-VariableFont_wght.ttf);
-    font-weight: bold;
-  }
-
-  
+@font-face {
+  font-family: "lexend";
+  src: url("/assets/fonts/Lexend-VariableFont_wght.ttf");
+  font-weight: bold;
+}
