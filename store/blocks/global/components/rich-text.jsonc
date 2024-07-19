@@ -18,10 +18,11 @@
 
   "rich-text": { 
     "props": { 
-      "text": "CONOCE NUESTRAS ACTIVIDADES",
+      "text": "CONOCE NUESTRAS ACTIVIDADES ",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-10"
+      "font": "t-heading-10",
+      "blockClass": ["texto-uno"]
     }
   }
 }

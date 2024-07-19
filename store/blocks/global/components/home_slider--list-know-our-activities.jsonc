@@ -6,7 +6,7 @@
       "height": 650,
       "images": [
         {
-          "image": "assets/img/img-un-minuto-para-ganar.webp",
+          "image": "/arquivos/ejemplo.png",
           "description": "advertising game one minute to win",
           "width": "95%"
         },

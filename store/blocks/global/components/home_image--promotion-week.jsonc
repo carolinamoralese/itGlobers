@@ -4,7 +4,7 @@
         "props": {
           "src": "assets/img/banner-los-impredibles-ara.webp",
           "width": "80%",
-          "blockClass": "promotion-week-image"
+          "blockClass": ["promotion-week-image"]
         }
       }
 }

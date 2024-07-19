@@ -1,10 +1,13 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#generl-info",
-      "image#promotion-week",
-      "flex-layout.row#text_one--home"
+      "responsive-layout.phone",
+      "responsive-layout.desktop"
     ]
   }
 }
-//"list-context.image-list#know-our-activities"
+
+// "list-context.image-list#generl-info",
+// "image#promotion-week",
+// "flex-layout.row#text_one--home",
+// "list-context.image-list#know-our-activities"
