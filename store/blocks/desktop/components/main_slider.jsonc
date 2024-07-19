@@ -1,0 +1,39 @@
+{
+    "flex-layout.row#desktop__main-slider": {
+        "children": [
+            "list-context.image-list#desktop__container-imagenes"
+        ]
+    },
+    "list-context.image-list#desktop__container-imagenes": {
+    "title": "list image home banner",
+    "children": ["slider-layout#phone__slider"],
+    "props": {
+      "height": 422,
+      "width":1280,
+      "images": [
+        {
+          "image": "/arquivos/desktop-home-banner.png",
+          "description": "main image of the clock",
+          "width": "100%",
+          "link#image-banner": {
+            "props": {
+              "label": "",
+              "href": "#"
+             }
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#phone__slider": {
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 3,
+            "phone": 1
+        }
+    }
+  }
+}
+
+

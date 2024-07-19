@@ -1,0 +1,26 @@
+.paragraph--texto-uno {
+  font-family: "Roboto";
+}
+
+.wrapper--texto-section-one-desktop {
+  margin-left: 72px;
+  width: 500px;
+  size: 16;
+  line-height: 16, 8;
+  font-family: "lexend";
+}
+
+.wrapper--texto-section-one-phone {
+  margin-left: 10px;
+  width: 500px;
+  size: 16;
+  line-height: 16, 8;
+  font-family: "lexend";
+}
+.paragraph--text-image-slider {
+  font-family: Lexend;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.52px;
+  text-align: left;
+}

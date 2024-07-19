@@ -1,0 +1,11 @@
+{
+  "rich-text#title-section-one-desktop": {
+    "props": {
+      "text": "An amazing product",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-one-desktop"]
+    }
+  }
+}
