@@ -1,0 +1,114 @@
+{
+    "flex-layout.row#home--slider-two": {
+      "title": "slider home section two",
+      "children": ["slider-layout#second__slider-section-two"]
+    },
+  
+    "slider-layout#second__slider-section-two": {
+      "title": "Producto list at home section two",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 3,
+          "phone": 1.5
+        },
+        "infinite": true,
+        "showNavigationArrows": "always",
+        "showPaginationDots": "always",
+        "blockClass": "custom-slider"
+      },
+      "children": [
+        "flex-layout.col#second__slider--container-section-two",
+        "flex-layout.col#second__slider--container",
+        "flex-layout.col#second__slider--container",
+        "flex-layout.col#second__slider--container",
+        "flex-layout.col#second__slider--container",
+        "flex-layout.col#second__slider--container"
+      ]
+    },
+  
+    "flex-layout.col#second__slider--container-section-two": {
+      "title": "container whit information of product section two",
+      "children": [
+        "flex-layout.row#slider__first-row",
+        "flex-layout.row#slider__second-row",
+        "flex-layout.row#slider__third-row"
+      ],
+      "props": {
+        "blockClass": "container-info-product",
+        "width": "30%"
+      }
+    },
+  
+    "flex-layout.row#slider__first-row": {
+      "title": "container image of products",
+      "children": ["image#first__row-image"],
+      "props": {
+        "blockClass": "container-image-and-product"
+      }
+    },
+  
+    "image#first__row-image": {
+      "title": "product image",
+      "props": {
+        "src": "/arquivos/card-product.png",
+        "blockClass": "container-product-image"
+      }
+    },
+  
+    "flex-layout.row#slider__second-row": {
+      "title": "container whit text of products and price",
+      "children": [
+        "flex-layout.col#second__row-text",
+        "flex-layout.col#second__row-image"
+      ],
+  
+      "props": {
+        "preserveLayoutOnMobile": true
+      }
+    },
+  
+    "flex-layout.col#second__row-text": {
+      "title": "container text of product",
+      "children": ["rich-text#second__row-title"],
+      "props": {
+         "width": "70%"
+      }
+    },
+  
+    "rich-text#second__row-title": {
+      "title": "text of product",
+      "props": {
+        "text": "### Heading\n Builder platform is made by, buildership platform is made by...",
+        "blockClass": "info-product"
+      }
+    },
+  
+    "flex-layout.col#second__row-image": {
+      "title": "container img ecommer award",
+      "children": ["image#second__row-best-seller"]
+    },
+  
+    "image#second__row-best-seller": {
+      "title": "img certifciate",
+      "props": {
+        "src": "/arquivos/certificado-ecommer-award.png",
+        "blockClass": "img-certicate"
+        
+      }
+    },
+  
+    "flex-layout.row#slider__third-row": {
+      "title": "container price",
+      "children": ["rich-text#slider__third-row--button"]
+    },
+  
+    "rich-text#slider__third-row--button": {
+      "title": "text of price",
+      "props": {
+        "text": "[Ver precio ->](https:) ",
+        "blockClass": "slider_third-row--button"
+      }
+    }
+  }
+  

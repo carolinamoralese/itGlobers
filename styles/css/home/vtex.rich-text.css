@@ -1,6 +1,14 @@
 .paragraph--texto-uno {
   font-family: "Roboto";
 }
+.paragraph--texto-section-one-desktop {
+  font-family: "lexend";
+  font-size: 16px;
+  font-weight: bold;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: left;
+}
 
 .wrapper--texto-section-one-desktop {
   margin-left: 72px;
@@ -17,8 +25,11 @@
   line-height: 16, 8;
   font-family: "lexend";
 }
+.paragraph--info-product {
+  font-family: "lexend";
+}
 .paragraph--text-image-slider {
-  font-family: "Lexend";
+  font-family: "lexend";
   font-size: 12px;
   font-weight: 300;
   line-height: 14.52px;
@@ -36,7 +47,6 @@
   height: 40%;
   color: white;
   padding: 10%;
-
 }
 .wrapper--slider_third-row--button {
   background-color: #1d2734;
@@ -48,8 +58,25 @@
   border: 0.86px;
   margin-left: 40%;
 }
-.paragraph--slider_third-row--button{
-    margin-top: 0px;
-    margin-left: 12px;
+.paragraph--slider_third-row--button {
+  margin-top: 0px;
+  margin-left: 12px;
 }
 
+.paragraph--texto-section-two-desktop {
+  font-family: "lexend";
+  font-size: 16px; /* Cambié 'size' a 'font-size' para corregir la propiedad */
+  font-weight: bold;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: left;
+}
+
+.wrapper--texto-section-two-desktop {
+  margin-left: 72px;
+  margin-top: 8%;
+  width: 500px;
+  size: 16;
+  line-height: 16, 8;
+  font-family: "lexend";
+}

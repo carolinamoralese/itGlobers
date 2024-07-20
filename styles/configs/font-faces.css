@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "lexend";
-  src: url("/assets/fonts/Lexend-VariableFont_wght.ttf");
+  font-family: "playwirte";
+  src: url("/assets/fonts/PlaywriteCU-VariableFont_wght.ttf"),url(/assets/fonts/PlaywriteCU-VariableFont_wght.ttf);
   font-weight: bold;
 }

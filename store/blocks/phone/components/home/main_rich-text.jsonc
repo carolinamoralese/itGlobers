@@ -4,7 +4,7 @@
       "text": "An amazing product",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "font": "t-heading-10",
+      "font": "lexed",
       "blockClass": ["texto-section-one-phone"]
     }
   }
