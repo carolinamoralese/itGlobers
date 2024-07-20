@@ -4,7 +4,12 @@
       "flex-layout.row#desktop__main-slider",
       "rich-text#title-section-one-desktop",
       "flex-layout.row#home--slider",
-      "rich-text#title-section-two-desktop"
+      "rich-text#title-section-two-desktop",
+      "flex-layout.row#home--slider-two",
+      "rich-text#title-section-two-desktop",
+      "flex-layout.row#home--slider",
+      "rich-text#title-section-two-desktop",
+      "flex-layout.row#home--slider-two"
     ]
   }
 }

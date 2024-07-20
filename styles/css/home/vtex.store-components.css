@@ -9,6 +9,16 @@
   height: 48px;
 }
 
-.imageElement--container-product-image{
+.imageElement--container-product-image {
   width: 75%;
+}
+.imageElement--container-product-image-section-two {
+  width: 178px;
+  height: 140px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.container{
+  margin-bottom: 10%;
 }
