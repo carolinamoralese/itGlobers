@@ -1,2 +1,10 @@
-
-
+.caretIcon{
+    color: red;
+}
+.caretIcon--custom-slider{
+    background-color: brown;
+    height: 30%;
+}
+.sliderArrows{
+    background-color: brown;
+}

@@ -3,7 +3,7 @@
     "children": [
       "flex-layout.row#phone__main-slider",
       "rich-text#title-section-one-phone",
-      "slider-layout#text-test"
+      "flex-layout.row#home--slider"
     ]
   }
 }

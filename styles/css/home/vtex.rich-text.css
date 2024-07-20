@@ -18,9 +18,38 @@
   font-family: "lexend";
 }
 .paragraph--text-image-slider {
-  font-family: Lexend;
+  font-family: "Lexend";
   font-size: 12px;
   font-weight: 300;
   line-height: 14.52px;
   text-align: left;
 }
+.wrapper--info-product {
+  width: 300;
+  size: 12px;
+  line-height: 14.52px;
+}
+.wrapper--info-product {
+  margin-left: 20%;
+}
+.link--slider_third-row--button {
+  height: 40%;
+  color: white;
+  padding: 10%;
+
+}
+.wrapper--slider_third-row--button {
+  background-color: #1d2734;
+  border-radius: 40px;
+  width: 134px;
+  height: 43px;
+  padding: 8px 0px 0px 0px;
+  gap: 8px;
+  border: 0.86px;
+  margin-left: 40%;
+}
+.paragraph--slider_third-row--button{
+    margin-top: 0px;
+    margin-left: 12px;
+}
+
