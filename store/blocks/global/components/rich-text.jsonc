@@ -1,23 +1,19 @@
 {
-  "flex-layout.row#text_one--home":{
-    "title":"text row one home",
-    "children": [
-      "flex-layout.col#text_one--home"
-    ],
-    "props":{}
+  "flex-layout.row#text_one--home": {
+    "title": "text row one home",
+    "children": ["flex-layout.col#text_one--home"],
+    "props": {}
   },
-  "flex-layout.col#text_one--home":{
-    "title":"text col one home",
-    "children": [
-      "rich-text"
-    ],
-    "props":{
+  "flex-layout.col#text_one--home": {
+    "title": "text col one home",
+    "children": ["rich-text"],
+    "props": {
       "width": "100%"
     }
   },
 
-  "rich-text": { 
-    "props": { 
+  "rich-text": {
+    "props": {
       "text": "CONOCE NUESTRAS ACTIVIDADES ",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

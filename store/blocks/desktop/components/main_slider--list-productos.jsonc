@@ -8,7 +8,7 @@
     "title": "Producto list at home",
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1.5
       },
@@ -42,13 +42,17 @@
 
   "flex-layout.row#slider__first-row": {
     "title": "container image of products",
-    "children": ["image#first__row-image"]
+    "children": ["image#first__row-image"],
+    "props": {
+      "blockClass": "container-image-and-product"
+    }
   },
 
   "image#first__row-image": {
     "title": "product image",
     "props": {
-      "src": "/arquivos/card-product.png"
+      "src": "/arquivos/card-product.png",
+      "blockClass": "container-product-image"
     }
   },
 

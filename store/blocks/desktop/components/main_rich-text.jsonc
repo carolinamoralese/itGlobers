@@ -7,5 +7,14 @@
       "font": "t-heading-10",
       "blockClass": ["texto-section-one-desktop"]
     }
+  },
+  "rich-text#title-section-two-desktop": {
+    "props": {
+      "text": "An amazing product",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-two-desktop"]
+    }
   }
 }

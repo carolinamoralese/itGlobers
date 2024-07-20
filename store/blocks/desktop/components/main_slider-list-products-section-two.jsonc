@@ -1,0 +1,115 @@
+{
+  "flex-layout.row#home--slider-two": {
+    "title": "slider home section two",
+    "children": ["slider-layout#second__slider-section-two"]
+  },
+
+  "slider-layout#second__slider-section-two": {
+    "title": "Producto list at home section two",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "custom-slider"
+    },
+    "children": [
+      "flex-layout.col#second__slider--container-section-two",
+      "flex-layout.col#second__slider--container-section-two",
+      "flex-layout.col#second__slider--container-section-two",
+      "flex-layout.col#second__slider--container-section-two",
+      "flex-layout.col#second__slider--container-section-two",
+      "flex-layout.col#second__slider--container-section-two"
+    ]
+  },
+
+  "flex-layout.col#second__slider--container-section-two": {
+    "title": "container with product information from section two",
+    "children": [
+      "flex-layout.row#slider__first-row-section-two",
+      "flex-layout.row#slider__second-row-section-two"
+    ],
+    "props": {
+      "blockClass": "container-info-product"
+    }
+  },
+
+  "flex-layout.row#slider__first-row-section-two": {
+    "title": "container image of products section two",
+    "children": ["image#first__row-image-section-two"],
+    "props": {
+      "blockClass": "container-image-and-product-section-two"
+    }
+  },
+
+  "image#first__row-image-section-two": {
+    "title": "product image section two",
+    "props": {
+      "src": "/arquivos/product-section-two.png",
+      "blockClass": "container-product-image-section-two"
+    }
+  },
+
+  "flex-layout.row#slider__second-row-section-two": {
+    "title": "container with text of products and price",
+    "children": ["flex-layout.col#second__row-text-section-two"],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.col#second__row-text-section-two": {
+    "title": "container text of product section two",
+    "children": [
+      "rich-text#second__row-text-info-product-section-two",
+      "rich-text#third__row-text-info-product-section-two",
+      "rich-text#four__row-text-info-product-section-two",
+      "rich-text#five__row-text-info-product-section-two",
+      "rich-text#six__row-text-info-product-section-two"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": "info-product-colum-section-two"
+    }
+  },
+
+  "rich-text#second__row-text-info-product-section-two": {
+    "title": "text of product description section two",
+    "props": {
+      "text": "Descripción del producto en hasta tres líneas de texto explicativo",
+      "blockClass": "info-product-section-two"
+    }
+  },
+  "rich-text#third__row-text-info-product-section-two": {
+    "title": "text of product before discount section two",
+    "props": {
+      "text": "$ 636.900",
+      "blockClass": "info-product-before-discount"
+    }
+  },
+  "rich-text#four__row-text-info-product-section-two": {
+    "title": "text of price product section two",
+    "props": {
+      "text": "$ 836.900",
+      "blockClass": "info-price-product"
+    }
+  },
+  "rich-text#five__row-text-info-product-section-two": {
+    "title": "text about free shipping section two",
+    "props": {
+      "text": "Envió gratis",
+      "blockClass": "info-shipping-product"
+    }
+  },
+  "rich-text#six__row-text-info-product-section-two": {
+    "title": "text of price",
+    "props": {
+      "text": "[Comprar](https:) ",
+      "blockClass": "slider_third-row--buy-button"
+    }
+  }
+}
