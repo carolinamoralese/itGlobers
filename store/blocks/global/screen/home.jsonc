@@ -2,12 +2,9 @@
   "store.home": {
     "blocks": [
       "responsive-layout.phone",
-      "responsive-layout.desktop"
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "modal-trigger#example"      
     ]
   }
 }
-
-// "list-context.image-list#generl-info",
-// "image#promotion-week",
-// "flex-layout.row#text_one--home",
-// "list-context.image-list#know-our-activities"

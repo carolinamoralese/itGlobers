@@ -1,0 +1,15 @@
+{
+    "responsive-layout.tablet": {
+    "children": [
+      "flex-layout.row#tablet__main-slider",
+      "rich-text#title-section-one-tablet",
+      "flex-layout.row#home--slider",
+      "rich-text#title-section-two-desktop",
+      "flex-layout.row#home--slider-two",
+      "rich-text#title-section-two-desktop",
+      "flex-layout.row#home--slider",
+      "rich-text#title-section-two-desktop",
+      "flex-layout.row#home--slider-two"
+    ]
+  }
+}

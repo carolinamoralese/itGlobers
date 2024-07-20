@@ -1,10 +1,8 @@
 {
-    "flex-layout.row#phone__main-slider": {
-        "children": [
-            "list-context.image-list#phone__container-imagenes"
-        ]
-    },
-    "list-context.image-list#phone__container-imagenes": {
+  "flex-layout.row#phone__main-slider": {
+    "children": ["list-context.image-list#phone__container-imagenes"]
+  },
+  "list-context.image-list#phone__container-imagenes": {
     "title": "list image home banner",
     "children": ["slider-layout#phone__slider"],
     "props": {
@@ -18,7 +16,7 @@
             "props": {
               "label": "",
               "href": "#"
-             }
+            }
           }
         }
       ]
@@ -26,11 +24,11 @@
   },
   "slider-layout#phone__slider": {
     "props": {
-        "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 3,
-            "phone": 1
-        }
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      }
     }
   }
 }

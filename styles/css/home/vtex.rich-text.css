@@ -2,12 +2,11 @@
   font-family: "Roboto";
 }
 .paragraph--texto-section-one-desktop {
-  font-family: "lexend";
   font-size: 16px;
   font-weight: bold;
-  font-weight: 500;
   line-height: 16.8px;
   text-align: left;
+  
 }
 
 .wrapper--texto-section-one-desktop {
@@ -15,7 +14,8 @@
   width: 500px;
   size: 16;
   line-height: 16, 8;
-  font-family: "lexend";
+  margin-top: -8%;
+
 }
 
 .wrapper--texto-section-one-phone {
