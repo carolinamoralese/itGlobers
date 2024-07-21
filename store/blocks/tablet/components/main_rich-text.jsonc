@@ -1,0 +1,12 @@
+{
+    "rich-text#title-section-one-tablet": {
+      "props": {
+        "text": "An amazing product",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "lexed",
+        "blockClass": ["texto-section-one-phone"]
+      }
+    }
+  }
+  

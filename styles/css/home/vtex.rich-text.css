@@ -2,10 +2,8 @@
   font-family: "Roboto";
 }
 .paragraph--texto-section-one-desktop {
-  font-family: "lexend";
   font-size: 16px;
   font-weight: bold;
-  font-weight: 500;
   line-height: 16.8px;
   text-align: left;
 }
@@ -15,7 +13,8 @@
   width: 500px;
   size: 16;
   line-height: 16, 8;
-  font-family: "lexend";
+  margin-top: -8%;
+  margin-bottom: 0%;
 }
 
 .wrapper--texto-section-one-phone {
@@ -108,7 +107,6 @@
   text-decoration: line-through;
   color: #1d273466;
   margin-left: 35px;
-  
 }
 .paragraph--info-price-product {
   font-family: "Lexend";
@@ -128,7 +126,7 @@
   margin-left: 35px;
 }
 
-.link--slider_third-row--buy-button{
+.link--slider_third-row--buy-button {
   height: 40%;
   color: black;
   padding: 40%;
@@ -146,4 +144,19 @@
 .paragraph--slider_third-row--buy-button {
   margin-top: 0px;
   margin-left: 12px;
+}
+.paragraph--discount-button {
+  width: Hug (84px)px;
+  height: Hug (32px)px;
+  padding: 6px 12px 6px 12px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 0%;
+
+}
+.container--discount-button{
+  margin-left: 35px;
+  margin-top: 330px;
 }

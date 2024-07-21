@@ -9,7 +9,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 3,
+        "tablet": 4,
         "phone": 2
       },
       "infinite": true,
@@ -31,7 +31,8 @@
     "title": "container with product information from section two",
     "children": [
       "flex-layout.row#slider__first-row-section-two",
-      "flex-layout.row#slider__second-row-section-two"
+      "flex-layout.row#slider__second-row-section-two",
+      "flex-layout.row#slider__third-row-section-two"
     ],
     "props": {
       "blockClass": "container-info-product"
@@ -39,10 +40,58 @@
   },
 
   "flex-layout.row#slider__first-row-section-two": {
+    "title": "container with discount and off buttons",
+    "children": ["flex-layout.col#button__discount", "flex-layout.col#icon__favorite"],
+    "props": {
+      "blockClass": "container-discount-buttons",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.col#button__discount": {
+    "title": "container info disscount",
+    "children": ["rich-text#discount-button"],
+    "props": {
+       "width": "80%"
+    }
+  },
+
+  "rich-text#discount-button": {
+    "title": "Discount button",
+    "props": {
+      "text": "20% OFF",
+      "blockClass": "discount-button"
+
+    }
+  },
+  "flex-layout.col#icon__favorite": {
+    "title": "container img favorite",
+    "children": ["image#off-button"],
+    "props": {
+      "blockClass": "container-favorite-ico"
+    }
+  },
+  "image#off-button": {
+    "title": "imagen favorite",
+    "props": {
+      "src": "assets/img/icon--favorite.png",
+      "blockClass": "off-button-1"
+    }
+  },
+  // "image#second__row-best-seller": {
+  //   "title": "img certifciate",
+  //   "props": {
+  //     "src": "/arquivos/certificado-ecommer-award.png",
+  //     "blockClass": "img-certicate"
+      
+  //   }
+  // },
+
+  "flex-layout.row#slider__second-row-section-two": {
     "title": "container image of products section two",
     "children": ["image#first__row-image-section-two"],
     "props": {
-      "blockClass": "container-image-and-product-section-two"
+      "blockClass": "container-image-row"
     }
   },
 
@@ -54,7 +103,7 @@
     }
   },
 
-  "flex-layout.row#slider__second-row-section-two": {
+  "flex-layout.row#slider__third-row-section-two": {
     "title": "container with text of products and price",
     "children": ["flex-layout.col#second__row-text-section-two"],
     "props": {
@@ -73,7 +122,7 @@
     ],
     "props": {
       "width": "100%",
-      "blockClass": "info-product-colum-section-two"
+      "blockClass": "info-product-column-section-two"
     }
   },
 
@@ -84,6 +133,7 @@
       "blockClass": "info-product-section-two"
     }
   },
+
   "rich-text#third__row-text-info-product-section-two": {
     "title": "text of product before discount section two",
     "props": {
@@ -91,6 +141,7 @@
       "blockClass": "info-product-before-discount"
     }
   },
+
   "rich-text#four__row-text-info-product-section-two": {
     "title": "text of price product section two",
     "props": {
@@ -98,6 +149,7 @@
       "blockClass": "info-price-product"
     }
   },
+
   "rich-text#five__row-text-info-product-section-two": {
     "title": "text about free shipping section two",
     "props": {
@@ -105,6 +157,7 @@
       "blockClass": "info-shipping-product"
     }
   },
+
   "rich-text#six__row-text-info-product-section-two": {
     "title": "text of price",
     "props": {
