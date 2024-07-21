@@ -6,7 +6,6 @@
   font-weight: bold;
   line-height: 16.8px;
   text-align: left;
-  
 }
 
 .wrapper--texto-section-one-desktop {
@@ -15,7 +14,7 @@
   size: 16;
   line-height: 16, 8;
   margin-top: -8%;
-
+  margin-bottom: 0%;
 }
 
 .wrapper--texto-section-one-phone {
@@ -147,28 +146,17 @@
   margin-left: 12px;
 }
 .paragraph--discount-button {
-  width: Hug (84px) px;
-  height: Hug (32px) px;
+  width: Hug (84px)px;
+  height: Hug (32px)px;
   padding: 6px 12px 6px 12px;
   gap: 10px;
-  border-radius: 4px;
-  border: 1px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
   opacity: 0px;
-  background: #1d2734;
-  color: white;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  text-align: left;
-  margin-left: 35px;
+  margin-top: 0%;
+
 }
-.paragraph--off-button {
-  width: 44px;
-  height: 32px;
-  padding: 6px 12px 6px 12px;
-  gap: 10px;
-  border-radius: 4px;
-  border: 1px solid black;
-  opacity: 0px;
-  margin-left: 94px;
+.container--discount-button{
+  margin-left: 35px;
+  margin-top: 330px;
 }

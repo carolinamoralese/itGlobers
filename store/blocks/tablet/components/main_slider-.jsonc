@@ -1,17 +1,17 @@
 {
     "flex-layout.row#tablet__main-slider": {
         "children": [
-            "list-context.image-list#phone__container-imagenes"
+            "list-context.image-list#tablet__container-imagenes"
         ]
     },
-    "list-context.image-list#phone__container-imagenes": {
+    "list-context.image-list#tablet__container-imagenes": {
     "title": "list image home banner",
     "children": ["slider-layout#phone__slider"],
     "props": {
       "height": 650,
       "images": [
         {
-          "image": "/arquivos/moviel-home.png",
+          "image": "/arquivos/desktop-home-banner.png",
           "description": "main image of the clock",
           "width": "100%",
           "link#id": {
