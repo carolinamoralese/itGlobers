@@ -1,3 +1,5 @@
+@import 'styles/custom-slider.css';
+
 .paginationDot--isActive {
   background-color: black;
 }
@@ -26,6 +28,20 @@
   margin-bottom: 94px;
 }
 .paginationDotsContainer--custom-slider {
-  height: 50.89px;
-  top: 430px;
+height: 50.89px;
+top: 430px;
+left: 10px;
+gap: 0px;
+}
+.paginationDotsContainer{
+  display: flex !important;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.paginationDot{
+  content: '-';
+  color: #ccc;
+  font-size: 20px;
+  transition: color 0.3s;
 }
