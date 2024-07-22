@@ -41,3 +41,10 @@
   gap: 0px;
   opacity: 0px;
 }
+
+.searchBarInnerContainer--custom-search-bar{
+  background: transparent;
+}
+.searchIcon--custom-search-bar{
+display: block;
+}

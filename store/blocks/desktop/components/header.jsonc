@@ -2,7 +2,7 @@
   "sticky-layout#desktop-section-menu": {
     "title": "section menu",
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "sticky-header-menu"
     },
     "children": [
       "flex-layout.row#desktop-section-one-information",
@@ -20,7 +20,7 @@
       "blockClass": "header-container-menu-desktop-section-one"
     },
     "children": [
-      "image#icon-vector-menu-desktop",
+      "drawer",
       "image#icon-logo-desktop",
       "search-bar",
      "flex-layout.col#spacer",
@@ -32,13 +32,6 @@
       "minicart.v2",
       "flex-layout.row#logion-container"
     ]
-  },
-  "image#icon-vector-menu-desktop": {
-    "title": "icon menu hamburguer",
-    "props": {
-      "src": "assets/img/vector-hamburguer-menu.png",
-      "blockClass": "icon-header-section-one-information"
-    }
   },
   "image#icon-logo-desktop": {
     "title": "icon logo",

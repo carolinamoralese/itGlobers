@@ -11,3 +11,9 @@ opacity: 0px;
 .flexRowContent--header-container-menu-desktop{
     gap: 50px;
 }
+
+.flexRowContent--header-container-menu-phone {
+    display: flex;
+    justify-content: center; 
+    align-items: center
+}

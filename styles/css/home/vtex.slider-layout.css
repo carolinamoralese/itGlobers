@@ -1,7 +1,31 @@
+ 
+.paginationDotsContainer--custom-slider{
+  text-align: center;
+  height: 50.89px;
+top: 430px;
+left: 10px;
+gap: 0px;
+ 
+}
 
-
-.paginationDot--isActive {
+.paginationDot--custom-slider.paginationDot--custom-slider--isActive{
   background-color: black;
+  transform: scale(1.5); 
+  border-radius: 50% !important;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.paginationDot--custom-slider{
+  width: 70px !important;
+  margin: 0 5px !important;
+  display: inline-block !important;
+  border-radius: 0%;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 0 6px; 
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 30%;
 }
 .sliderLayoutContainer--carouse {
   display: flex;
@@ -27,22 +51,4 @@
 .sliderRightArrow--custom-slider {
   width: 47px;
   margin-bottom: 94px;
-}
-.paginationDotsContainer--custom-slider {
-height: 50.89px;
-top: 430px;
-left: 10px;
-gap: 0px;
-}
-.paginationDotsContainer{
-  display: flex !important;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.paginationDot{
-  content: '-';
-  color: #ccc;
-  font-size: 20px;
-  transition: color 0.3s;
 }
