@@ -14,16 +14,30 @@
   gap: 0px;
   opacity: 0px;
   margin-top: -5%;
-  
 }
 
-.imageElement--off-button-1{
-  width: Hug (44px)px;
-height: Hug (32px)px;
-padding: 6px 12px 6px 12px;
-gap: 10px;
-border-radius: 4px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
+.imageElement--off-button-1 {
+  width: Hug (44px) px;
+  height: Hug (32px) px;
+  padding: 6px 12px 6px 12px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
 
+.imageElement--icon-header {
+  width: 20px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 10px;
+}
+.imageElement--icon-header-section-one-information {
+  width: 18px;
+  height: 12px;
+  top: 6px;
+  left: 3px;
+  gap: 0px;
+  opacity: 0px;
 }

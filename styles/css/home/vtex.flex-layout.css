@@ -1,13 +1,13 @@
-.caretIcon{
-    color: red;
+/*--------------------------------------------css header desktop--------------------------------*/
+.header-container-menu-desktop{
+    width: Fixed (1,136px)px;
+height: Hug (47px)px;
+top: 9px;
+left: 72px;
+gap: 0px;
+opacity: 0px;
+
 }
-.caretIcon--custom-slider{
-    background-color: brown;
-    height: 30%;
-}
-.sliderArrows{
-    background-color: brown;
-}
-.container-favorite-ico{
-    background-color: blue;
+.flexRowContent--header-container-menu-desktop{
+    gap: 50px;
 }

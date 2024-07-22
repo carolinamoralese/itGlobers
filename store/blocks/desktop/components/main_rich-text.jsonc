@@ -1,5 +1,6 @@
 {
   "rich-text#title-section-one-desktop": {
+    "title": "texto section one",
     "props": {
       "text": "An amazing product",
       "textAlignment": "LEFT",
@@ -9,6 +10,7 @@
     }
   },
   "rich-text#title-section-two-desktop": {
+    "title": "text section two",
     "props": {
       "text": "An amazing product",
       "textAlignment": "LEFT",
@@ -17,4 +19,5 @@
       "blockClass": ["texto-section-two-desktop"]
     }
   }
+  
 }

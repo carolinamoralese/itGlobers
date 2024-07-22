@@ -78,14 +78,6 @@
       "blockClass": "off-button-1"
     }
   },
-  // "image#second__row-best-seller": {
-  //   "title": "img certifciate",
-  //   "props": {
-  //     "src": "/arquivos/certificado-ecommer-award.png",
-  //     "blockClass": "img-certicate"
-      
-  //   }
-  // },
 
   "flex-layout.row#slider__second-row-section-two": {
     "title": "container image of products section two",
