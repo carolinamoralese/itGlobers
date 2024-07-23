@@ -1,6 +1,6 @@
 /*--------------------------------------------css home --------------------------------*/
 .paragraph--texto-section-one-desktop {
-  font-family: pacifico;
+  font-family: lexend;
   font-size: 16px;
   line-height: 16.8px;
   text-align: left;
@@ -42,16 +42,18 @@
   margin-left: 20%;
 }
 .link--slider_third-row--button {
-  height: 40%;
-  color: white;
-  padding: 10%;
+  font-family: Lexend;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
 }
 .wrapper--slider_third-row--button {
   background-color: #1d2734;
   border-radius: 40px;
   width: 134px;
   height: 43px;
-  padding: 8px 0px 0px 0px;
+  padding: 8px;
   gap: 8px;
   border: 0.86px;
   margin-left: 40%;
@@ -59,7 +61,26 @@
 .paragraph--slider_third-row--button {
   margin-top: 0px;
   margin-left: 12px;
+  color: white;
 }
+/* .paragraph--slider_third-row--button a {
+  color: white;
+  text-decoration: none;
+}
+
+.paragraph--slider_third-row--button a:visited {
+  color: white;
+}
+
+.paragraph--slider_third-row--button a:hover {
+  color: white;
+  text-decoration: underline; /* Opcional, para añadir subrayado al pasar el mouse} */
+
+/* 
+.paragraph--slider_third-row--button a:active {
+  color: white;
+} */ */
+
 /*------------------------------------------------section two home------------------------------*/
 .paragraph--texto-section-two-desktop {
   font-family: lexend;
@@ -147,17 +168,16 @@
   margin-left: 12px;
 }
 .paragraph--discount-button {
-  width: Hug (84px)px;
-  height: Hug (32px)px;
+  width: Hug (84px) px;
+  height: Hug (32px) px;
   padding: 6px 12px 6px 12px;
   gap: 10px;
   border-radius: 4px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
   margin-top: 0%;
-  background-color: #1D2734;
+  background-color: #1d2734;
   color: white;
-
 }
 .container--discount-button {
   margin-left: 35px;
@@ -172,44 +192,43 @@ line-height: 15px;
 text-align: left;
 
 } */
-.container--texto-header-information{
-  width:1,280px;
+.container--texto-header-information {
+  width: 1, 280px;
   height: 56px;
   padding: 8px;
   gap: 48px;
   opacity: 0px;
   margin-left: 0px;
-  white-space: nowrap; 
+  white-space: nowrap;
   overflow: hidden;
 }
-.paragraph--texto-header-information{
+.paragraph--texto-header-information {
   font-family: Lexend;
-font-size: 15px;
-font-weight: 400;
-line-height: 15px;
-text-align: right
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: right;
 }
 
-.wrapper--icon-header-section-one-information{
-  background-color: #1D2734;
+.wrapper--icon-header-section-one-information {
+  background-color: #1d2734;
   width: 80px;
   height: 40px;
   gap: 10px;
-  border-radius: 40px ;
+  border-radius: 40px;
   border: 1px;
-  opacity: 0px;  
+  opacity: 0px;
   color: white;
 }
-.paragraph--icon-header-section-one-information{
+.paragraph--icon-header-section-one-information {
   font-family: Lexend;
-font-size: 14px;
-font-weight: 300;
-line-height: 17.5px;
-text-align: center;
-margin-top: 10px;
-
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17.5px;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.container--icon-header-section-one-information{
+.container--icon-header-section-one-information {
   margin-top: 20px;
 }

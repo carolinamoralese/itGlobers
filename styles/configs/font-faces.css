@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'pacifico';
-  src: url("/assets/fonts/Pacifico.ttf");
+  font-family: 'lexend';
+  src: url("assets/fonts/Lexend-VariableFont_wght.ttf"),url("assets/fonts/Lexend-VariableFont_wght.woff");
   font-weight: bold;
 }

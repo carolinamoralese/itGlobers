@@ -14,7 +14,7 @@
           "image": "/arquivos/desktop-home-banner.png",
           "description": "main image of the clock",
           "width": "100%",
-          "link#image-banner": {
+          "link": {
             "props": {
               "label": "",
               "href": "#"

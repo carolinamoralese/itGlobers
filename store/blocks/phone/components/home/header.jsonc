@@ -24,7 +24,7 @@
       //"logo",
       "image#icon-logo-phone",
       "search-bar",
-      "flex-layout.col#spacer",
+      "flex-layout.col#spacer-1",
       "minicart.v2",
       "login"
     ],
@@ -54,7 +54,7 @@
       "blockClass": "custom-search-bar"
     }
   },
-  "flex-layout.col#spacer": {
+  "flex-layout.col#spacer-1": {
     "props": {
       "blockClass": "header-spacer"
     }

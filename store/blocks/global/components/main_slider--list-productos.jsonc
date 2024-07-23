@@ -1,7 +1,11 @@
 {
   "flex-layout.row#home--slider": {
     "title": "slider global",
-    "children": ["slider-layout#second__slider"]
+    "children": ["slider-layout#second__slider"],
+    "props": {
+      "blockClass": "conatainer-banner-home-desktop"
+    }
+    /// agregar clase y man width 1280
   },
 
   "slider-layout#second__slider": {
@@ -79,7 +83,7 @@
     "title": "container text of product",
     "children": ["rich-text#second__row-title"],
     "props": {
-       "width": "70%"
+      "width": "70%"
     }
   },
 
@@ -101,7 +105,6 @@
     "props": {
       "src": "/arquivos/certificado-ecommer-award.png",
       "blockClass": "img-certicate"
-      
     }
   },
 
@@ -113,8 +116,14 @@
   "rich-text#slider__third-row--button": {
     "title": "text of price",
     "props": {
-      "text": "[Ver precio ->](https:) ",
-      "blockClass": "slider_third-row--button"
+      "text": "[Ver precio ->]()",
+      "blockClass": "slider_third-row--button",
+      "link": {
+        "props": {
+          "label": "",
+          "href": "#"
+        }
+      }
     }
   }
 }
