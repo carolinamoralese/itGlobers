@@ -5,10 +5,11 @@
   },
   "list-context.image-list#desktop__container-imagenes": {
     "title": "list image home banner",
-    "children": ["slider-layout#phone__slider"],
+    "children": ["slider-layout#desktop__slider"],
     "props": {
       "height": 422,
       "width": 1280,
+      "blockClass": "fixed-top",
       "images": [
         {
           "image": "/arquivos/desktop-home-banner.png",
@@ -17,14 +18,15 @@
           "link": {
             "props": {
               "label": "",
-              "href": "#"
+              "href": "#",
+              "blockClass": "imagen-banner-desktop"
             }
           }
         }
       ]
     }
   },
-  "slider-layout#phone__slider": {
+  "slider-layout#desktop__slider": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,

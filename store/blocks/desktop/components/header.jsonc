@@ -21,50 +21,69 @@
     },
     "children": [
       "drawer",
+      //"logo",
       "image#icon-logo-desktop",
       "search-bar",
-     "flex-layout.col#spacer",
+      "flex-layout.col#spacer",
       "rich-text#header-information-desktop-one",
       "rich-text#header-information-desktop-two",
       "rich-text#header-information-desktop-three",
       "rich-text#header-information-desktop-for",
       "rich-text#header-information-desktop-five",
       "minicart.v2",
-      "flex-layout.row#logion-container"
+      "login#header"
     ]
   },
-  "image#icon-logo-desktop": {
-    "title": "icon logo",
+
+"image#icon-logo-desktop": {
+  "title": "icon logo",
+  "props": {
+    "src": "assets/img/vector-logo.png",
+     "blockClass": "icon-header-section-one-information"
+  }
+},
+  "login#header": {
+    "title": "loguin header",
     "props": {
-      "src": "assets/img/vector-logo.png",
-       "blockClass": "icon-header-section-one-information"
+      "iconLabel": "Login",
+      "blockClass": "icon-loguin"
     }
   },
+  "logo": {
+  "props": {
+    "url": "/arquivos/logo.png",
+    "height": 32,
+    "mobileWidth": 90,
+    "mobileHeight": 32
+  }
+},
+
   "search-bar": {
     "title": "search bar",
     "props": {
       "placeholder": "Search products....",
-       "blockClass": "icon-header-section-one-information"
+      "blockClass": "icon-header-section-one-information"
     }
   },
-  "flex-layout.row#logion-container": {
-    "title": "login",
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center",
-      "blockClass": "login-header"
-    },
-    "children": ["rich-text#login-text"]
-  },
-  "rich-text#login-text": {
-    "title": "login text",
-    "props": {
-      "text": "Loguin",
-      "textAlignment": "center",
-      "font": "t-body",
-  "blockClass": "icon-header-section-one-information"
-    }
-  },
+  // "flex-layout.row#logion-container": {
+  //   "title": "login",
+  //   "props": {
+  //     "verticalAlign": "middle",
+  //     "horizontalAlign": "center",
+  //     "blockClass": "login-header"
+  //   },
+  //   "children": ["rich-text#login-text"]
+  // },
+
+  // "rich-text#login-text": {
+  //   "title": "login text",
+  //   "props": {
+  //     "text": "Loguin",
+  //     "textAlignment": "center",
+  //     "font": "t-body",
+  //     "blockClass": "icon-header-section-one-information"
+  //   }
+  // },
   "minicart.v2": {
     "title": "mini cart",
     "props": {
@@ -152,16 +171,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-food-desktop",
-      "rich-text#text-section-header-food-desktop"
-    ]
+    "children": ["icon#food", "rich-text#text-section-header-food-desktop"]
   },
-  "image#icon-food-desktop": {
-    "title": "icon food",
+  "icon#food": {
     "props": {
-      "src": "assets/img/vector_food.png",
-      "blockClass": "icon-header"
+      "id": "food"
     }
   },
   "rich-text#text-section-header-food-desktop": {
@@ -180,16 +194,11 @@
       "verticalAlign": "middle",
       "blockClass": "container-header-icon"
     },
-    "children": [
-      "image#icon-gym-desktop",
-      "rich-text#text-section-header-gym-desktop"
-    ]
+    "children": ["icon#gym", "rich-text#text-section-header-gym-desktop"]
   },
-  "image#icon-gym-desktop": {
-    "title": "icon gym",
+  "icon#gym": {
     "props": {
-      "src": "assets/img/vector_fitness_center.png",
-      "blockClass": "icon-header"
+      "id": "gym"
     }
   },
   "rich-text#text-section-header-gym-desktop": {
@@ -207,18 +216,14 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-place-desktop",
-      "rich-text#text-section-header-place-desktop"
-    ]
+    "children": ["icon#artico", "rich-text#text-section-header-place-desktop"]
   },
-  "image#icon-place-desktop": {
-    "title": "icon place",
+  "icon#artico": {
     "props": {
-      "src": "assets/img/vector_weather.png",
-      "blockClass": "icon-header"
+      "id": "artico"
     }
   },
+
   "rich-text#text-section-header-place-desktop": {
     "title": "text icon place",
     "props": {
@@ -234,16 +239,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-pool-desktop",
-      "rich-text#text-section-header-pool-desktop"
-    ]
+    "children": ["icon#pool", "rich-text#text-section-header-pool-desktop"]
   },
-  "image#icon-pool-desktop": {
-    "title": "icon pool",
+  "icon#pool": {
     "props": {
-      "src": "assets/img/vector_pool.png",
-      "blockClass": "icon-header"
+      "id": "pool"
     }
   },
   "rich-text#text-section-header-pool-desktop": {
@@ -261,16 +261,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-hoteles-desktop",
-      "rich-text#text-section-header-hoteles-desktop"
-    ]
+    "children": ["icon#hotel", "rich-text#text-section-header-hoteles-desktop"]
   },
-  "image#icon-hoteles-desktop": {
-    "title": "icon hoteles",
+  "icon#hotel": {
     "props": {
-      "src": "assets/img/vector_hotel.png",
-      "blockClass": "icon-header"
+      "id": "hotel"
     }
   },
   "rich-text#text-section-header-hoteles-desktop": {
@@ -288,16 +283,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-house-desktop",
-      "rich-text#text-section-header-house-desktop"
-    ]
+    "children": ["icon#house", "rich-text#text-section-header-house-desktop"]
   },
-  "image#icon-house-desktop": {
-    "title": "icon house",
+  "icon#house": {
     "props": {
-      "src": "assets/img/vector_house.png",
-      "blockClass": "icon-header"
+      "id": "food"
     }
   },
   "rich-text#text-section-header-house-desktop": {
@@ -315,16 +305,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-spa-desktop",
-      "rich-text#text-section-header-spa-desktop"
-    ]
+    "children": ["icon#spa", "rich-text#text-section-header-spa-desktop"]
   },
-  "image#icon-spa-desktop": {
-    "title": "icon spa",
+  "icon#spa": {
     "props": {
-      "src": "assets/img/vector_spa.png",
-      "blockClass": "icon-header"
+      "id": "naturales"
     }
   },
   "rich-text#text-section-header-spa-desktop": {
@@ -342,16 +327,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-closet-desktop",
-      "rich-text#text-section-header-closet-desktop"
-    ]
+    "children": ["icon#closet", "rich-text#text-section-header-closet-desktop"]
   },
-  "image#icon-closet-desktop": {
-    "title": "icon closet",
+  "icon#closet": {
     "props": {
-      "src": "assets/img/vector_closet.png",
-      "blockClass": "icon-header"
+      "id": "closet"
     }
   },
   "rich-text#text-section-header-closet-desktop": {
@@ -369,16 +349,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-beach-desktop",
-      "rich-text#text-section-header-beach-desktop"
-    ]
+    "children": ["icon#beach", "rich-text#text-section-header-beach-desktop"]
   },
-  "image#icon-beach-desktop": {
-    "title": "icon beach",
+  "icon#beach": {
     "props": {
-      "src": "assets/img/vector_beach_access.png",
-      "blockClass": "icon-header"
+      "id": "beach"
     }
   },
   "rich-text#text-section-header-beach-desktop": {
@@ -397,15 +372,13 @@
       "verticalAlign": "middle"
     },
     "children": [
-      "image#icon-walking-trails-desktop",
+      "icon#walking",
       "rich-text#text-section-header-walking-trails-desktop"
     ]
   },
-  "image#icon-walking-trails-desktop": {
-    "title": "icon walking trails",
+  "icon#walking": {
     "props": {
-      "src": "assets/img/vector_walking_trails.png",
-      "blockClass": "icon-header"
+      "id": "walk"
     }
   },
   "rich-text#text-section-header-walking-trails-desktop": {
@@ -424,15 +397,13 @@
       "verticalAlign": "middle"
     },
     "children": [
-      "image#icon-delivery-desktop",
+      "icon#delivery",
       "rich-text#text-section-header-delivery-desktop"
     ]
   },
-  "image#icon-delivery-desktop": {
-    "title": "icon delivery",
+  "icon#delivery": {
     "props": {
-      "src": "assets/img/vector_delivery.png",
-      "blockClass": "icon-header"
+      "id": "delivery"
     }
   },
   "rich-text#text-section-header-delivery-desktop": {
@@ -450,16 +421,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#icon-bar-desktop",
-      "rich-text#text-section-header-bar-desktop"
-    ]
+    "children": ["icon#bar", "rich-text#text-section-header-bar-desktop"]
   },
-  "image#icon-bar-desktop": {
-    "title": "icon bar",
+  "icon#bar": {
     "props": {
-      "src": "assets/img/vector_bar.png",
-      "blockClass": "icon-header"
+      "id": "bar"
     }
   },
   "rich-text#text-section-header-bar-desktop": {

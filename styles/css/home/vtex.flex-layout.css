@@ -1,19 +1,22 @@
 /*--------------------------------------------css header desktop--------------------------------*/
-.header-container-menu-desktop{
-    width: Fixed (1,136px)px;
-height: Hug (47px)px;
-top: 9px;
-left: 72px;
-gap: 0px;
-opacity: 0px;
-
+.header-container-menu-desktop {
+  width: 1, 136px;
+  height: 47p;
+  top: 9px;
+  left: 72px;
+  gap: 0px;
+  opacity: 0px;
 }
-.flexRowContent--header-container-menu-desktop{
-    gap: 50px;
+.flexRowContent--header-container-menu-desktop {
+  width: 1280px;
+  height: 56px;
+  padding: 9px 72px 0px 72px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .flexRowContent--header-container-menu-phone {
-    display: flex;
-    justify-content: center; 
-    align-items: center
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

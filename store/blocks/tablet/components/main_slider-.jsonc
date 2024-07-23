@@ -6,7 +6,7 @@
     },
     "list-context.image-list#tablet__container-imagenes": {
     "title": "list image home banner",
-    "children": ["slider-layout#phone__slider"],
+    "children": ["slider-layout#tablet__slider"],
     "props": {
       "height": 650,
       "images": [
@@ -24,7 +24,7 @@
       ]
     }
   },
-  "slider-layout#phone__slider": {
+  "slider-layout#tablet__slider": {
     "props": {
         "itemsPerPage": {
             "desktop": 5,
