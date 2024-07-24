@@ -13,10 +13,18 @@
   padding: 9px 72px 0px 72px;
   gap: 0px;
   opacity: 0px;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
 }
 
 .flexRowContent--header-container-menu-phone {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flexRow.flexRow--header-container-menu-desktop{
+  overflow: auto;
 }

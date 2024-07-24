@@ -1,7 +1,5 @@
 {
-    "header-layout.desktop": {
-        "children": [
-          "sticky-layout#desktop-section-menu"
-        ]
-      }
+  "header-layout.desktop": {
+    "children": ["header-row#main-menu-desktop", "header-row#menu-icon"]
+  }
 }

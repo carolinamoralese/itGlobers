@@ -8,23 +8,6 @@
 .imageElement--container-product-image {
   width: 75%;
 }
-.imageElement--container-product-image-section-two {
-  width: 178px;
-  height: 140px;
-  gap: 0px;
-  opacity: 0px;
-  margin-top: -5%;
-}
-
-.imageElement--off-button-1 {
-  width: Hug (44px) px;
-  height: Hug (32px) px;
-  padding: 6px 12px 6px 12px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-}
 
 .imageElement--icon-header {
   width: 20px;

@@ -5,7 +5,6 @@
     "props": {
       "blockClass": "conatainer-banner-home-desktop"
     }
-    /// agregar clase y man width 1280
   },
 
   "slider-layout#second__slider": {

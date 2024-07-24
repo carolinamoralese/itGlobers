@@ -1,16 +1,319 @@
 {
-  "flex-layout.col#spacer-3": {
+  "header-row#menu-icon": {
+    "title": "menu icons",
+    "children": ["flex-layout.row#section-two-icon-menu"],
     "props": {
-      "width": "grow"
+      "fullWidth": true,
+      "leanMode": true,
+      "topMenuContainer": "horizontal"
+    }
+  },
+  "flex-layout.row#section-two-icon-menu": {
+    "title": "menu header options section two",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": ["header-container-menu-desktop"],
+      "topMenuIcons": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      // "flex-layout.col#spacer",
+      "flex-layout.col#option-food",
+      "flex-layout.col#option-gym",
+      "flex-layout.col#option-place",
+      "flex-layout.col#option-pool",
+      "flex-layout.col#option-hoteles",
+      "flex-layout.col#option-house",
+      "flex-layout.col#option-spa",
+      "flex-layout.col#option-closet",
+      "flex-layout.col#option-beach",
+      "flex-layout.col#option-walking_trails",
+      "flex-layout.col#option-delivery",
+      "flex-layout.col#option-bar"
+    ]
+  },
+
+  /// importante agregar propiedad overflow auto en el contenor del menu
+  "flex-layout.col#option-food": {
+    "title": "container option food",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#food", "rich-text#text-section-header-food"]
+  },
+  "icon#food": {
+    "props": {
+      "id": "food"
+    }
+  },
+  "rich-text#text-section-header-food": {
+    "title": "text icon food",
+    "props": {
+      "text": "Food",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-gym": {
+    "title": "container option gym",
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "container-header-icon"
+    },
+    "children": ["icon#gym", "rich-text#text-section-header-gym"]
+  },
+  "icon#gym": {
+    "props": {
+      "id": "gym"
+    }
+  },
+  "rich-text#text-section-header-gym": {
+    "title": "text icon gym",
+    "props": {
+      "text": "Fitness",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-place": {
+    "title": "container option place",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#artico", "rich-text#text-section-header-place"]
+  },
+  "icon#artico": {
+    "props": {
+      "id": "artico"
     }
   },
 
-  "logo": {
+  "rich-text#text-section-header-place": {
+    "title": "text icon place",
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "text": "En el Articó",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-pool": {
+    "title": "container option pool",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#pool", "rich-text#text-section-header-pool"]
+  },
+  "icon#pool": {
+    "props": {
+      "id": "pool"
+    }
+  },
+  "rich-text#text-section-header-pool": {
+    "title": "text icon pool",
+    "props": {
+      "text": "Poolday",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-hoteles": {
+    "title": "container option hoteles",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#hotel", "rich-text#text-section-header-hoteles"]
+  },
+  "icon#hotel": {
+    "props": {
+      "id": "hotel"
+    }
+  },
+  "rich-text#text-section-header-hoteles": {
+    "title": "text icon hoteles",
+    "props": {
+      "text": "Hoteles",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-house": {
+    "title": "container option house",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#house", "rich-text#text-section-header-house"]
+  },
+  "icon#house": {
+    "props": {
+      "id": "food"
+    }
+  },
+  "rich-text#text-section-header-house": {
+    "title": "text icon house",
+    "props": {
+      "text": "House",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-spa": {
+    "title": "container option spa",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#spa", "rich-text#text-section-header-spa"]
+  },
+  "icon#spa": {
+    "props": {
+      "id": "naturales"
+    }
+  },
+  "rich-text#text-section-header-spa": {
+    "title": "text icon spa",
+    "props": {
+      "text": "Naturales",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-closet": {
+    "title": "container option closet",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#closet", "rich-text#text-section-header-closet"]
+  },
+  "icon#closet": {
+    "props": {
+      "id": "closet"
+    }
+  },
+  "rich-text#text-section-header-closet": {
+    "title": "text icon closet",
+    "props": {
+      "text": "Closet",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-beach": {
+    "title": "container option beach",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#beach", "rich-text#text-section-header-beach"]
+  },
+  "icon#beach": {
+    "props": {
+      "id": "beach"
+    }
+  },
+  "rich-text#text-section-header-beach": {
+    "title": "text icon beach",
+    "props": {
+      "text": "Playas",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-walking_trails": {
+    "title": "container option walking trails",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "icon#walking",
+      "rich-text#text-section-header-walking-trails"
+    ]
+  },
+  "icon#walking": {
+    "props": {
+      "id": "walk"
+    }
+  },
+  "rich-text#text-section-header-walking-trails": {
+    "title": "text icon walking trails",
+    "props": {
+      "text": "Senderos",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-delivery": {
+    "title": "container option delivery",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "icon#delivery",
+      "rich-text#text-section-header-delivery"
+    ]
+  },
+  "icon#delivery": {
+    "props": {
+      "id": "delivery"
+    }
+  },
+  "rich-text#text-section-header-delivery": {
+    "title": "text icon delivery",
+    "props": {
+      "text": "Delivery",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#option-bar": {
+    "title": "container option bar",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["icon#bar", "rich-text#text-section-header-bar"]
+  },
+  "icon#bar": {
+    "props": {
+      "id": "bar"
+    }
+  },
+  "rich-text#text-section-header-bar": {
+    "title": "text icon bar",
+    "props": {
+      "text": "Bar",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-10",
+      "blockClass": ["texto-section-header-desktop"]
+    }
+  },
+  "flex-layout.col#spacer": {
+    "title": "spacer",
+    "props": {
+      "blockClass": "narrow-spacer"
     }
   }
 }
