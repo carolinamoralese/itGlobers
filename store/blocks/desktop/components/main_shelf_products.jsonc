@@ -1,18 +1,15 @@
 {
-   "flex-layout.row#global__main-shelf--container": {
+  "flex-layout.row#global__main-shelf--container": {
     "title": "container shelf showing all products shelf",
-    "children": [
-      "list-context.product-list#global__main-shelf"
-    ]
+    "children": ["list-context.product-list#global__main-shelf"]
   },
   "list-context.product-list#global__main-shelf": {
     "title": "shelf showing all products shelf",
-    "blocks": [
-      "product-summary.shelf#global__main-summary"
-    ],
-    "children": [
-      "slider-layout#global__slider-shelf"
-    ]
+    "blocks": ["product-summary.shelf#global__main-summary"],
+    "children": ["slider-layout#global__slider-shelf"],
+    "props": {
+      "blockClass": ["conatainer-global-main-shelf"]
+    }
   },
   "slider-layout#global__slider-shelf": {
     "props": {
@@ -27,12 +24,50 @@
     "title": "information about the product",
     "children": [
       "product-summary-image",
-      "product-summary-name",
+      "product-summary-description",
+      "product-price-savings",
       "product-list-price",
       "product-selling-price",
       "product-summary-buy-button"
     ],
     "props": {}
-  }
+  },
 
+  "product-summary-image": {
+    "title": "title product"
+  },
+
+  "product-summary-description": {
+    "title": "description  product",
+    "props": {
+      "blockClass": "shelf-description-product"
+    }
+  },
+  "product-price-savings": {
+    "title": "product discount",
+    "props": {
+      "blockClass": "discount-badge"
+    }
+  },
+  "product-list-price": {
+    "title": "product price before discount",
+    "props": {
+      "blockClass": "shelf-price-before-product"
+    }
+  },
+
+  "product-selling-price": {
+    "title": "product price after discount",
+    "props": {
+      "blockClass": "shelf-price-after-product"
+    }
+  },
+
+  "product-summary-buy-button": {
+    "title": "button to buy product",
+    "props": {
+      "blockClass": "shelf-buy-button",
+      "label": "Comprar"
+    }
+  }
 }
