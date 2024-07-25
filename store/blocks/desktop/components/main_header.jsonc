@@ -1,9 +1,7 @@
 {
   "header-row#main-menu-desktop": {
     "title": "header main menu",
-    "children": [
-      "flex-layout.row#desktop-section-one-main-information"
-    ],
+    "children": ["flex-layout.row#desktop-section-one-main-information"],
     "props": {}
   },
 
@@ -19,8 +17,7 @@
     },
     "children": [
       "drawer",
-      //"logo",
-      "image#icon-logo-desktop",
+      "flex-layout.col#logo-desktop",
       "search-bar",
       "rich-text#header-trend-information-desktop",
       "rich-text#header-information-about-collection-month",
@@ -31,11 +28,20 @@
       "login#header-desktop"
     ]
   },
-  "image#icon-logo-desktop": {
-    "title": "icon logo",
+
+  "flex-layout.col#logo-desktop": {
     "props": {
-      "src": "assets/img/vector-logo.png",
-      "blockClass": "icon-header-section-one-information"
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/icon_logo.svg",
+      "width": "32px"
     }
   },
 
@@ -98,6 +104,11 @@
   },
   "login#header-desktop": {
     "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
       "iconLabel": "Login",
       "blockClass": "icon-login"
     }

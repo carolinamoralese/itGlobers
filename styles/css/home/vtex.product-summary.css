@@ -1,0 +1,11 @@
+.buyButtonContainer{
+    background-color: black !important;
+    border-radius: 40%;
+}
+
+.buyButton--buttom-buy{
+    background-color: black !important;
+}
+.buyButton{
+    background-color: black
+}

@@ -11,19 +11,24 @@
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
-        "phone": 1
-      }
+        "phone": 2
+      },
+      "blockClass": "custom-slider"
     }
   },
   "product-summary.shelf#global__main-summary": {
     "children": [
       "product-summary-image",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
+      "product-summary-description",
+      //"product-list-price",
+      //"product-selling-price",
       "product-summary-buy-button"
     ],
     "props": {}
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "blockClass": "custom-buy-button"
+    }
   }
 }

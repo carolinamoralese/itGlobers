@@ -1,3 +1,9 @@
-.minicartIconContainer--minicart-header{
-    color: black;
+.minicartIconContainer {
+  width: 16.67px;
+  height: 16.67px;
+  top: 1.67px;
+  left: 0.83px;
+  gap: 0px;
+  opacity: 0px;
+  color: #1d2734;
 }

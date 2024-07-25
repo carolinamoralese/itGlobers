@@ -7,20 +7,38 @@
     "title": "menu header options section one phone",
     "children": [
       "drawer",
-      "image#icon-logo-phone",
+      "flex-layout.col#logo-phone",
       "search-bar",
       "minicart.v2",
-      "login"
+     "login#header-phone"
     ],
     "props": {
       "blockClass": "header-container-menu-phone-section-one"
     }
   },
-  "image#icon-logo-phone": {
-    "title": "icon logo",
+  "flex-layout.col#logo-phone": {
     "props": {
-      "src": "assets/img/vector-logo.png",
-      "blockClass": "icon-header-section-one-information"
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/icon_logo.svg",
+      "width": "32px"
+    }
+  },
+  "login#header-phone": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "blockClass": "icon-login"
     }
   }
 }
