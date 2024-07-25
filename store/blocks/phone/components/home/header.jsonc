@@ -1,72 +1,19 @@
 {
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": [
-      "flex-layout.row#phone-section-one-information",
-      "flex-layout.row#phone-section-two-icon-menu"
-    ]
+  "header-row#main-menu-phone": {
+    "children": ["flex-layout.row#phone-section-one-information"]
   },
 
   "flex-layout.row#phone-section-one-information": {
     "title": "menu header options section one phone",
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass": "header-container-menu-phone-section-one"
-    },
     "children": [
       "drawer",
-      //"logo",
       "image#icon-logo-phone",
       "search-bar",
-      "flex-layout.col#spacer-1",
       "minicart.v2",
       "login"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-
-  "drawer": {
-    "props": {
-      "blockClass": "header-drawer"
-    }
-  },
-  "logo": {
-    "props": {
-      "url": "/",
-      "logoImage": "assets/img/vector-logo.png",
-      "alt": "Store Logo",
-      "blockClass": "header-logo"
-    }
-  },
-  "search-bar": {
-    "props": {
-      "blockClass": "custom-search-bar"
-    }
-  },
-  "flex-layout.col#spacer-1": {
-    "props": {
-      "blockClass": "header-spacer"
-    }
-  },
-  "login": {
-    "props": {
-      "blockClass": "header-login"
-    }
-  },
-  "minicart.v2": {
-    "props": {
-      "blockClass": "header-minicart"
+      "blockClass": "header-container-menu-phone-section-one"
     }
   },
   "image#icon-logo-phone": {
@@ -74,163 +21,6 @@
     "props": {
       "src": "assets/img/vector-logo.png",
       "blockClass": "icon-header-section-one-information"
-    }
-  },
-
-  "flex-layout.row#phone-section-two-icon-menu": {
-    "title": "menu header options section two",
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass": "header-container-menu-phone"
-    },
-    "children": [
-      // "flex-layout.col#spacer",
-      "flex-layout.col#food-phone",
-      "flex-layout.col#section-gym-phone",
-      "flex-layout.col#place-phone",
-      "flex-layout.col#pool-phone",
-      "flex-layout.col#hoteles-phone"
-    ]
-  },
-
-  "flex-layout.col#food-phone": {
-    "title": "container icon food",
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "image#icon-food-phone",
-      "rich-text#text-section-header-food-phone"
-    ]
-  },
-  "image#icon-food-phone": {
-    "title": "icon food",
-    "props": {
-      "src": "assets/img/vector_food.png",
-      "blockClass": "icon-header"
-    }
-  },
-  "rich-text#text-section-header-food-phone": {
-    "title": "text icon food",
-    "props": {
-      "text": "Food",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "font": "t-heading-10",
-      "blockClass": ["texto-section-header-phone"]
-    }
-  },
-  "flex-layout.col#section-gym-phone": {
-    "title": "container icon gym",
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass": "container-header-icon"
-    },
-    "children": [
-      "image#icon-gym-phone",
-      "rich-text#text-section-header-gym-phone"
-    ]
-  },
-  "image#icon-gym-phone": {
-    "title": "icon gym",
-    "props": {
-      "src": "assets/img/vector_fitness_center.png",
-      "blockClass": "icon-header"
-    }
-  },
-  "rich-text#text-section-header-gym-phone": {
-    "title": "text icon gym",
-    "props": {
-      "text": "Fitness",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "font": "t-heading-10",
-      "blockClass": ["texto-section-header-phone"]
-    }
-  },
-  "flex-layout.col#place-phone": {
-    "title": "container icon place",
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "image#icon-place-phone",
-      "rich-text#text-section-header-place-phone"
-    ]
-  },
-  "image#icon-place-phone": {
-    "title": "icon place",
-    "props": {
-      "src": "assets/img/vector_weather.png",
-      "blockClass": "icon-header"
-    }
-  },
-  "rich-text#text-section-header-place-phone": {
-    "title": "text icon place",
-    "props": {
-      "text": "En el Articó",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "font": "t-heading-10",
-      "blockClass": ["texto-section-header-phone"]
-    }
-  },
-  "flex-layout.col#pool-phone": {
-    "title": "container icon pool",
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "image#icon-pool-phone",
-      "rich-text#text-section-header-pool-phone"
-    ]
-  },
-  "image#icon-pool-phone": {
-    "title": "icon pool",
-    "props": {
-      "src": "assets/img/vector_pool.png",
-      "blockClass": "icon-header"
-    }
-  },
-  "rich-text#text-section-header-pool-phone": {
-    "title": "text icon pool",
-    "props": {
-      "text": "Poolday",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "font": "t-heading-10",
-      "blockClass": ["texto-section-header-phone"]
-    }
-  },
-  "flex-layout.col#hoteles-phone": {
-    "title": "container icon hoteles",
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "image#icon-hoteles-phone",
-      "rich-text#text-section-header-hoteles-phone"
-    ]
-  },
-  "image#icon-hoteles-phone": {
-    "title": "icon hoteles",
-    "props": {
-      "src": "assets/img/vector_hotel.png",
-      "blockClass": "icon-header"
-    }
-  },
-  "rich-text#text-section-header-hoteles-phone": {
-    "title": "text icon hoteles",
-    "props": {
-      "text": "Hoteles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "font": "t-heading-10",
-      "blockClass": ["texto-section-header-phone"]
     }
   }
 }

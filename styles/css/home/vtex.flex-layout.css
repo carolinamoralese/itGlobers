@@ -17,3 +17,6 @@ opacity: 0px;
     justify-content: center; 
     align-items: center
 }
+.flexRow--header-container-menu-desktop{
+  overflow: auto;
+}

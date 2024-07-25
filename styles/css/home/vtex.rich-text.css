@@ -6,6 +6,7 @@
   text-align: left;
   margin-bottom: 30px;
   margin-top: 30px;
+  background-color: rgb(255, 132, 0)
 }
 
 .wrapper--texto-section-one-desktop {
@@ -63,23 +64,6 @@
   margin-left: 12px;
   color: white;
 }
-/* .paragraph--slider_third-row--button a {
-  color: white;
-  text-decoration: none;
-}
-
-.paragraph--slider_third-row--button a:visited {
-  color: white;
-}
-
-.paragraph--slider_third-row--button a:hover {
-  color: white;
-  text-decoration: underline; /* Opcional, para añadir subrayado al pasar el mouse} */
-
-/* 
-.paragraph--slider_third-row--button a:active {
-  color: white;
-} */ */
 
 /*------------------------------------------------section two home------------------------------*/
 .paragraph--texto-section-two-desktop {
@@ -155,7 +139,6 @@
 }
 .wrapper--slider_third-row--buy-button {
   border-radius: 8px;
-
   height: 48px;
   padding: 10px 0px 0px 0px;
   gap: 10px;
@@ -184,14 +167,6 @@
   margin-top: 10px;
 }
 
-/* .paragraph--texto-section-header-desktop{
-  font-family: Lexend;
-font-size: 12px;
-font-weight: 300;
-line-height: 15px;
-text-align: left;
-
-} */
 .container--texto-header-information {
   width: 1, 280px;
   height: 56px;

@@ -5,11 +5,11 @@
       "rich-text#title-section-one-desktop",
       "flex-layout.row#home--slider",
       "rich-text#title-section-two-desktop",
-      "flex-layout.row#home--slider-two",
+      "flex-layout.row#global__main-shelf--container",
       "rich-text#title-section-two-desktop",
       "flex-layout.row#home--slider",
       "rich-text#title-section-two-desktop",
-      "flex-layout.row#home--slider-two"
+      "flex-layout.row#global__main-shelf--container"
     ]
   }
 }
