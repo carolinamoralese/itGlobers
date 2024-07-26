@@ -8,11 +8,12 @@
     "children": [
       "drawer",
       "flex-layout.col#logo-phone",
-      "search-bar",
+      "overlay-trigger#header__overlay--mobile",
       "minicart.v2",
      "login#header-phone"
     ],
     "props": {
+      "topMenuIcons": true,
       "blockClass": "header-container-menu-phone-section-one"
     }
   },

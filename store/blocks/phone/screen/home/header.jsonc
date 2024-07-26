@@ -1,5 +1,6 @@
 {
   "header-layout.mobile": {
-    "children": ["header-row#main-menu-phone", "header-row#menu-icon"]
+    "children": ["header-row#main-menu-phone",
+    "header-row#menu-icon"]
   }
 }

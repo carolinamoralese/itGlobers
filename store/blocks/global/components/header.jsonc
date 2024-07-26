@@ -8,6 +8,7 @@
   "flex-layout.row#section-two-icon-menu": {
     "title": "menu header options section two",
     "props": {
+     
       "topMenuIcons": true,
       "preserveLayoutOnMobile": true,
       "blockClass": ["header-container-menu-desktop"]
@@ -259,13 +260,14 @@
       "verticalAlign": "middle"
     },
     "children": [
-      "icon#delivery",
+     "image#icon-delivery",
       "rich-text#text-section-header-delivery"
     ]
   },
-  "icon#delivery": {
+  "image#icon-delivery": {
     "props": {
-      "id": "delivery"
+      "src": "assets/img/vector_delivery.png"
+      
     }
   },
   "rich-text#text-section-header-delivery": {
