@@ -55,5 +55,45 @@
 }
 .sliderRightArrow--custom-slider {
   width: 47px;
-  margin-bottom: 94px;
+  margin-bottom: 94px
+}
+.sliderLeftArrow{
+ left: 20px;
+}
+.sliderRightArrow{
+ right: 20px;
+}
+
+.paginationDotsContainer--custom-slider-shelf {
+  text-align: center;
+  height: 0%;
+  left: 10px;
+  gap: 0px;
+}
+
+.paginationDot--custom-slider-shelf.paginationDot--custom-slider-shelf--isActive {
+  background-color: black;
+  transform: scale(1.5);
+  border-radius: 50% !important;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 16.96px !important;
+  height: 16.96px !important;
+  top: 30.52px !important;
+  left: 107.52px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.paginationDot--custom-slider-shelf {
+  margin: 0 5px !important;
+  display: inline-block !important;
+  border-radius: 0%;
+  transition: background-color 0.3s, transform 0.3s;
+  height: 1.41px !important;
+  padding: 0% !important;
+  width: 26.09px !important;
+  left: 40.99px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 10px !important;
 }

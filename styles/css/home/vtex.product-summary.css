@@ -1,11 +1,42 @@
-.buyButtonContainer{
-    background-color: black !important;
-    border-radius: 40%;
+.description {
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.buyButton--custom-buy-button :global(.vtex-button) {
+  background-color: transparent;
+  width: Fixed (212px)px;
+  height: Fixed (48px)px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 8px ;
+  border: 1px solid #1D2734;
+  opacity: 0px;
+  
 }
 
-.buyButton--buttom-buy{
-    background-color: black !important;
+.buyButtonText--custom-buy-button {
+  color: black;
 }
-.buyButton{
-    background-color: black
+
+.productPriceClass {
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+}
+
+.priceContainer {
+  margin-right: 90px;
+}
+.wishlistIconContainer--favorite :global(.vtex-button){
+    border-color: black;
 }

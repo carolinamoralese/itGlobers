@@ -1,22 +1,39 @@
 /*--------------------------------------------css header desktop--------------------------------*/
-.header-container-menu-desktop{
-    width: Fixed (1,136px)px;
-height: Hug (47px)px;
-top: 9px;
-left: 72px;
-gap: 0px;
-opacity: 0px;
-
+.header-container-menu-desktop {
+  width: Fixed (1, 136px) px;
+  height: Hug (47px) px;
+  top: 9px;
+  left: 72px;
+  gap: 0px;
+  opacity: 0px;
 }
-.flexRowContent--header-container-menu-desktop{
-    gap: 50px;
+.flexRowContent--header-container-menu-desktop {
+  gap: 40px;
+  text-align: center;
 }
 
 .flexRowContent--header-container-menu-phone {
-    display: flex;
-    justify-content: center; 
-    align-items: center
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.flexRow--header-container-menu-desktop{
+.flexRow--header-container-menu-desktop {
+  margin-left: 45px;
   overflow: auto;
+}
+
+.flexRowContent--header-container-menu-desktop-section-one {
+  width: Fixed (1, 280px) px;
+  height: Fixed (56px) px;
+  padding: 8px 48px 8px 48px;
+  gap: 48px;
+  opacity: 0px;
+}
+
+.flexRow--header-container-menu-desktop-section-one-rigth {
+  margin-left: 35px;
+}
+
+.flexRowContent--header-container-menu-phone-section-one{
+ display: flex;   
 }

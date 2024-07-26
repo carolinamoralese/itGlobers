@@ -1,0 +1,14 @@
+.buttonDataContainer--custom-buy-button:global(.vtex-button){
+    background-color: aqua;
+}
+.buyButton--custom-buy-button :global(.vtex-button) {
+    background-color: transparent;
+    width: Fixed (212px)px;
+    height: Fixed (48px)px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px ;
+    border: 1px solid #1D2734;
+    opacity: 0px;
+    
+  }
