@@ -9,6 +9,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-right: 7px;
 }
 .buyButton--custom-buy-button :global(.vtex-button) {
   background-color: transparent;
@@ -39,4 +40,20 @@
 }
 .wishlistIconContainer--favorite :global(.vtex-button){
     border-color: black;
+}
+@media (max-width: 767px) {
+  .imageStackContainer {
+
+    width: 135.15px;
+    height: 106.3px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+  .buyButton--custom-buy-button {
+    font-size: 14px; 
+    padding: 5px 10px; 
+    
+  }
 }

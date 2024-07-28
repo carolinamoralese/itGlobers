@@ -1,7 +1,7 @@
 .buttonDataContainer--custom-buy-button:global(.vtex-button){
     background-color: aqua;
 }
-.buyButton--custom-buy-button :global(.vtex-button) {
+.vtex-button {
     background-color: transparent;
     width: Fixed (212px)px;
     height: Fixed (48px)px;
@@ -12,3 +12,10 @@
     opacity: 0px;
     
   }
+
+.buttonText--custom-buy-button{
+    text-transform: lowercase;  
+}
+.buttonText--custom-buy-button ::first-letter {
+    text-transform: capitalize;  
+}

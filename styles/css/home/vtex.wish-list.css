@@ -2,9 +2,25 @@
     border-color: black;
 }
 .wishlistIconContainer{
-    margin-left: 180px !important
+    margin-left: 180px !important;
+    border: 1 solid black;
 }
 
 .iconSize{
     size: 10px;
 }
+.outline{
+    border: 1 solid black;
+}
+.wishlistIcon--favorite {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #060606;
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+

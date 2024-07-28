@@ -20,7 +20,7 @@
       "search-bar#header__search--mobile"
     ],
     "props": {
-      "placement": "left",
+      "placement": "right",
       "blockClass": "header__overlayout",
       "transitionComponent": "fadeInLeft"
     }

@@ -10,16 +10,23 @@
       "flex-layout.col#logo-phone",
       "overlay-trigger#header__overlay--mobile",
       "minicart.v2",
-     "login#header-phone"
+      "login#header-phone"
     ],
     "props": {
       "topMenuIcons": true,
       "blockClass": "header-container-menu-phone-section-one"
     }
   },
+  "drawer": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["menu-phone"]
+    }
+  },
   "flex-layout.col#logo-phone": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": ["logo-phone"]
     },
     "children": ["logo"]
   },
@@ -38,8 +45,8 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": "Login",
-      "blockClass": "icon-login"
+      "blockClass": "icon-login-phone",
+      "iconLabel": "Login"
     }
   }
 }

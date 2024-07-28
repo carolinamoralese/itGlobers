@@ -42,9 +42,24 @@
   opacity: 0px;
 }
 
-.searchBarInnerContainer--custom-search-bar{
+.searchBarInnerContainer--custom-search-bar {
   background: transparent;
 }
-.searchIcon--custom-search-bar{
-display: block;
+.searchIcon--custom-search-bar {
+  display: block;
+}
+
+.discountInsideContainer {
+  background: #1d2734;
+  width: 84px;
+  height: 32px;
+  padding: 6px 12px 6px 12px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px ;
+  opacity: 0px;
+  position: absolute;
+  bottom: 100%;
+  right: 64%;
+  
 }

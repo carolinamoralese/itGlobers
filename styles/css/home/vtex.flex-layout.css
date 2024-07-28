@@ -34,6 +34,18 @@
   margin-left: 35px;
 }
 
-.flexRowContent--header-container-menu-phone-section-one{
- display: flex;   
+.flexRowContent--header-container-menu-phone-section-one {
+  display: flex;
+}
+.flexCol--logo-phone {
+  margin-left: -9px;
+  margin-bottom: 16px;
+  margin-right: 50px;
+}
+.flexRow--header-container-menu-phone-section-one {
+  margin-top: 15px;
+}
+
+.flexCol--logo-phone {
+  padding-bottom: 20px !important;
 }
