@@ -49,3 +49,19 @@
 .flexCol--logo-phone {
   padding-bottom: 20px !important;
 }
+
+.flexRowContent--container-button-buy :global(.vtex-button) {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+  width: Fixed (212px) px;
+  height: Fixed (48px) px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+.flexRow--informatio-info-card {
+  order: 2;
+}
+

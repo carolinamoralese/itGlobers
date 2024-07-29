@@ -109,3 +109,10 @@
    }
    
 }
+
+.slideChildrenContainer--custom-slider-shelf{
+  padding: 10px;
+}
+.slide--custom-slider{
+  padding: 10px;
+}

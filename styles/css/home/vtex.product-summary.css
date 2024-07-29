@@ -41,6 +41,10 @@
 .wishlistIconContainer--favorite :global(.vtex-button){
     border-color: black;
 }
+
+.imageStackContainer{
+  padding-top: 10px;
+}
 @media (max-width: 767px) {
   .imageStackContainer {
 
