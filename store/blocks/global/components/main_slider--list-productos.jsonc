@@ -21,13 +21,11 @@
       "blockClass": "custom-slider"
     },
     "children": [
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
+      // "flex-layout.col#info-card-row",
+      // "flex-layout.col#info-card-row",
+      // "flex-layout.col#info-card-row",
+      // "flex-layout.col#info-card-row",
+      // "flex-layout.col#info-card-row"
       "flex-layout.col#second__slider--container",
       "flex-layout.col#second__slider--container",
       "flex-layout.col#second__slider--container",

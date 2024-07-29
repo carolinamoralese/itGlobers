@@ -32,12 +32,6 @@
     }
   },
 
-  "flex-layout.col#shelf-favorite": {
-    "children": [
-       "add-to-list-btn"
-
-    ]
-  },
   "add-to-list-btn": {
     "props": {
       "blockClass": "favorite"
@@ -64,7 +58,10 @@
   "flex-layout.row#shelf-button": {
     "children": [
       "add-to-cart-button#button-buy"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-button-buy"
+    }
   },
   "add-to-cart-button#button-buy": {
     "props": {
