@@ -1,0 +1,50 @@
+{
+    "flex-layout.col#info-card-row": {
+      "children": [
+        "image#first-image-info-card",
+        "flex-layout.row#text-info-card"
+      ],
+      "props": {
+        "blockClass": "container-slider-info-car-home"
+      }
+    },
+    "image#first-image-info-card": {
+      "props": {
+        "src": "/arquivos/card-product.png",
+        "alt": "infor card",
+        "blockClass": "image-info-card"
+      }
+    },
+    "flex-layout.row#text-info-card": {
+        "children": [
+            "info-card#info-card-home",
+            "image#certificate"
+        ],
+        "props": {
+            "blockClass": "informatio-info-card"
+        }
+    },
+    "image#certificate": {
+      "props": {
+        "src": "/arquivos/certificado-ecommer-award.png",
+        "alt": "Segunda imagen",
+        "blockClass":["certificate-info-card-home"]
+        
+      }
+    },
+    "info-card#info-card-home": {
+      "title": "infor card home",
+      "props": {
+        "id": "info-card-home",
+        "isFullModeStyle": false,
+        "textPosition": "rigth",
+        "headline": "Heading",
+        "subhead": "Builder platform is made by, buildership platform is made by...",
+        "callToActionText": "Ver precio",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-home",
+        "textAlignment": "rigth"
+      }
+    }
+  }
+  
