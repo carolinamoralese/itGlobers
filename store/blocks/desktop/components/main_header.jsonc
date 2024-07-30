@@ -2,7 +2,9 @@
   "header-row#main-menu-desktop": {
     "title": "header main menu",
     "children": ["flex-layout.row#desktop-section-one-main-information"],
-    "props": {}
+    "props": {
+      "blockClass": "container-menu-desktop"
+    }
   },
 
 "flex-layout.row#section-left-menu-logo-search": {

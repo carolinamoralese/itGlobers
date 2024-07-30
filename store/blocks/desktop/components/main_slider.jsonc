@@ -1,7 +1,10 @@
 {
   "flex-layout.row#desktop__main-slider": {
     "title": "home section banner desktop",
-    "children": ["list-context.image-list#desktop__container-imagenes"]
+    "children": ["list-context.image-list#desktop__container-imagenes"],
+    "props": {
+      "blockClass": "container-desktop-main-slider"
+    }
   },
   "list-context.image-list#desktop__container-imagenes": {
     "title": "list image home banner",

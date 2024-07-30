@@ -13,7 +13,7 @@
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 3,
-        "phone": 1.5
+        "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "always",
@@ -21,11 +21,6 @@
       "blockClass": "custom-slider"
     },
     "children": [
-      // "flex-layout.col#info-card-row",
-      // "flex-layout.col#info-card-row",
-      // "flex-layout.col#info-card-row",
-      // "flex-layout.col#info-card-row",
-      // "flex-layout.col#info-card-row"
       "flex-layout.col#second__slider--container",
       "flex-layout.col#second__slider--container",
       "flex-layout.col#second__slider--container",
@@ -113,7 +108,7 @@
   "rich-text#slider__third-row--button": {
     "title": "text of price",
     "props": {
-      "text": "[Ver precio ->]()",
+      "text": "[Ver precio]()",
       "blockClass": "slider_third-row--button",
       "link": {
         "props": {

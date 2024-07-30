@@ -1,6 +1,3 @@
-.buttonDataContainer--custom-buy-button:global(.vtex-button){
-    background-color: aqua;
-}
 .vtex-button {
     background-color: transparent;
     width: Fixed (212px)px;
@@ -18,4 +15,10 @@
 }
 .buttonText--custom-buy-button ::first-letter {
     text-transform: capitalize;  
+}
+.buttonDataContainer--custom-buy-button::before{
+    content: url("/arquivos/car-buy.svg");
+    width: 16.8px;
+    height: 17.5px;
+    padding-right: 10px;
 }

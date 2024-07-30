@@ -1,6 +1,9 @@
 {
   "flex-layout.row#global__main-shelf--container": {
-    "children": ["list-context.product-list#global__main-shelf"]
+    "children": ["list-context.product-list#global__main-shelf"],
+    "props": {
+      "blockClass": "container-shelf-product"
+    }
   },
  
   "list-context.product-list#global__main-shelf": {

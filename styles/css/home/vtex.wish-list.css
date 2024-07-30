@@ -1,18 +1,15 @@
 
-.wishlistIcon--favorite {
-    width: 13.67px;
-    height: 14.29px;
-    top: 2.5px;
-    left: 1.67px;
-    gap: 0px;
-    opacity: 0px;
-    
+.wishlistIconContainer--favorite :global(.vtex-button) {
+  border-color: black;
+  margin-left: 55%;
+  width: 44px;
+  height: 32px;
 }
 
-.wishlistIconContainer--favorite :global(.vtex-button){
-    border-color:  black;
-    margin-left: 55%;
-}
 .wishlistIcon--favorite{
-    border-color: black;
+    background-image: url("/arquivos/favorite_border.svg") !important;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: black;
 }

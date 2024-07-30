@@ -61,7 +61,17 @@
   border-radius: 8px;
   opacity: 0px;
 }
-.flexRow--informatio-info-card {
-  order: 2;
+
+.flexRow--container-desktop-main-slider{
+  max-width: 1280px;
+  margin: auto;
 }
 
+.flexRow--conatainer-banner-home-desktop{
+  max-width: 1280px;
+  margin: auto;
+}
+.flexRow--container-shelf-product{
+  max-width: 1280px;
+  margin: auto;
+}

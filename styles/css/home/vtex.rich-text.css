@@ -7,6 +7,7 @@
   margin-bottom: 30px;
   margin-top: 30px;
   font-weight: normal !important;
+  background-color: rgb(255, 187, 0);
 }
 
 .wrapper--texto-section-one-desktop {
@@ -49,6 +50,7 @@
   line-height: 15px;
   text-align: center;
   color: white;
+  text-decoration: none;
 }
 .wrapper--slider_third-row--button {
   background-color: #1d2734;
@@ -59,6 +61,7 @@
   gap: 8px;
   border: 0.86px;
   margin-left: 40%;
+  padding-left: 18px;
 }
 .paragraph--slider_third-row--button {
   margin-top: 0px;
@@ -98,7 +101,6 @@
   gap: 10px;
 }
 
-
 .container--texto-header-information {
   width: 1, 280px;
   height: 56px;
@@ -111,10 +113,10 @@
 }
 .paragraph--texto-header-information {
   font-family: Lexend;
-font-size: 12px;
-font-weight: 400;
-line-height: 15px;
-text-align: right;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: right;
 }
 
 .wrapper--icon-header-section-one-information {
@@ -140,7 +142,7 @@ text-align: right;
   margin-top: 20px;
 }
 
-.paragraph--texto-section-header-desktop{
+.paragraph--texto-section-header-desktop {
   font-family: Lexend;
   font-size: 12px;
   font-weight: 300;
@@ -149,4 +151,18 @@ text-align: right;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: pre;
+}
+.link--slider_third-row--button::after {
+  content: url("/arquivos/nav-arrow--right.svg");
+  width: 10.76px;
+  height: 7.53px;
+  padding-top: 10px;
+}
+.container--texto-section-one-desktop{
+  max-width: 1280px;
+  margin: auto;
+}
+.container--texto-section-two-desktop{
+  max-width: 1280px;
+  margin: auto;
 }

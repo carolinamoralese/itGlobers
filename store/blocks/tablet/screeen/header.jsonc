@@ -1,0 +1,5 @@
+{
+  "header-layout.desktop#tablet": {
+    "children": ["header-row#main-menu-desktop", "header-row#menu-icon"]
+  }
+}

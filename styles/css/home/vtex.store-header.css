@@ -1,0 +1,9 @@
+.headerStickyRow--container-menu-desktop{
+    max-width: 1280px;
+    margin: auto;
+}
+.headerStickyRow--container-menu-icon-global{
+    max-width: 1280px;
+    margin: auto;
+    overflow: auto;
+}

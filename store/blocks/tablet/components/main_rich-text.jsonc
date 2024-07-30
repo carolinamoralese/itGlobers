@@ -1,7 +1,7 @@
 {
     "rich-text#title-section-one-tablet": {
       "props": {
-        "text": "An amazing product",
+        "text": "An amazing product  TABLET",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "lexed",

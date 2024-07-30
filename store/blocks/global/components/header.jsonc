@@ -3,12 +3,12 @@
     "title": "menu icons",
     "children": ["flex-layout.row#section-two-icon-menu"],
     "props": {
+      "blockClass": "container-menu-icon-global"
     }
   },
   "flex-layout.row#section-two-icon-menu": {
     "title": "menu header options section two",
     "props": {
-     
       "topMenuIcons": true,
       "preserveLayoutOnMobile": true,
       "blockClass": ["header-container-menu-desktop"]
@@ -34,6 +34,13 @@
     "props": {
       "verticalAlign": "middle"
     },
+    "children": ["link#link-food"]
+  },
+  "link#link-food": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
+    },
     "children": ["icon#food", "rich-text#text-section-header-food"]
   },
   "icon#food": {
@@ -57,6 +64,13 @@
       "verticalAlign": "middle",
       "blockClass": "container-header-icon"
     },
+    "children": ["link#link-gym"]
+  },
+  "link#link-gym": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
+    },
     "children": ["icon#gym", "rich-text#text-section-header-gym"]
   },
   "icon#gym": {
@@ -78,6 +92,13 @@
     "title": "container option place",
     "props": {
       "verticalAlign": "middle"
+    },
+    "children": ["link#link-place"]
+  },
+  "link#link-place": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
     },
     "children": ["icon#artico", "rich-text#text-section-header-place"]
   },
@@ -102,6 +123,13 @@
     "props": {
       "verticalAlign": "middle"
     },
+    "children": ["link#link-pool"]
+  },
+  "link#link-pool": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
+    },
     "children": ["icon#pool", "rich-text#text-section-header-pool"]
   },
   "icon#pool": {
@@ -123,6 +151,13 @@
     "title": "container option hoteles",
     "props": {
       "verticalAlign": "middle"
+    },
+    "children": ["link#link-hotels"]
+  },
+  "link#link-hotels": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
     },
     "children": ["icon#hotel", "rich-text#text-section-header-hoteles"]
   },
@@ -146,6 +181,13 @@
     "props": {
       "verticalAlign": "middle"
     },
+    "children": ["link#link-houses"]
+  },
+  "link#link-houses": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
+    },
     "children": ["icon#house", "rich-text#text-section-header-house"]
   },
   "icon#house": {
@@ -167,6 +209,13 @@
     "title": "container option spa",
     "props": {
       "verticalAlign": "middle"
+    },
+    "children": ["link#link-spa"]
+  },
+  "link#link-spa": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
     },
     "children": ["icon#spa", "rich-text#text-section-header-spa"]
   },
@@ -190,6 +239,13 @@
     "props": {
       "verticalAlign": "middle"
     },
+    "children": ["link#link-closet"]
+  },
+  "link#link-closet": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
+    },
     "children": ["icon#closet", "rich-text#text-section-header-closet"]
   },
   "icon#closet": {
@@ -211,6 +267,13 @@
     "title": "container option beach",
     "props": {
       "verticalAlign": "middle"
+    },
+    "children": ["link#link-beach"]
+  },
+  "link#link-beach": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
     },
     "children": ["icon#beach", "rich-text#text-section-header-beach"]
   },
@@ -234,10 +297,14 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "icon#walking",
-      "rich-text#text-section-header-walking-trails"
-    ]
+    "children": ["link#link-walking"]
+  },
+  "link#link-walking": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
+    },
+    "children": ["icon#walking", "rich-text#text-section-header-walking-trails"]
   },
   "icon#walking": {
     "props": {
@@ -259,15 +326,21 @@
     "props": {
       "verticalAlign": "middle"
     },
+    "children": ["link#link-delivery"]
+  },
+  "link#link-delivery": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
+    },
     "children": [
-     "image#icon-delivery",
+      "image#icon-delivery",
       "rich-text#text-section-header-delivery"
     ]
   },
   "image#icon-delivery": {
     "props": {
       "src": "assets/img/vector_delivery.png"
-      
     }
   },
   "rich-text#text-section-header-delivery": {
@@ -284,6 +357,13 @@
     "title": "container option bar",
     "props": {
       "verticalAlign": "middle"
+    },
+    "children": ["link#link-bar"]
+  },
+  "link#link-bar": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-class"
     },
     "children": ["icon#bar", "rich-text#text-section-header-bar"]
   },
@@ -309,6 +389,3 @@
     }
   }
 }
-
-
-
