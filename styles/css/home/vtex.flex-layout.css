@@ -14,13 +14,12 @@
 .flexRow--header-container-menu-desktop {
   margin-left: 45px;
   overflow: auto;
+  padding-bottom: 15px;
 }
 .flexRowContent--header-container-menu-desktop-section-one {
   width: Fixed (1, 280px) px;
   height: Fixed (56px) px;
-  padding: 8px 48px 8px 48px;
-  gap: 48px;
-  opacity: 0px;
+
 }
 
 .flexRow--header-container-menu-desktop-section-one-rigth {
@@ -30,6 +29,9 @@
 .flexRow--conatainer-banner-home-desktop{
   max-width: 1280px;
   margin: auto;
+}
+.flexRowContent--header-container-menu-desktop-section-one-right{
+  margin-top: 25px;
 }
 /*--------------------------------------------css header phone--------------------------------*/
 .flexRowContent--header-container-menu-phone {

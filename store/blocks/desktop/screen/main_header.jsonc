@@ -1,5 +1,8 @@
 {
   "header-layout.desktop": {
-    "children": ["header-row#main-menu-desktop", "flex-layout.row#desktop_main-header-icons"]
+    "children": [
+      "header-row#main-menu-desktop",
+      "flex-layout.row#desktop_main-header-icons"
+    ]
   }
 }

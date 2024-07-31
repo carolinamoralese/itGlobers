@@ -12,10 +12,6 @@
 .label {
   color: white;
   display: block;
-  width: 40px !important;
-  height: 20px !important;
-  padding-right: 0% !important;
-  padding-left: 10px !important;
   text-transform: lowercase;
 }
 .label::first-letter {
