@@ -1,0 +1,8 @@
+{
+    "flex-layout.row#desktop-slider-info-card": {
+        "title": "container info card desktop",
+        "children": [
+            "flex-layout.row#home--slider"
+        ]
+    }
+}

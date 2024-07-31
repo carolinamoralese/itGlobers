@@ -1,0 +1,8 @@
+{
+    "flex-layout.row#desktop_main-shelf": {
+        "title": "container shelf products desktop",
+        "children": [
+            "flex-layout.row#global__main-shelf--container"
+        ]
+    }
+}

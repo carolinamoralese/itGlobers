@@ -3,13 +3,13 @@
     "children": [
       "flex-layout.row#phone__main-slider",
       "rich-text#title-section-one-phone",
-      "flex-layout.row#home--slider",
+      "flex-layout.row#phone_main-info-card",
       "rich-text#title-section-two-desktop",
-      "flex-layout.row#global__main-shelf--container",
+      "flex-layout.row#phone_main-shelf-products",
       "rich-text#title-section-two-desktop",
-      "flex-layout.row#home--slider",
+      "flex-layout.row#phone_main-info-card",
       "rich-text#title-section-two-desktop",
-      "flex-layout.row#global__main-shelf--container"
+      "flex-layout.row#phone_main-shelf-products"
     ]
   }
 }

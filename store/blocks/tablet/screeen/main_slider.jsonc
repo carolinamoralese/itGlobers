@@ -3,13 +3,13 @@
     "children": [
       "flex-layout.row#tablet__main-slider",
       "rich-text#title-section-one-tablet",
-      "flex-layout.row#home--slider",
+      "flex-layout.row#tablet_main-slider-info-card",
       "rich-text#title-section-two-desktop",
-      "flex-layout.row#global__main-shelf--container",
+      "flex-layout.row#tablet_shelf-products",
       "rich-text#title-section-two-desktop",
-      "flex-layout.row#home--slider",
+      "flex-layout.row#tablet_main-slider-info-card",
       "rich-text#title-section-two-desktop",
-      "flex-layout.row#global__main-shelf--container"
+       "flex-layout.row#tablet_shelf-products"
     ]
   }
 }

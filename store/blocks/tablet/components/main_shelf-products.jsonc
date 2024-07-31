@@ -1,0 +1,6 @@
+{
+  "flex-layout.row#tablet_shelf-products": {
+    "title": "tabler container shelf prodcuts",
+    "children": ["flex-layout.row#global__main-shelf--container"]
+  }
+}

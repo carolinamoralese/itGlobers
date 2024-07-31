@@ -1,0 +1,6 @@
+{
+    "flex-layout.row#tablet_menu-icons": {
+    "title": "tablet containe menu icons",
+    "children": ["header-row#menu-icon"]
+  }
+}

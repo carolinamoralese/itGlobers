@@ -1,0 +1,6 @@
+{
+  "flex-layout.row#phone_main-info-card": {
+    "title": "phone container info card",
+    "children": ["flex-layout.row#home--slider"]
+  }
+}

@@ -11,17 +11,10 @@
   gap: 40px;
   text-align: center;
 }
-
-.flexRowContent--header-container-menu-phone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .flexRow--header-container-menu-desktop {
   margin-left: 45px;
   overflow: auto;
 }
-
 .flexRowContent--header-container-menu-desktop-section-one {
   width: Fixed (1, 280px) px;
   height: Fixed (56px) px;
@@ -34,6 +27,17 @@
   margin-left: 35px;
 }
 
+.flexRow--conatainer-banner-home-desktop{
+  max-width: 1280px;
+  margin: auto;
+}
+/*--------------------------------------------css header phone--------------------------------*/
+.flexRowContent--header-container-menu-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .flexRowContent--header-container-menu-phone-section-one {
   display: flex;
 }
@@ -41,19 +45,16 @@
   margin-left: -9px;
   margin-bottom: 16px;
   margin-right: 50px;
+  padding-bottom: 20px !important;
 }
 .flexRow--header-container-menu-phone-section-one {
   margin-top: 15px;
 }
 
-.flexCol--logo-phone {
-  padding-bottom: 20px !important;
-}
-
 .flexRowContent--container-button-buy :global(.vtex-button) {
   background-color: transparent;
   color: black;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
   width: Fixed (212px) px;
   height: Fixed (48px) px;
   padding: 10px;
@@ -62,15 +63,7 @@
   opacity: 0px;
 }
 
-.flexRow--container-desktop-main-slider{
-  max-width: 1280px;
-  margin: auto;
-}
 
-.flexRow--conatainer-banner-home-desktop{
-  max-width: 1280px;
-  margin: auto;
-}
 .flexRow--container-shelf-product{
   max-width: 1280px;
   margin: auto;
