@@ -6,7 +6,7 @@
   "flex-layout.row#phone-section-one-information": {
     "title": "menu header options section one phone",
     "children": [
-      "drawer",
+       "drawer",
       "flex-layout.col#logo-phone",
       "overlay-trigger#header__overlay--mobile",
       "minicart.v2",

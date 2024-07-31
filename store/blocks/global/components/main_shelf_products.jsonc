@@ -1,5 +1,6 @@
 {
   "flex-layout.row#global__main-shelf--container": {
+    "title": "container shelf prodcuts global",
     "children": ["list-context.product-list#global__main-shelf"],
     "props": {
       "blockClass": "container-shelf-product"
@@ -41,6 +42,7 @@
     }
   },
   "flex-layout.col#shelf-image": {
+    "title": "container image shefl prodcuts",
     "children": [
       "product-summary-image"
     ],
@@ -49,16 +51,19 @@
     }
   },
   "flex-layout.col#shelf-description": {
+    "title": "container description shelf prodcuts",
     "children": [
       "product-summary-description"
     ]
   },
   "flex-layout.col#shelf-price": {
+    "title": "container price shelf prodcuts",
     "children": [
       "product-summary-price"
     ]
   },
   "flex-layout.row#shelf-button": {
+    "title": "container button add to cart",
     "children": [
       "add-to-cart-button#button-buy"
     ],
@@ -67,6 +72,7 @@
     }
   },
   "add-to-cart-button#button-buy": {
+    "title": "button add to cart",
     "props": {
       "text": "Comprar",
       "blockClass": "custom-buy-button"

@@ -1,0 +1,7 @@
+.menuItemVertical:hover{
+    background-color: blueviolet;
+}
+.menuItemVertical:hover{
+    background-color: aqua;
+    transition: background-color 0.3s, color 0.3s;
+}

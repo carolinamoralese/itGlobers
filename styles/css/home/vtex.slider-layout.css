@@ -1,47 +1,48 @@
 .paginationDotsContainer--custom-slider {
   text-align: center;
-  height: 50.89px;
-  top: 430px;
-  left: 10px;
-  gap: 0px;
+  height    : 50.89px;
+  top       : 480px;
+  left      : 10px;
+  margin    : auto;
 }
 
 .paginationDot--custom-slider.paginationDot--custom-slider--isActive {
   background-color: black;
-  transform: scale(1.5);
-  border-radius: 50% !important;
-  transition: background-color 0.3s, transform 0.3s;
-  width: 16.96px !important;
-  height: 16.96px !important;
-  top: 30.52px !important;
-  left: 107.52px;
-  gap: 0px;
-  opacity: 0px;
+  transform       : scale(1.5);
+  border-radius   : 50% !important;
+  transition      : background-color 0.3s, transform 0.3s;
+  width           : 16.96px !important;
+  height          : 16.96px !important;
+  top             : 30.52px !important;
+  left            : 107.52px;
+  gap             : 0px;
+  opacity         : 0px;
 }
 
 .paginationDot--custom-slider {
-  margin: 0 5px !important;
-  display: inline-block !important;
+  margin       : 0 5px !important;
+  display      : inline-block !important;
   border-radius: 0%;
-  transition: background-color 0.3s, transform 0.3s;
-  height: 1.41px !important;
-  padding: 0% !important;
-  width: 26.09px !important;
-  left: 40.99px;
-  gap: 0px;
-  opacity: 0px;
-  margin-top: 10px !important;
+  transition   : background-color 0.3s, transform 0.3s;
+  height       : 1.41px !important;
+  padding      : 0% !important;
+  width        : 26.09px !important;
+  left         : 40.99px;
+  gap          : 0px;
+  opacity      : 0px;
+  margin-top   : 10px !important;
 }
+
 .sliderLayoutContainer--carouse {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
   justify-content: center;
-  margin-top: 10%;
+  margin-top     : 10%;
 }
 
 .carousel .image {
-  width: 100%;
+  width : 100%;
   height: auto;
 }
 
@@ -49,70 +50,76 @@
   text-align: center;
   margin-top: 10px;
 }
+
 .sliderLeftArrow--custom-slider {
-  width: 47px;
+  width        : 47px;
   margin-bottom: 94px;
 }
+
 .sliderRightArrow--custom-slider {
-  width: 47px;
+  width        : 47px;
   margin-bottom: 94px
 }
-.sliderLeftArrow{
- left: -40px;
+
+.sliderLeftArrow {
+  left: -40px;
 }
-.sliderRightArrow{
- right: -40px;
+
+.sliderRightArrow {
+  right: -40px;
 }
 
 
 .paginationDotsContainer--custom-slider-shelf {
   text-align: center;
-  height: 0%;
-  left: 10px;
-  gap: 0px;
+  height    : 0%;
+  left      : 10px;
+  gap       : 0px;
 }
 
 .paginationDot--custom-slider-shelf.paginationDot--custom-slider-shelf--isActive {
   background-color: black;
-  transform: scale(1.5);
-  border-radius: 50% !important;
-  transition: background-color 0.3s, transform 0.3s;
-  width: 16.96px !important;
-  height: 16.96px !important;
-  top: 30.52px !important;
-  left: 107.52px;
-  gap: 0px;
-  opacity: 0px;
+  transform       : scale(1.5);
+  border-radius   : 50% !important;
+  transition      : background-color 0.3s, transform 0.3s;
+  width           : 16.96px !important;
+  height          : 16.96px !important;
+  top             : 30.52px !important;
+  left            : 107.52px;
+  gap             : 0px;
+  opacity         : 0px;
 }
 
 .paginationDot--custom-slider-shelf {
-  margin: 0 5px !important;
-  display: inline-block !important;
+  margin       : 0 5px !important;
+  display      : inline-block !important;
   border-radius: 0%;
-  transition: background-color 0.3s, transform 0.3s;
-  height: 1.41px !important;
-  padding: 0% !important;
-  width: 26.09px !important;
-  left: 40.99px;
-  gap: 0px;
-  opacity: 0px;
-  margin-top: 10px !important;
+  transition   : background-color 0.3s, transform 0.3s;
+  height       : 1.41px !important;
+  padding      : 0% !important;
+  width        : 26.09px !important;
+  left         : 40.99px;
+  gap          : 0px;
+  opacity      : 0px;
+  margin-top   : 10px !important;
 }
 
 @media (max-width: 780px) {
-  
-  .sliderLeftArrow{
+
+  .sliderLeftArrow {
     display: none;
-   }
-   .sliderRightArrow{
+  }
+
+  .sliderRightArrow {
     display: none;
-   }
-   
+  }
+
 }
 
-.slideChildrenContainer--custom-slider-shelf{
+.slideChildrenContainer--custom-slider-shelf {
   padding: 10px;
 }
-.slide--custom-slider{
+
+.slide--custom-slider {
   padding: 10px;
 }
