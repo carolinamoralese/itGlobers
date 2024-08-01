@@ -1,10 +1,14 @@
-.paginationDotsContainer--custom-slider {
+
+
+.paginationDotsContainer--custom-slider{
+  /* height: 50.89px; */
+  top   : 420px;
+  left  : 10px;
   text-align: center;
-  height    : 50.89px;
-  top       : 480px;
-  left      : 10px;
   margin    : auto;
 }
+
+/*-------------------------------- slider info card--------------------------------*/
 
 .paginationDot--custom-slider.paginationDot--custom-slider--isActive {
   background-color: black;
