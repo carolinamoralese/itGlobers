@@ -1,8 +1,16 @@
+// {
+//   "header-layout.desktop#tablet": {
+//     "children": [
+//       "flex-layout.row#tablet_header-menu-info",
+//       "flex-layout.row#tablet_menu-icons"
+//     ]
+//   }
+// }
 {
   "header-layout.desktop#tablet": {
     "children": [
-      "flex-layout.row#tablet_header-menu-info",
-      "flex-layout.row#tablet_menu-icons"
+      "header-row#main-menu-desktop",
+      "flex-layout.row#desktop_main-header-icons"
     ]
   }
 }

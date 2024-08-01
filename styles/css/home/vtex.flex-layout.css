@@ -14,7 +14,7 @@
 .flexRow--header-container-menu-desktop {
   margin-left: 45px;
   overflow: auto;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 .flexRowContent--header-container-menu-desktop-section-one {
   width: Fixed (1, 280px) px;
@@ -66,7 +66,17 @@
 }
 
 
+
+
+
+/*------------------- info card-----------*/
 .flexRow--container-shelf-product{
   max-width: 1280px;
   margin: auto;
 }
+
+/*------------------- shelf product-----------*/
+.flexRowContent--container-price_salving-add_favorite{
+  display: flex;
+}
+

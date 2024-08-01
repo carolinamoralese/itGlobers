@@ -1,0 +1,19 @@
+.minicartIconContainer {
+  width        : 16.67px;
+  height       : 16.67px;
+  top          : 1.67px;
+  left         : 0.83px;
+  gap          : 0px;
+  opacity      : 0px;
+  color        : #1d2734;
+  margin-top   : 0%;
+  margin-bottom: 20px;
+}
+
+
+/*------------tablet---------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .openIconContainer{
+   margin-left: 90px;
+  }
+}

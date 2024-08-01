@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#phone_main-shelf-products": {
+    "title": "phone container shelf productos ",
+    "children": ["flex-layout.row#global__main-shelf--container"],
+    "props": {
+      "blockClass": "phone_main-shelf-products"
+    }
+  }
+}

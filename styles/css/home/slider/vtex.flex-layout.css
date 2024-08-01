@@ -1,4 +1,9 @@
-.flexRow--container-desktop-main-slider{
-    max-width: 1280px;
-    margin: auto;
-  }
+.flexRow--container-desktop-main-slider {
+  max-width: 1280px;
+  margin   : auto;
+}
+
+.flexRow--conatainer-banner-home-desktop {
+  width : 1092px !important;
+  height: 340px;
+}
