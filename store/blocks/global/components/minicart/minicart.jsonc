@@ -1,62 +1,75 @@
 {
   "minicart.v2": {
+    "title": "Minicart",
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon"
     },
     "children": ["minicart-base-content"]
   },
   "icon-cart#minicart-icon": {
+    "title": "Minicart Icon",
     "props": {
       "size": 24
     }
   },
   "minicart-base-content": {
+    "title": "Minicart Base Content",
     "blocks": ["minicart-empty-state"],
     "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
   },
   "flex-layout.row#minicart-footer": {
+    "title": "Minicart Footer Row",
     "props": {
       "blockClass": "minicart-footer"
     },
     "children": ["flex-layout.col#minicart-footer"]
   },
   "flex-layout.col#minicart-footer": {
+    "title": "Minicart Footer Column",
     "children": ["minicart-summary", "minicart-checkout-button"]
   },
   "minicart-product-list": {
+    "title": "Minicart Product List",
     "blocks": ["product-list#minicart"]
   },
   "product-list#minicart": {
+    "title": "Product List for Minicart",
     "blocks": ["product-list-content-mobile"]
   },
   "minicart-summary": {
+    "title": "Minicart Summary",
     "blocks": ["checkout-summary.compact#minicart"]
   },
   "minicart-checkout-button": {
+    "title": "Minicart Checkout Button",
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform"
     }
   },
-
   "checkout-summary.compact#minicart": {
+    "title": "Compact Checkout Summary for Minicart",
     "children": ["summary-totalizers#minicart"],
     "props": {
       "totalizersToShow": ["Items", "Discounts"]
     }
   },
   "summary-totalizers#minicart": {
+    "title": "Summary Totalizers for Minicart",
     "props": {
       "showTotal": true,
       "showDeliveryTotal": false
     }
   },
   "minicart-empty-state": {
+    "title": "Minicart Empty State",
     "children": ["flex-layout.row#empty-state"]
   },
   "flex-layout.row#empty-state": {
+    "title": "Empty State Row",
     "children": ["flex-layout.col#empty-state"]
   },
   "flex-layout.col#empty-state": {
+    "title": "Empty State Column",
     "children": [
       "icon-cart#minicart-empty-state",
       "rich-text#minicart-default-empty-state"
@@ -68,12 +81,14 @@
     }
   },
   "icon-cart#minicart-empty-state": {
+    "title": "Minicart Empty State Icon",
     "props": {
       "size": 64,
       "blockClass": "minicart-empty-state"
     }
   },
   "rich-text#minicart-default-empty-state": {
+    "title": "Minicart Default Empty State Text",
     "props": {
       "text": "Your cart is empty."
     }
