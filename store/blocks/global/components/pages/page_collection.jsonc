@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#page_collection": {
+      "title": "row page collection month",
+      "children": ["flex-layout.col#page_collection"]
+    },
+    "flex-layout.col#page_collection": {
+      "title": "col page collection month",
+      "children": ["flex-layout.row#page_collection-text"]
+    },
+    "flex-layout.row#page_collection-text": {
+      "title": "row page collection month text",
+      "children": ["rich-text#page_collection"]
+    },
+    "rich-text#page_collection": {
+      "title": "text page coleciont",
+      "props": {
+        "text": "Coleccion de mes"
+      }
+    }
+  }
+  

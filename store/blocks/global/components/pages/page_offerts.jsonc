@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#page_offer": {
+      "title": "row page offer",
+      "children": ["flex-layout.col#page_offer"]
+    },
+    "flex-layout.col#page_offer": {
+      "title": "col page offer",
+      "children": ["flex-layout.row#page_offer-text"]
+    },
+    "flex-layout.row#page_offer-text": {
+      "title": "row page offer text",
+      "children": ["rich-text#page_offer"]
+    },
+    "rich-text#page_offer": {
+      "title": "text page offer",
+      "props": {
+        "text": "Oferta enero"
+      }
+    }
+  }
+  

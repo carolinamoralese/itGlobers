@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#page_trends": {
+    "title": "row page trends",
+    "children": ["flex-layout.col#page_trends"]
+  },
+  "flex-layout.col#page_trends": {
+    "title": "col page trends",
+    "children": ["flex-layout.row#page_trends-text"]
+  },
+  "flex-layout.row#page_trends-text": {
+    "title": "row page trends text",
+    "children": ["rich-text#page_trends"]
+  },
+  "rich-text#page_trends": {
+    "title": "text page trends",
+    "props": {
+      "text": "Trends It globers"
+    }
+  }
+}
