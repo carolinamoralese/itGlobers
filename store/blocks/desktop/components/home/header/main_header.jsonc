@@ -90,7 +90,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/trends-it-globers",
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "Tendencias de ITGlobers"
@@ -106,7 +106,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/collection-month",
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "Colección del mes"
@@ -121,7 +121,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/offer-month",
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "Ofertas del mes"
@@ -136,7 +136,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/cyber-day",
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "Cyber mondays"
@@ -151,7 +151,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/promotions",
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "Never say never"
@@ -161,17 +161,6 @@
   "minicart.v2": {
     "props": {
       "blockClass": "minicart-header"
-    }
-  },
-  "login#header-desktop": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Access Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": "Login",
-      "blockClass": "icon-login"
     }
   }
 }
