@@ -1,7 +1,7 @@
 /*--------------------------------------------css header desktop--------------------------------*/
 .header-container-menu-desktop {
-  width: Fixed (1, 136px) px;
-  height: Hug (47px) px;
+  width: 1136px;
+  height: 47px;
   top: 9px;
   left: 72px;
   gap: 0px;
@@ -80,3 +80,11 @@
   display: flex;
 }
 
+
+/*------------tablet---------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .flexRow--header-container-menu-desktop {
+    overflow: hidden;
+
+  }
+}
