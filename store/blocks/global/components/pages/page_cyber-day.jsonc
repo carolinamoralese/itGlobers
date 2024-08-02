@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#page_cyber-day": {
+      "title": "row page cyber day",
+      "children": ["flex-layout.col#page_cyber-day"]
+    },
+    "flex-layout.col#page_cyber-day": {
+      "title": "col page cyber day",
+      "children": ["flex-layout.row#page_cyber-day-text"]
+    },
+    "flex-layout.row#page_cyber-day-text": {
+      "title": "row page cyber day text",
+      "children": ["rich-text#page_cyber-day"]
+    },
+    "rich-text#page_cyber-day": {
+      "title": "text page cyber day",
+      "props": {
+        "text": "Cyber monday"
+      }
+    }
+  }
+  

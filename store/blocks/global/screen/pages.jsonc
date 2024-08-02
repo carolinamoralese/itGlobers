@@ -1,0 +1,22 @@
+{
+  "store.custom#trends": {
+    "title": "global pages static",
+    "children": ["flex-layout.row#page_trends"]
+  },
+  "store.custom#collection": {
+    "title": "global pages static",
+    "children": ["flex-layout.row#page_collection"]
+  },
+  "store.custom#offer": {
+    "title": "global pages static",
+    "children": ["flex-layout.row#page_offer"]
+  },
+  "store.custom#cyber-day": {
+    "title": "global pages static",
+    "children": ["flex-layout.row#page_cyber-day"]
+  },
+  "store.custom#promotions": {
+    "title": "global pages static",
+    "children": ["flex-layout.row#page_promotions"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#page_promotions": {
+      "title": "row page promotions",
+      "children": ["flex-layout.col#page_promotions"]
+    },
+    "flex-layout.col#page_promotions": {
+      "title": "col page promotions",
+      "children": ["flex-layout.row#page_promotions-text"]
+    },
+    "flex-layout.row#page_promotions-text": {
+      "title": "row page promotions text",
+      "children": ["rich-text#page_promotions"]
+    },
+    "rich-text#page_promotions": {
+      "title": "text page promotionsc",
+      "props": {
+        "text": "Never say never"
+      }
+    }
+  }
+  
