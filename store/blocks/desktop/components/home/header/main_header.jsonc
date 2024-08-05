@@ -33,7 +33,7 @@
       "blockClass": "header-container-menu-desktop-section-one-left"
     },
     "children": [
-      "flex-layout.col#desktop", 
+     "flex-layout.col#meda-menu-desktop", 
       "flex-layout.col#logo-desktop", 
       "search-bar"]
   },

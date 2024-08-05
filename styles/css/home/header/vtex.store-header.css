@@ -1,21 +1,25 @@
+@media (min-width: 1024px) {
 .headerStickyRow--container-menu-desktop{
     max-width: 1280px;
     margin: auto;
 }
+}
+@media (min-width: 1024px) {
 .headerStickyRow--container-menu-icon-global{
     max-width: 1280px;
     margin: auto;
     overflow: auto;
 }
+}
 .headerRowContainer--container-menu-icon-global{
     padding-bottom: 10px;
 }
-
+@media (min-width: 1024px) {
 .headerRowBackground--container-menu-icon-global{
     width: 1280px;
     height: 56px;
 }
-
+}
 /*------------tablet---------------*/
 @media (min-width: 640px) and (max-width: 1024px) {
     .headerRowBackground--container-menu-icon-global{

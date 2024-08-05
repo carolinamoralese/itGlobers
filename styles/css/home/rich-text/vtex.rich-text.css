@@ -12,8 +12,6 @@
   text-align      : left;
   margin-bottom   : 20px;
   margin-top      : 30px;
-  background-color: rgb(138, 153, 51);
-
 }
 
 .wrapper--texto-section-one-desktop {
@@ -28,7 +26,6 @@
   width           : 500px;
   size            : 16;
   font-family     : lexend;
-  background-color: aqua;
 }
 
 .wrapper--texto-section-two-phone {
@@ -36,7 +33,6 @@
   width           : 500px;
   size            : 16;
   font-family     : lexend;
-  background-color: blue;
   margin-top      : 70px;
 }
 
@@ -45,7 +41,6 @@
   width           : 500px;
   size            : 16;
   font-family     : lexend;
-  background-color: pink;
   margin-top      : 50px;
 }
 
