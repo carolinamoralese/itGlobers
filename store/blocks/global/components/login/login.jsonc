@@ -1,7 +1,8 @@
 {
   "login#header-desktop": {
     "props": {
-      //"optionsTitle": "LOG IN",
+      "optionsTitle": "LOG IN",
+
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "VERIFY YOUR E-MAIL",
       "emailPlaceholder": "e-mail",
