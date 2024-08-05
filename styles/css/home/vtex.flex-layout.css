@@ -1,10 +1,11 @@
 /*--------------------------------------------css header desktop--------------------------------*/
 .header-container-menu-desktop {
-  width  : 1, 136px;
-  height : 47px;
-  top    : 9px;
-  left   : 72px;
-  gap    : 0px;
+
+  width: 1136px;
+  height: 47px;
+  top: 9px;
+  left: 72px;
+  gap: 0px;
   opacity: 0px;
 }
 
@@ -95,4 +96,14 @@
 /*------------------- shelf product-----------*/
 .flexRowContent--container-price_salving-add_favorite {
   display: flex;
+}
+
+
+/*------------tablet---------------*/
+@media (min-width: 640px) and (max-width: 1024px) {
+  .flexRow--header-container-menu-desktop {
+    overflow: hidden;
+
+  }
+
 }
