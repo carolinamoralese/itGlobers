@@ -7,5 +7,23 @@
       "font": "lexed",
       "blockClass": ["texto-section-one-phone"]
     }
+  },
+  "rich-text#title-section-two-phone": {
+    "props": {
+      "text": "An amazing product PHONE",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "lexed",
+      "blockClass": ["texto-section-two-phone"]
+    }
+  },
+  "rich-text#title-section-there-phone": {
+    "props": {
+      "text": "An amazing product PHONE",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "lexed",
+      "blockClass": ["texto-section-there-phone"]
+    }
   }
 }

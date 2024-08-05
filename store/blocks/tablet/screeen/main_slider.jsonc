@@ -4,11 +4,11 @@
       "flex-layout.row#tablet__main-slider",
       "rich-text#title-section-one-tablet",
       "flex-layout.row#tablet_main-slider-info-card",
-      "rich-text#title-section-two-desktop",
+      "rich-text#title-section-two-tablet",
       "flex-layout.row#tablet_shelf-products",
-      "rich-text#title-section-two-desktop",
+      "rich-text#title-section-two-tablet",
       "flex-layout.row#tablet_main-slider-info-card",
-      "rich-text#title-section-two-desktop",
+     "rich-text#title-section-two-tablet",
        "flex-layout.row#tablet_shelf-products"
     ]
   }

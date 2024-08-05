@@ -1,6 +1,7 @@
 {
   "header-layout.desktop": {
     "children": [
+      "sticky-layout#4-desktop",
       "header-row#main-menu-desktop",
       "flex-layout.row#desktop_main-header-icons"
     ]

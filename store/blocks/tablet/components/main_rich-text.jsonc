@@ -1,11 +1,32 @@
 {
     "rich-text#title-section-one-tablet": {
+      "title": "title section one tablet",
       "props": {
         "text": "An amazing product  TABLET",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "lexed",
-        "blockClass": ["texto-section-one-phone"]
+        "blockClass": ["texto-section-one-tablet"]
+      }
+    },
+   "rich-text#title-section-two-tablet": {
+      "title": "title section two tablet",
+      "props": {
+        "text": "An amazing product  TABLET",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "lexed",
+        "blockClass": ["texto-section-two-tablet"]
+      }
+    },
+    "rich-text#title-section-there-tablet": {
+      "title": "title section there tablet",
+      "props": {
+        "text": "An amazing product  TABLET",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "lexed",
+        "blockClass": ["texto-section-there-tablet"]
       }
     }
   }

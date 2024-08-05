@@ -1,0 +1,33 @@
+{
+  "login#header-desktop": {
+    "props": {
+      //"optionsTitle": "LOG IN",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "VERIFY YOUR E-MAIL",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "blockClass": "icon-login",
+      "showSocialLoginButtons": true,
+      "showEmailAndPasswordLogin": true,
+      "showAccessCodeLogin": true,
+      "socialLoginButtonConfig": {
+        "googleButton": {
+          "display": "inline",
+          "position": 1
+        },
+        "facebookButton": {
+          "display": "inline",
+          "position": 2
+        }
+      }
+    }
+  }
+}
+
+// "login-content": {
+//     "props": {
+//         "optionsTitle": "PRUEBADDDDD"
+//     }
+//   }

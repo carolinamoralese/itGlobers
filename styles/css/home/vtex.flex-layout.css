@@ -1,23 +1,26 @@
 /*--------------------------------------------css header desktop--------------------------------*/
 .header-container-menu-desktop {
-  width: Fixed (1, 136px) px;
-  height: Hug (47px) px;
-  top: 9px;
-  left: 72px;
-  gap: 0px;
+  width  : 1, 136px;
+  height : 47px;
+  top    : 9px;
+  left   : 72px;
+  gap    : 0px;
   opacity: 0px;
 }
+
 .flexRowContent--header-container-menu-desktop {
-  gap: 40px;
+  gap       : 40px;
   text-align: center;
 }
+
 .flexRow--header-container-menu-desktop {
-  margin-left: 45px;
-  overflow: auto;
+  margin-left      : 45px;
+  /* overflow      : auto; */
   /* padding-bottom: 15px; */
 }
+
 .flexRowContent--header-container-menu-desktop-section-one {
-  width: Fixed (1, 280px) px;
+  width : Fixed (1, 280px) px;
   height: Fixed (56px) px;
 
 }
@@ -26,57 +29,70 @@
   margin-left: 35px;
 }
 
-.flexRow--conatainer-banner-home-desktop{
-  max-width: 1280px;
-  margin: auto;
+@media (min-width: 1024px) {
+  .flexRow--conatainer-banner-home-desktop {
+    max-width: 1280px;
+    margin   : auto;
+  }
 }
-.flexRowContent--header-container-menu-desktop-section-one-right{
+
+.flexRowContent--header-container-menu-desktop-section-one-right {
   margin-top: 25px;
 }
+
 /*--------------------------------------------css header phone--------------------------------*/
 .flexRowContent--header-container-menu-phone {
-  display: flex;
+  display        : flex;
   justify-content: center;
-  align-items: center;
+  align-items    : center;
 }
 
 .flexRowContent--header-container-menu-phone-section-one {
   display: flex;
 }
+
 .flexCol--logo-phone {
-  margin-left: -9px;
-  margin-bottom: 16px;
-  margin-right: 50px;
+  margin-left   : -9px;
+  margin-bottom : 16px;
+  margin-right  : 50px;
   padding-bottom: 20px !important;
 }
+
 .flexRow--header-container-menu-phone-section-one {
   margin-top: 15px;
 }
 
+/*------------------- buttom mini-----------*/
 .flexRowContent--container-button-buy :global(.vtex-button) {
   background-color: transparent;
-  color: black;
-  border-color: rgb(0, 0, 0);
-  width: Fixed (212px) px;
-  height: Fixed (48px) px;
-  padding: 10px;
-  gap: 10px;
-  border-radius: 8px;
-  opacity: 0px;
+  color           : black;
+  border-color    : rgb(0, 0, 0);
+  width           : 212px;
+  height          : 48px;
+  padding         : 10px;
+  gap             : 10px;
+  border-radius   : 8px;
+  opacity         : 0px;
 }
 
-
+.flexRowContent--container-button-buy :global(.vtex-button):hover {
+  background-color: black;
+  color           : white;
+  border-color    : black;
+  opacity         : 1;
+}
 
 
 
 /*------------------- info card-----------*/
-.flexRow--container-shelf-product{
-  max-width: 1280px;
-  margin: auto;
+@media (min-width: 1024px) {
+  .flexRow--container-shelf-product {
+    max-width: 1280px;
+    margin   : auto;
+  }
 }
 
 /*------------------- shelf product-----------*/
-.flexRowContent--container-price_salving-add_favorite{
+.flexRowContent--container-price_salving-add_favorite {
   display: flex;
 }
-

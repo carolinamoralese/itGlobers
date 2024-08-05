@@ -1,104 +1,107 @@
 .imageElement--img-certicate {
-  margin-top: 19%;
+  margin-top : 19%;
   margin-left: 35%;
-  width: 48px;
-  height: 48px;
+  width      : 48px;
+  height     : 48px;
 }
 
 .imageElement--container-product-image {
-  width: 324px;
+  width : 324px;
   height: 186.62px;
 
 }
+
 .imageElement--container-product-image-section-two {
-  width: 178px;
-  height: 140px;
-  gap: 0px;
-  opacity: 0px;
+  width     : 178px;
+  height    : 140px;
+  gap       : 0px;
+  opacity   : 0px;
   margin-top: -5%;
 }
 
 .imageElement--off-button-1 {
-  width: Hug (44px) px;
-  height: Hug (32px) px;
-  padding: 6px 12px 6px 12px;
-  gap: 10px;
+  width        : Hug (44px) px;
+  height       : Hug (32px) px;
+  padding      : 6px 12px 6px 12px;
+  gap          : 10px;
   border-radius: 4px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
+  border       : 1px 0px 0px 0px;
+  opacity      : 0px;
 }
 
 .imageElement--icon-header {
-  width: 20px;
-  height: 20px;
-  gap: 0px;
-  opacity: 0px;
+  width      : 20px;
+  height     : 20px;
+  gap        : 0px;
+  opacity    : 0px;
   margin-left: 10px;
 }
+
 .imageElement--icon-header-section-one-information {
-  width: 18px;
-  height: 12px;
-  top: 6px;
-  left: 3px;
-  gap: 0px;
+  width  : 18px;
+  height : 12px;
+  top    : 6px;
+  left   : 3px;
+  gap    : 0px;
   opacity: 0px;
 }
 
 .searchBarInnerContainer--custom-search-bar {
   background: transparent;
 }
+
 .searchIcon--custom-search-bar {
   display: block;
 }
 
 .discountInsideContainer {
-  background: #1d2734;
-  width: 84px;
-  height: 32px;
-  padding: 6px 12px 6px 12px;
-  gap: 10px;
+  background   : #1d2734;
+  width        : 84px;
+  height       : 32px;
+  padding      : 6px 12px 6px 12px;
+  gap          : 10px;
   border-radius: 4px;
-  border: 1px;
-  opacity: 0px;
-  position: absolute;
-  bottom: 100%;
-  right: 64%;
+  border       : 1px;
+  opacity      : 0px;
+  position     : absolute;
+  bottom       : 100%;
+  right        : 64%;
 }
 
-.autoCompleteOuterContainer--icon-header-section-one-information
-  :global(.vtex-input-prefix__group) {
-  height: 40px;
-  padding: 11px 16px 11.76px 16px;
-  gap: 0px;
-  border-radius: 40px;
-  opacity: 0px;
+.autoCompleteOuterContainer--icon-header-section-one-information :global(.vtex-input-prefix__group) {
+  height          : 40px;
+  padding         : 11px 16px 11.76px 16px;
+  gap             : 0px;
+  border-radius   : 40px;
+  opacity         : 0px;
   background-color: #f5f4f6;
 }
-.autoCompleteOuterContainer--icon-header-section-one-information
-  :global(.vtex-input__suffix) {
+
+.autoCompleteOuterContainer--icon-header-section-one-information :global(.vtex-input__suffix) {
   background: #f5f4f6;
 }
 
 .infoCardContainer--info-card-home {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items   : flex-start;
 }
 
-.headerRowContentContainer--container-menu-icon-global{
+.headerRowContentContainer--container-menu-icon-global {
   display: -webkit-box;
 }
-.searchBarContainer{
+
+.searchBarContainer {
   margin-top: 15px;
 }
 
-.logoContainer:global(.vtex-store-components-3-x-logoImage){
-margin-top: 15px;
+.logoContainer:global(.vtex-store-components-3-x-logoImage) {
+  margin-top: 15px;
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .container{
+  .container {
     width: 900px;
   }
 }

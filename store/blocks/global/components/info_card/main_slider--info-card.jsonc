@@ -75,7 +75,8 @@
     "title": "container text of product",
     "children": ["rich-text#second__row-title"],
     "props": {
-      "width": "70%"
+      "width": "70%",
+      "blockClass":"second__row-text"
     }
   },
 
@@ -89,7 +90,10 @@
 
   "flex-layout.col#second__row-image": {
     "title": "container img ecommer award",
-    "children": ["image#second__row-best-seller"]
+    "children": ["image#second__row-best-seller"],
+    "props": {
+      "blockClass":"second__row-image"
+    }
   },
 
   "image#second__row-best-seller": {
