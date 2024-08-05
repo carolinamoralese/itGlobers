@@ -12,6 +12,7 @@
 
 
 /*------------tablet---------------*/
+
 @media (min-width: 640px) and (max-width: 1024px) {
   .openIconContainer{
    margin-left: 90px;
@@ -20,6 +21,15 @@
 
 
 /*------------color boton ventana pop up---------------*/
-.minicartCheckoutButton:global(.vtex-button ){
+.minicartCheckoutButton:global(.vtex-button) {
   background-color: blue;
+}
+
+.minicartTitle {
+  font-family: Lexend;
+  font-size  : 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+  text-align : left;
+
 }

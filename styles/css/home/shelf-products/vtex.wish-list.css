@@ -3,7 +3,7 @@
   margin-left : 55%;
   width       : 44px;
   height      : 32px;
-  min-height: auto;
+  min-height  : auto;
 }
 
 .wishlistIcon--favorite {
@@ -16,6 +16,6 @@
 
 @media (max-width: 768px) {
   .wishlistIconContainer--favorite :global(.vtex-button) {
-    margin-left : 20%;
+    margin-left: 20%;
   }
 }

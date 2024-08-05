@@ -32,7 +32,10 @@
       "fullWidth": true,
       "blockClass": "header-container-menu-desktop-section-one-left"
     },
-    "children": ["drawer#desktop", "flex-layout.col#logo-desktop", "search-bar"]
+    "children": [
+      "flex-layout.col#desktop", 
+      "flex-layout.col#logo-desktop", 
+      "search-bar"]
   },
   "flex-layout.row#section-right-information-carButton-login": {
     "title": "section information, cart button y login",
@@ -54,12 +57,12 @@
       "login#header-desktop"
     ]
   },
-  "drawer#desktop": {
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass": ["menu-desktop"]
-    }
-  },
+  // "drawer#desktop": {
+  //   "props": {
+  //     "verticalAlign": "middle",
+  //     "blockClass": ["menu-desktop"]
+  //   }
+  // },
 
   "flex-layout.col#logo-desktop": {
     "title": "container logo desktop",

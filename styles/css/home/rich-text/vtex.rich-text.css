@@ -1,26 +1,52 @@
 /*--------------------------------------------css home --------------------------------*/
+.container--texto-section-one-desktop {
+  max-width: 1280px;
+  margin   : auto;
+}
+
 .paragraph--texto-section-one-desktop {
-  font-family  : lexend;
-  font-size    : 16px;
-  line-height  : 16.8px;
-  text-align   : left;
-  margin-bottom: 30px;
-  margin-top   : 30px;
-  background-color: rgb(127, 206, 255);
+
+  font-family     : lexend;
+  font-size       : 16px;
+  line-height     : 16.8px;
+  text-align      : left;
+  margin-bottom   : 20px;
+  margin-top      : 30px;
+  background-color: rgb(138, 153, 51);
+
 }
 
 .wrapper--texto-section-one-desktop {
-  margin-left: 72px;
-  width      : 500px;
-  size       : 16;
+  margin-left  : 72px;
+  width        : 500px;
+  size         : 16;
   margin-bottom: 0%;
 }
 
 .wrapper--texto-section-one-phone {
-  margin-left: 10px;
-  width      : 500px;
-  size       : 16;
-  font-family: lexend;
+  margin-left     : 10px;
+  width           : 500px;
+  size            : 16;
+  font-family     : lexend;
+  background-color: aqua;
+}
+
+.wrapper--texto-section-two-phone {
+  margin-left     : 10px;
+  width           : 500px;
+  size            : 16;
+  font-family     : lexend;
+  background-color: blue;
+  margin-top      : 70px;
+}
+
+.wrapper--texto-section-there-phone {
+  margin-left     : 10px;
+  width           : 500px;
+  size            : 16;
+  font-family     : lexend;
+  background-color: pink;
+  margin-top      : 50px;
 }
 
 .paragraph--info-product {
@@ -47,8 +73,12 @@
   line-height: 14.52px;
 }
 
-.wrapper--info-product {
-  margin-left: 10%;
+.heading--info-product {
+  padding-left: 18.82px;
+}
+
+.paragraph--info-product {
+  padding-left: 18.82px;
 }
 
 .link--slider_third-row--button {
@@ -84,23 +114,55 @@
 }
 
 /*------------------------------------------------section two home------------------------------*/
+.container--texto-section-two-desktop {
+  max-width        : 1280px;
+  margin           : auto;
+  /* padding-top   : 20;
+  padding-bottom   : 120px; */
+  height           : 140px;
+  margin-top       : 150px;
+}
+
 .paragraph--texto-section-two-desktop {
   font-family     : lexend;
   font-size       : 16px;
-  font-weight     : bold;
-  font-weight     : 500;
   line-height     : 16.8px;
   text-align      : left;
-  margin-top      : 150px;
-  margin-bottom   : 30px;
+  /* margin-bottom: 30px;
+  margin-top      : 30px;
+  background-color: rgb(11, 45, 34);
+  padding-top     : 100px; */
 }
 
 .wrapper--texto-section-two-desktop {
-  margin-left: 10px;
-  width      : 500px;
-  size       : 16;
-  font-family: lexend;
+  margin-left     : 72px;
+  width           : 500px;
+  size            : 16;
+  font-family     : lexend;
+  background-color: rgb(0, 255, 94);
+}
 
+.container--texto-section-three-desktop {
+  max-width : 1280px;
+  margin    : auto;
+  margin-top: 150px;
+}
+
+.paragraph--texto-section-three-desktop {
+  font-family     : lexend;
+  font-size       : 16px;
+  line-height     : 16.8px;
+  text-align      : left;
+  margin-bottom   : 30px;
+  margin-top      : 30px;
+  background-color: rgb(255, 127, 204);
+}
+
+.wrapper--texto-section-three-desktop {
+  margin-left  : 72px;
+  width        : 500px;
+  size         : 16;
+  margin-bottom: 0%;
 }
 
 .container--info-product-section-two {
@@ -122,6 +184,7 @@
   text-overflow: ellipsis;
   overflow     : hidden;
   white-space  : pre;
+
 }
 
 .link--slider_third-row--button::after {
@@ -132,21 +195,22 @@
   padding    : 5px;
 }
 
-.container--texto-section-one-desktop {
-  max-width: 1280px;
-  margin   : auto;
 
-}
-
-.container--texto-section-two-desktop {
-  max-width     : 1280px;
-  margin        : auto;
-  padding-top   : 20;
-  padding-bottom: 20px;
-}
 
 /*------------------------------------------------slider info card------------------------------*/
 
 .container--slider_third-row--button {
   padding-top: 13.82px;
+}
+
+
+/*------------------------------------------------text tablet------------------------------*/
+.container--texto-section-one-tablet {
+  margin-left     : 10px;
+  background-color: blue;
+}
+
+.container--texto-section-two-tablet {
+  margin-left: 10px;
+  margin-top : 50px;
 }

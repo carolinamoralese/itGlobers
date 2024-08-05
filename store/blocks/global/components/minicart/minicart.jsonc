@@ -2,14 +2,16 @@
   "minicart.v2": {
     "title": "Minicart",
     "props": {
-      "MinicartIcon": "icon-cart#minicart-icon"
+      "MinicartIcon": "icon-cart#minicart-icon",
+      "blockClass": "minicart-container"
     },
     "children": ["minicart-base-content"]
   },
   "icon-cart#minicart-icon": {
     "title": "Minicart Icon",
     "props": {
-      "size": 24
+      "size": 24,
+      "blockClass": "minicart-icon"
     }
   },
   "minicart-base-content": {
@@ -20,77 +22,100 @@
   "flex-layout.row#minicart-footer": {
     "title": "Minicart Footer Row",
     "props": {
-      "blockClass": "minicart-footer"
+      "blockClass": "minicart-footer-row"
     },
     "children": ["flex-layout.col#minicart-footer"]
   },
   "flex-layout.col#minicart-footer": {
     "title": "Minicart Footer Column",
+    "props": {
+      "blockClass": "minicart-footer-column"
+    },
     "children": ["minicart-summary", "minicart-checkout-button"]
   },
   "minicart-product-list": {
     "title": "Minicart Product List",
+    "props": {
+      "blockClass": "minicart-product-list"
+    },
     "blocks": ["product-list#minicart"]
   },
   "product-list#minicart": {
     "title": "Product List for Minicart",
+    "props": {
+      "blockClass": "minicart-product-list-content"
+    },
     "blocks": ["product-list-content-mobile"]
   },
   "minicart-summary": {
     "title": "Minicart Summary",
+    "props": {
+      "blockClass": "minicart-summary"
+    },
     "blocks": ["checkout-summary.compact#minicart"]
   },
   "minicart-checkout-button": {
     "title": "Minicart Checkout Button",
     "props": {
-      "finishShoppingButtonLink": "/checkout/#/orderform"
+      "finishShoppingButtonLink": "/checkout/#/orderform",
+      "blockClass": "minicart-checkout-button"
     }
   },
   "checkout-summary.compact#minicart": {
     "title": "Compact Checkout Summary for Minicart",
-    "children": ["summary-totalizers#minicart"],
     "props": {
-      "totalizersToShow": ["Items", "Discounts"]
-    }
+      "totalizersToShow": ["Items", "Discounts"],
+      "blockClass": "minicart-checkout-summary"
+    },
+    "children": ["summary-totalizers#minicart"]
   },
   "summary-totalizers#minicart": {
     "title": "Summary Totalizers for Minicart",
     "props": {
       "showTotal": true,
-      "showDeliveryTotal": false
+      "showDeliveryTotal": false,
+      "blockClass": "minicart-summary-totalizers"
     }
   },
   "minicart-empty-state": {
     "title": "Minicart Empty State",
+    "props": {
+      "blockClass": "minicart-empty-state"
+    },
     "children": ["flex-layout.row#empty-state"]
   },
   "flex-layout.row#empty-state": {
     "title": "Empty State Row",
+    "props": {
+      "blockClass": "minicart-empty-state-row"
+    },
     "children": ["flex-layout.col#empty-state"]
   },
   "flex-layout.col#empty-state": {
     "title": "Empty State Column",
-    "children": [
-      "icon-cart#minicart-empty-state",
-      "rich-text#minicart-default-empty-state"
-    ],
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "rowGap": 5
-    }
+      "rowGap": 5,
+      "blockClass": "minicart-empty-state-column"
+    },
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ]
   },
   "icon-cart#minicart-empty-state": {
     "title": "Minicart Empty State Icon",
     "props": {
       "size": 64,
-      "blockClass": "minicart-empty-state"
+      "blockClass": "minicart-empty-state-icon"
     }
   },
   "rich-text#minicart-default-empty-state": {
     "title": "Minicart Default Empty State Text",
     "props": {
-      "text": "Your cart is empty."
+      "text": "Your cart is empty.",
+      "blockClass": "minicart-empty-state-text"
     }
   }
 }

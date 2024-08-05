@@ -1,0 +1,15 @@
+.deleteIcon {
+    background-image: url("/arquivos/icon-delete.svg") !important;
+    width           : 20px;
+    height          : 20px;
+    position        : absolute;
+}
+
+.productName {
+    font-family: Lexend;
+    font-size  : 11.34px;
+    font-weight: 300;
+    line-height: 15.12px;
+    text-align : left;
+
+}

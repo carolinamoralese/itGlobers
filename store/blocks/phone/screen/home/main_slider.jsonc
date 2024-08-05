@@ -4,11 +4,11 @@
       "flex-layout.row#phone__main-slider",
       "rich-text#title-section-one-phone",
       "flex-layout.row#phone_main-info-card",
-      "rich-text#title-section-two-desktop",
+      "rich-text#title-section-two-phone",
       "flex-layout.row#phone_main-shelf-products",
-      "rich-text#title-section-two-desktop",
+      "rich-text#title-section-there-phone",
       "flex-layout.row#phone_main-info-card",
-      "rich-text#title-section-two-desktop",
+      "rich-text#title-section-two-phone",
       "flex-layout.row#phone_main-shelf-products"
     ]
   }

@@ -1,16 +1,17 @@
 .description {
-  font-family: Lexend;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: left;
-  display: -webkit-box;
+  font-family       : Lexend;
+  font-size         : 14px;
+  font-weight       : 400;
+  line-height       : 1.5;
+  text-align        : left;
+  display           : -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-right: 7px;
+  overflow          : hidden;
+  text-overflow     : ellipsis;
+  margin-right      : 7px;
 }
+
 /* .buyButton--custom-buy-button :global(.vtex-button) {
   background-color: transparent;
   width: Fixed (212px)px;
@@ -29,35 +30,37 @@
 
 .productPriceClass {
   font-family: Lexend;
-  font-size: 14px;
+  font-size  : 14px;
   font-weight: 400;
   line-height: 16.8px;
-  text-align: left;
+  text-align : left;
 }
 
 .priceContainer {
   margin-right: 70px;
 }
-.wishlistIconContainer--favorite :global(.vtex-button){
-    border-color: black;
+
+.wishlistIconContainer--favorite :global(.vtex-button) {
+  border-color: black;
 }
 
-.imageStackContainer{
+.imageStackContainer {
   padding-top: 10px;
 }
+
 @media (max-width: 767px) {
   .imageStackContainer {
 
-    width: 135.15px;
-    height: 106.3px;
-    gap: 0px;
+    width  : 135.15px;
+    height : 106.3px;
+    gap    : 0px;
     opacity: 0px;
 
   }
 
   .buyButton--custom-buy-button {
-    font-size: 14px; 
-    padding: 5px 10px; 
-    
+    font-size: 14px;
+    padding  : 5px 10px;
+
   }
 }
