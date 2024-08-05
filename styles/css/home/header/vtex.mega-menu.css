@@ -1,17 +1,44 @@
-.menuItemVertical:hover {
-    background-color: blueviolet;
-}
-
-.menuItemVertical:hover {
-    background-color: aqua;
-    transition      : background-color 0.3s, color 0.3s;
-}
-
-.triggerContainer{
+.triggerContainer {
     margin-top: 30px;
 }
 
-.triggerButtonIcon--mega-menu-trigger{
-    width: 24px !important;
+.triggerButtonIcon--mega-menu-trigger {
+    width : 24px !important;
     height: 24px !important;
- }
+}
+
+@media (min-width: 1024px) {
+    .menuContainerNav--components-mega-menu {
+        max-width: 948px;
+        margin   : 0 auto;
+        position : absolute;
+        left     : 20%;
+        z-index  : 1000; 
+    }
+    .menuItem--components-mega-menu :hover {
+        background-color: #FFE6D3;
+        scrollbar-width : none;
+    }
+    .menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {
+        background-color: #FFE6D3;
+        scrollbar-width : none;
+    }
+    .submenuContainer {
+        overflow: visible !important; 
+        max-height: none !important;  
+    }
+    .menuContainer {
+        overflow: visible !important; 
+        max-height: none !important;  
+    }
+    .menuContainerNav--components-mega-menu {
+        font-family: lexend;
+        font-size  : 12px;
+        line-height: 15px;
+        font-weight: 300;
+    }
+}
+
+.menuContainerVertical :hover{
+    background-color: #FFE6D3;
+}
