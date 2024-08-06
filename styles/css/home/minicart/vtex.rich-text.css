@@ -1,0 +1,28 @@
+.paragraph--minicart-empty-state-one-text {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align : left;
+
+}
+
+.paragraph--minicart-empty-state-two-text {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align : center;
+
+}
+
+.paragraph--minicart-title {
+    padding-left: 20px;
+    font-family : Lexend;
+    font-size   : 14px;
+    font-weight : 600;
+    line-height : 17.5px;
+    text-align  : left;
+    margin-top  : 20px;
+
+}
