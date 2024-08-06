@@ -1,5 +1,6 @@
 {
   "flex-layout.col#meda-menu-desktop": {
+    "title": "col mega menu container",
     "children": [
       "flex-layout.row#row_trigger-desktop",
       "flex-layout.row#mega-menu"
@@ -26,7 +27,8 @@
   "flex-layout.col#trigger-mega-menu": {
     "title": "col mega menu desktop",
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "trigger-mega-menu-container"
     },
     "children": ["mega-menu-trigger-btn"]
   },

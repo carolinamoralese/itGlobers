@@ -7,38 +7,51 @@
     height: 24px !important;
 }
 
+.menuContainerNav--components-mega-menu {
+    max-width  : 748px;
+    position   : absolute;
+    left       : 20%; 
+    z-index    : 1000;
+    font-family: lexend;
+    font-size  : 12px;
+    line-height: 15px;
+    font-weight: 300;
+  
+}
 @media (min-width: 1024px) {
     .menuContainerNav--components-mega-menu {
-        max-width: 948px;
-        margin   : 0 auto;
-        position : absolute;
-        left     : 20%;
-        z-index  : 1000; 
+        transform: translateX(13%);
     }
-    .menuItem--components-mega-menu :hover {
-        background-color: #FFE6D3;
-        scrollbar-width : none;
-    }
-    .menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {
-        background-color: #FFE6D3;
-        scrollbar-width : none;
-    }
-    .submenuContainer {
-        overflow: visible !important; 
-        max-height: none !important;  
-    }
-    .menuContainer {
-        overflow: visible !important; 
-        max-height: none !important;  
-    }
-    .menuContainerNav--components-mega-menu {
-        font-family: lexend;
-        font-size  : 12px;
-        line-height: 15px;
-        font-weight: 300;
-    }
+
+}
+.styledLinkContainer--components-mega-menu {
+    margin : 0% !important;
+    padding: 16px;
 }
 
-.menuContainerVertical :hover{
+
+.menuItem--components-mega-menu :hover {
+    background-color: #FFE6D3;
+    scrollbar-width : none;
+}
+
+.menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {
+    background-color: #FFE6D3;
+    scrollbar-width : none;
+}
+
+.submenuContainer {
+    overflow  : visible !important;
+    max-height: none !important;
+}
+
+.menuContainer {
+    overflow  : visible !important;
+    max-height: none !important;
+}
+
+
+
+.menuContainerVertical :hover {
     background-color: #FFE6D3;
 }

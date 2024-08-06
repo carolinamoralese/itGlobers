@@ -63,6 +63,7 @@
   margin-top: 15px;
 }
 
+
 /*------------------- buttom mini-----------*/
 .flexRowContent--container-button-buy :global(.vtex-button) {
   background-color: transparent;
@@ -107,3 +108,7 @@
   }
 
 }
+/*------------menu hamburguesa---------------*/
+/* .flexColChild--trigger-mega-menu-container{
+  position: relative;
+} */

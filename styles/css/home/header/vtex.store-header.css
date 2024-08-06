@@ -13,6 +13,7 @@
 }
 .headerRowContainer--container-menu-icon-global{
     padding-bottom: 10px;
+    overflow: auto;
 }
 @media (min-width: 1024px) {
 .headerRowBackground--container-menu-icon-global{

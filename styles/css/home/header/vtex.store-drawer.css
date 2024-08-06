@@ -4,3 +4,6 @@
 .menuIcon--menu-desktop{
     margin-top: 25px;
 }
+.opened{
+    width: 66% !important;
+}

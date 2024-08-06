@@ -12,6 +12,7 @@
   text-align      : left;
   margin-bottom   : 20px;
   margin-top      : 30px;
+  background-color: rgb(51, 128, 15);
 }
 
 .wrapper--texto-section-one-desktop {
@@ -26,6 +27,7 @@
   width           : 500px;
   size            : 16;
   font-family     : lexend;
+  background-color: aqua;
 }
 
 .wrapper--texto-section-two-phone {
