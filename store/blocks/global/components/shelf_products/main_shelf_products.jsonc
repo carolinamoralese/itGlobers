@@ -25,6 +25,7 @@
     "children": [
       "flex-layout.row#container-price_salving-add_favorite",
       "flex-layout.col#shelf-image",
+      // "product-quantity",
       "flex-layout.col#shelf-description",
       "flex-layout.col#shelf-price",
       "flex-layout.row#shelf-button"

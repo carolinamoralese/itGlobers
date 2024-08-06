@@ -12,7 +12,7 @@
   text-align      : left;
   margin-bottom   : 20px;
   margin-top      : 30px;
-  background-color: rgb(51, 128, 15);
+  background-color: rgb(0, 136, 255);
 }
 
 .wrapper--texto-section-one-desktop {
@@ -27,7 +27,6 @@
   width           : 500px;
   size            : 16;
   font-family     : lexend;
-  background-color: aqua;
 }
 
 .wrapper--texto-section-two-phone {
@@ -114,8 +113,6 @@
 .container--texto-section-two-desktop {
   max-width        : 1280px;
   margin           : auto;
-  /* padding-top   : 20;
-  padding-bottom   : 120px; */
   height           : 140px;
   margin-top       : 150px;
 }
@@ -125,10 +122,7 @@
   font-size       : 16px;
   line-height     : 16.8px;
   text-align      : left;
-  /* margin-bottom: 30px;
-  margin-top      : 30px;
-  background-color: rgb(11, 45, 34);
-  padding-top     : 100px; */
+
 }
 
 .wrapper--texto-section-two-desktop {
@@ -136,7 +130,6 @@
   width           : 500px;
   size            : 16;
   font-family     : lexend;
-  background-color: rgb(0, 255, 94);
 }
 
 .container--texto-section-three-desktop {
@@ -152,7 +145,6 @@
   text-align      : left;
   margin-bottom   : 30px;
   margin-top      : 30px;
-  background-color: rgb(255, 127, 204);
 }
 
 .wrapper--texto-section-three-desktop {
@@ -204,7 +196,6 @@
 /*------------------------------------------------text tablet------------------------------*/
 .container--texto-section-one-tablet {
   margin-left     : 10px;
-  background-color: blue;
 }
 
 .container--texto-section-two-tablet {

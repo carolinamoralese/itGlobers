@@ -1,4 +1,9 @@
 .summaryItemContainer {
-  width: 35.92px;
-  height: 85.07px;
+    width : 35.92px;
+    height: 85.07px;
+}
+
+.summaryItemContainer--minicart-summary-totalizers {
+    width : 280px;
+    height: 50px;
 }

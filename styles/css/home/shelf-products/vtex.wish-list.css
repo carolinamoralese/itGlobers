@@ -11,7 +11,7 @@
   width           : 20px;
   height          : 20px;
   position        : absolute;
-  background-image: black;
+  background-image: #1D2734;
 }
 
 @media (max-width: 768px) {

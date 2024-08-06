@@ -78,9 +78,10 @@
 }
 
 .flexRowContent--container-button-buy :global(.vtex-button):hover {
-  background-color: black;
+  background-color: #1D2734;
+  ;
   color           : white;
-  border-color    : black;
+  border-color    : #1D2734;
   opacity         : 1;
 }
 
@@ -111,4 +112,20 @@
 /*------------menu hamburguesa---------------*/
 /* .flexColChild--trigger-mega-menu-container{
   position: relative;
+} */
+
+/*------------shopping cart---------------*/
+/* .flexCol--minicart-empty-state-column{
+  .imageElement{
+  height: 200px;
+  width: 200px;
+  padding-top: 91px;
+}
+} */
+/* .flexRowContent--minicart-empty-state-row:global(.vtex-flex-layout-0-x-flexCol){
+
+    height: 200px;
+    width: 200px;
+    padding-top: 91px;
+  
 } */

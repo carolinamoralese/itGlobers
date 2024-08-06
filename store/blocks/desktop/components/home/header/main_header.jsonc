@@ -160,21 +160,21 @@
         "text": "Never say never"
       }
     }
-  },
+  }
   // "minicart.v2": {
   //   "props": {
   //     "blockClass": "minicart-header"
   //   }
   // },
-  "login#header-desktop": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Access Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": "Login",
-      "blockClass": "icon-login"
-    }
-  }
+//   "login#header-desktop": {
+//     "props": {
+//       "emailAndPasswordTitle": "LOG-IN",
+//       "accessCodeTitle": "Access Code LOG-IN",
+//       "emailPlaceholder": "e-mail",
+//       "passwordPlaceholder": "password",
+//       "showPasswordVerificationIntoTooltip": true,
+//       "iconLabel": "Login",
+//       "blockClass": "icon-login"
+//     }
+//   }
 }
