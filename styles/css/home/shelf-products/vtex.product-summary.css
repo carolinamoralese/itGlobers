@@ -37,6 +37,12 @@
   padding-top: 10px;
 }
 
+.imageStackContainer :global(.vtex-product-summary-2-x-imageNormal){
+  width: 178px;
+  height: 140px !important;
+
+}
+
 @media (max-width: 767px) {
   .imageStackContainer {
 

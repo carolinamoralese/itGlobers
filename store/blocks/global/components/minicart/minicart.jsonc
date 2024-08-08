@@ -4,12 +4,26 @@
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon",
       "blockClass": "minicart-container",
-      "backdropMode":"visible"
+      "backdropMode": "visible"
     },
     "children": [
-      "flex-layout.col#logo-desktop",
+      "flex-layout.row#logo",
       "flex-layout.row#minicart-header",
-      "minicart-base-content"]
+      "minicart-base-content"
+      // "product-quantity"
+    ]
+  },
+  // "product-quantity": {
+  //   "props": {
+  //     "warningQuantityThreshold": 9999999,
+  //     "showUnit": true
+  //   }},
+  "flex-layout.row#logo": {
+    "title": "container logo mini cart",
+    "props": {
+      "blockClass": "mini-cart-logo-header-row"
+    },
+    "children": ["flex-layout.col#logo-desktop"]
   },
   "flex-layout.row#minicart-header": {
     "title": "Minicart Header Row",
@@ -71,6 +85,21 @@
     },
     "blocks": ["product-list-content-mobile"]
   },
+  // "product-list-content-mobile": {
+  //   "title": "Product List Content Mobile",
+  //   "props": {
+  //     "blockClass": "minicart-product-list-content-mobile",
+  //     "children": "icon-delete#custom-delete-icon"
+  //   }
+  // },
+  // "icon-delete#custom-delete-icon": {
+  //   "title": "Custom Delete Icon",
+  //   "props": {
+  //     "size": 16,
+  //     "blockClass": "custom-delete-icon",
+  //     "id": "delete"
+  //   }
+  // },
   "minicart-summary": {
     "title": "Minicart Summary",
     "props": {
@@ -82,6 +111,7 @@
     "title": "Minicart Checkout Button",
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform",
+       "customSummaryText": "Finalizar tu compra",
       "blockClass": "minicart-checkout-button"
     }
   },

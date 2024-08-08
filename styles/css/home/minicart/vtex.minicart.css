@@ -38,7 +38,7 @@
   font-weight: 600;
   line-height: 17.5px;
   text-align : left;
-  display: none;
+ display: none;
 }
 
 .opened--minicart-container {
@@ -56,4 +56,10 @@
 }
 .drawerContent--minicart-container{
   max-height: max-content;
+}
+
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label ){
+  content: "Finalizar tu compra";
+  display: block;
+  text-align: center;
 }

@@ -2,33 +2,23 @@
   "login#header-desktop": {
     "props": {
       "optionsTitle": "LOG IN",
-
-      "emailAndPasswordTitle": "LOG-IN",
+      "emailAndPasswordTitle": "LOG IN",
+      "providerPasswordButtonLabel": "Continue with an e-mail and password",
       "accessCodeTitle": "VERIFY YOUR E-MAIL",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
+      "emailPlaceholder": "Enter your e-mail",
+      "passwordPlaceholder": "Enter your password",
+      "accessCodePlaceholder": "Enter your access code",
       "showPasswordVerificationIntoTooltip": true,
       "iconLabel": "Login",
-      "blockClass": "icon-login",
-      "showSocialLoginButtons": true,
-      "showEmailAndPasswordLogin": true,
-      "showAccessCodeLogin": true,
-      "socialLoginButtonConfig": {
-        "googleButton": {
-          "display": "inline",
-          "position": 1
-        },
-        "facebookButton": {
-          "display": "inline",
-          "position": 2
-        }
-      }
+      "blockClass": "icon-login"
     }
   }
 }
 
+      //E-mail and password
+     
 // "login-content": {
-//     "props": {
+//     "props": { 
 //         "optionsTitle": "PRUEBADDDDD"
 //     }
 //   }

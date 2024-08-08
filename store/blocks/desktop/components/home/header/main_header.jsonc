@@ -64,21 +64,21 @@
   //   }
   // },
 
-  "flex-layout.col#logo-desktop": {
-    "title": "container logo desktop",
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo#desktop"]
-  },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/icon_logo.svg",
-      "width": "32px"
-    }
-  },
+  // "flex-layout.col#logo-desktop": {
+  //   "title": "container logo desktop",
+  //   "props": {
+  //     "verticalAlign": "middle"
+  //   },
+  //   "children": ["logo#desktop"]
+  // },
+  // "logo#desktop": {
+  //   "props": {
+  //     "title": "Logo",
+  //     "href": "/",
+  //     "url": "assets/img/icon_logo.svg",
+  //     "width": "32px"
+  //   }
+  // },
   "search-bar": {
     "props": {
       "placeholder": "Search products....",

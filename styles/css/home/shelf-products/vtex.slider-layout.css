@@ -1,0 +1,7 @@
+.slideChildrenContainer--custom-slider-shelf :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
+    color         : #FA2080;
+    text-align    : left;
+    font-size     : 14px;
+    line-height   : 16.8px;
+    padding-bottom: 10px;
+}
