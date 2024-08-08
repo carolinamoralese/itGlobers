@@ -57,3 +57,9 @@
 .drawerContent--minicart-container{
   max-height: max-content;
 }
+
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label ){
+  content: "Finalizar tu compra";
+  display: block;
+  text-align: center;
+}

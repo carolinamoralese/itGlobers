@@ -11,5 +11,12 @@
     font-weight: 300;
     line-height: 15.12px;
     text-align : left;
+}
 
+.removeButtonContainer :global(.vtex-product-list-0-x-deleteIcon){
+    background-image: url("/arquivos/icon-delete.svg") !important
+}
+
+.productBrandName{
+    display: none;
 }

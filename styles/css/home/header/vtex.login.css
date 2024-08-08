@@ -8,6 +8,9 @@
   opacity      : 0px;
   margin-top   : 5%;
 }
+.container :global(){
+  
+}
 
 .label {
   color         : white;
@@ -160,6 +163,21 @@
   text-align : center;
   color      : #0C2340;
 }
+.optionsList :hover{
+  background-color: #0C2340;
+  border-radius: 40px;
+  color: white;
+}
+
+/* 
+.facebookOptionBtn {
+  background-image: url("/arquivos/facebook.svg") !important;
+  width           : 20px;
+  height          : 20px;
+  position        : absolute;
+  background-image: white;
+} */
+
 
 /*------------tablet---------------*/
 @media (min-width: 640px) and (max-width: 1024px) {

@@ -10,7 +10,7 @@
 .menuContainerNav--components-mega-menu {
     max-width  : 748px;
     position   : absolute;
-    left       : 20%; 
+    left       : 12%; 
     z-index    : 1000;
     font-family: lexend;
     font-size  : 12px;
@@ -23,18 +23,30 @@
     font-size  : 12px;
     font-weight: 400;
     line-height: 15px;
-    text-align : right;
+    text-align : left;
 
 }
+.menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-menuContainer){
+    max-height: max-content;
+    width: 300px;
+}
+.menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer){
+    background-color: #FFE6D3;
+    max-height: max-content;
+    border-radius: 0 0 16px 0;
+    width: 500px;
+    justify-content: left;
+}
+
+
 /* @media (min-width: 1024px) {
     .menuContainerNav--components-mega-menu {
         transform: translateX(-23%);
     }
-
 } */
 .styledLinkContainer--components-mega-menu {
     margin : 0% !important;
-    padding: 16px;
+    padding: 10px 10px 10px 16px;
 }
 
 
@@ -43,23 +55,23 @@
     scrollbar-width : none;
 }
 
-.menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {
+/* .menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {
     background-color: #FFE6D3;
     scrollbar-width : none;
-}
+} */
 
-.submenuContainer {
+/* .submenuContainer {
+    overflow  : visible !important;
+    max-height: none !important;
+} */
+
+/* .menuContainer {
     overflow  : visible !important;
     max-height: none !important;
 }
+ */
 
-.menuContainer {
-    overflow  : visible !important;
-    max-height: none !important;
-}
-
-
-
+/* 
 .menuContainerVertical :hover {
     background-color: #FFE6D3;
-}
+} */

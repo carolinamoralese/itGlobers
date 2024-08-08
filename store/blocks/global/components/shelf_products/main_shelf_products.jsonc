@@ -28,6 +28,7 @@
       // "product-quantity",
       "flex-layout.col#shelf-description",
       "flex-layout.col#shelf-price",
+      "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#shelf-button"
     ],
     "props": {
