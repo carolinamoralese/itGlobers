@@ -4,12 +4,20 @@
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon",
       "blockClass": "minicart-container",
-      "backdropMode":"visible"
+      "backdropMode": "visible"
     },
     "children": [
-      "flex-layout.col#logo-desktop",
+      "flex-layout.row#logo",
       "flex-layout.row#minicart-header",
-      "minicart-base-content"]
+      "minicart-base-content"
+    ]
+  },
+  "flex-layout.row#logo": {
+    "title": "container logo mini cart",
+    "props": {
+      "blockClass": "mini-cart-logo-header-row"
+    },
+    "children": ["flex-layout.col#logo-desktop"]
   },
   "flex-layout.row#minicart-header": {
     "title": "Minicart Header Row",
