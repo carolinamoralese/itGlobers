@@ -39,6 +39,11 @@
 .slideChildrenContainer--custom-slider-shelf {
   padding: 10px;
 }
+@media (max-width: 768px) {
+  .slideChildrenContainer--custom-slider-shelf {
+    padding: 0%;
+  }
+}
 
 .slide--custom-slider {
   padding: 10px;
