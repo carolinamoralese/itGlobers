@@ -13,10 +13,17 @@
     text-align : left;
 }
 
-.removeButtonContainer :global(.vtex-product-list-0-x-deleteIcon){
+/* .removeButtonContainer :global(.vtex-product-list-0-x-deleteIcon){
     background-image: url("/arquivos/icon-delete.svg") !important
-}
+} */
 
 .productBrandName{
     display: none;
+}
+.productVariationsContainer{
+    display: none;
+}
+.quantitySelectorWrapper :global(.vtex-product-list-0-x-quantitySelectorButton){
+    background-color:#1D2734;
+    color: white
 }

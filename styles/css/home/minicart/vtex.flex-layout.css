@@ -1,3 +1,7 @@
 .flexRow--minicart-footer {
     box-shadow: none;
 }
+
+.flexRowContent--product-description :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    justify-content: left;
+}

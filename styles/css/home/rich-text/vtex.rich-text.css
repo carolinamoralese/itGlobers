@@ -12,7 +12,7 @@
   text-align      : left;
   margin-bottom   : 20px;
   margin-top      : 30px;
-  background-color: rgb(0, 30, 255);
+  background-color: rgb(43, 0, 255);
 }
 
 .wrapper--texto-section-one-desktop {
@@ -27,6 +27,7 @@
   width           : 500px;
   size            : 16;
   font-family     : lexend;
+  background-color: rgb(170, 255, 127);
 }
 
 .wrapper--texto-section-two-phone {
@@ -103,10 +104,18 @@
   margin-top      : 5px;
 }
 
+
 .paragraph--slider_third-row--button {
   margin-top : 0px;
   margin-left: 12px;
   color      : white;
+}
+
+@media (max-width: 780px) {
+  .wrapper--slider_third-row--button {
+    margin-left     : 100px;
+
+  }
 }
 
 /*------------------------------------------------section two home------------------------------*/
