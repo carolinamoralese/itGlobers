@@ -1,0 +1,23 @@
+{
+  "social-networks": {
+    "title": "global social nerworks",
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/foo",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Twitter"
+        }
+      ]
+    }
+  },
+  "accepted-payment-methods": {
+    "title": "global accepted mayment methods",
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  }
+}
