@@ -1,0 +1,28 @@
+{
+  "checkout-summary": {
+    "props": {
+      "title": "Order Summary"
+    }
+  },
+  "checkout-summary.compact": {
+    "props": {
+      "totalizersToShow": ["Items"]
+    }
+  },
+  "summary-totalizers": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": true,
+      "showOriginalTotal": false
+    }
+  },
+  "summary-coupon": {
+    // this block doesn't have any props
+  },
+  "summary-installments": {
+    "props": {
+      "message": "Up to {installmentsNumber}x {installmentValue}",
+      "markers": []
+    }
+  }
+}
