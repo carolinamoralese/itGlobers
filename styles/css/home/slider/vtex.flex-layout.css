@@ -20,8 +20,19 @@
   height: 378px !important;
 } */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .flexCol--second__row-text {
     width: 20%;
   }
+  .flexRowContent--container-button-buy :global(.vtex-button){
+    width: 160.96px;
+    height: 36.44px;
+    padding: 7.59px;
+    gap: 7.59px;
+    border-radius: 6.07px;
+    border: 1px solid black;
+
+    
+  }
+
 }

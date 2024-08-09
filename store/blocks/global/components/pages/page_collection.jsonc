@@ -1,21 +1,72 @@
 {
-    "flex-layout.row#page_collection": {
-      "title": "row page collection month",
-      "children": ["flex-layout.col#page_collection"]
-    },
-    "flex-layout.col#page_collection": {
-      "title": "col page collection month",
-      "children": ["flex-layout.row#page_collection-text"]
-    },
-    "flex-layout.row#page_collection-text": {
-      "title": "row page collection month text",
-      "children": ["rich-text#page_collection"]
-    },
-    "rich-text#page_collection": {
-      "title": "text page coleciont",
-      "props": {
-        "text": "Coleccion de mes"
-      }
+  "flex-layout.row#page_collection": {
+    "title": "row page collection month",
+    "children": ["flex-layout.col#page_collection"]
+  },
+  "flex-layout.col#page_collection": {
+    "title": "col page collection month",
+    "children": [
+      "flex-layout.row#page_collection-text",
+      "flex-layout.row#products"
+    ]
+  },
+  "flex-layout.row#page_collection-text": {
+    "title": "row page collection month text",
+    "children": ["rich-text#page_collection"]
+  },
+  "rich-text#page_collection": {
+    "title": "text page coleciont",
+    "props": {
+      "text": "Coleccion de mes"
     }
+  },
+  "flex-layout.row#products": {
+    "title": "row products",
+    "children": ["search-result-layout.customQuery#page_collection-results"]
+  },
+  "search-result-layout.customQuery#page_collection-results": {
+    "title": "search query page collection",
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#page_collection-results",
+      "search-result-layout.mobile#page_collection-results",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#page_collection-results": {
+    "title": "seacrh result desktop page collection",
+    "children": ["flex-layout.row#page_collection-results"]
+  },
+  "search-result-layout.mobile#page_collection-results": {
+    "title": "seacrh result mobil page collection",
+    "children": ["flex-layout.row#page_collection-results"]
+  },
+  "flex-layout.row#page_collection-results": {
+    "title": "row results page collection",
+    "children": ["flex-layout.col#page_collection-results"],
+    "props": {}
+  },
+  "flex-layout.col#page_collection-results": {
+    "title": "col results page collection",
+    "children": ["search-content#page_collection-results"],
+    "props": {}
+  },
+  "search-content#page_collection-results": {
+    "title": "search content page collection",
+    "blocks": [
+      "gallery#page_collection",
+       "not-found"
+    ]
+  },
+  "gallery#page_collection":{
+    "title": "gallery page collection",
+    "blocks": [
+      "product-summary.shelf"
+    ]
   }
-  
+}

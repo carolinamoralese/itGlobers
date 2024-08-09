@@ -8,9 +8,6 @@
   opacity      : 0px;
   margin-top   : 5%;
 }
-.container :global(){
-  
-}
 
 .label {
   color         : white;
@@ -33,11 +30,16 @@
 }
 
 .accessCodeOptionBtn :global(.vtex-button__label) {
-  font-size  : 14px;
-  font-weight: 400;
-  line-height: 17.5px;
-  text-align : center;
-  color      : #1D2734;
+  font-size     : 14px;
+  font-weight   : 400;
+  line-height   : 17.5px;
+  text-align    : center;
+  color         : #1D2734;
+  text-transform: lowercase;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label) ::first-letter {
+  text-transform: capitalize;
 }
 
 .emailPasswordOptionBtn :global(.vtex-button) {
@@ -51,11 +53,16 @@
 }
 
 .emailPasswordOptionBtn :global(.vtex-button__label) {
-  font-size  : 14px;
-  font-weight: 400;
-  line-height: 17.5px;
-  text-align : center;
-  color      : #1D2734;
+  font-size     : 14px;
+  font-weight   : 400;
+  line-height   : 17.5px;
+  text-align    : center;
+  color         : #1D2734;
+  text-transform: lowercase;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button__label) ::first-letter {
+  text-transform: capitalize;
 }
 
 .googleOptionBtn :global(.vtex-button) {
@@ -70,11 +77,16 @@
 }
 
 .googleOptionBtn :global(.vtex-button__label) {
-  font-size  : 14px;
-  font-weight: 400;
-  line-height: 17.5px;
-  text-align : center;
-  color      : #1D2734;
+  font-size     : 14px;
+  font-weight   : 400;
+  line-height   : 17.5px;
+  text-align    : center;
+  color         : #1D2734;
+  text-transform: lowercase;
+}
+
+.googleOptionBtn :global(.vtex-button__label) ::first-letter {
+  text-transform: capitalize;
 }
 
 .facebookOptionBtn :global(.vtex-button) {
@@ -86,13 +98,18 @@
 }
 
 .facebookOptionBtn :global(.vtex-button__label) {
-  font-size  : 16px;
-  font-weight: 400;
-  line-height: 20px;
-  text-align : center;
-  color      : #FFFFFF;
-  white-space: nowrap;
-  width      : 100%;
+  font-size     : 16px;
+  font-weight   : 400;
+  line-height   : 20px;
+  text-align    : center;
+  color         : #FFFFFF;
+  white-space   : nowrap;
+  width         : 100%;
+  text-transform: lowercase;
+}
+
+.facebookOptionBtn :global(.vtex-button__label) ::first-letter {
+  text-transform: capitalize;
 }
 
 .content--loginOptions {
@@ -163,12 +180,26 @@
   text-align : center;
   color      : #0C2340;
 }
-.optionsList :hover{
+
+.optionsList :hover {
   background-color: #0C2340;
-  border-radius: 40px;
-  color: white;
+  border-radius   : 40px;
+  color           : white;
 }
 
+.inputContainerAccessCode :global(.vtex-input-prefix__group){
+  width        : 368px;
+  height       : 48px;
+  gap          : 10px;
+  border-radius: 40px;
+  border       : 1px solid #1D2734;
+
+}
+
+.inputContainerAccessCode :global(.vtex-styleguide-9-x-input){
+  background-color: transparent;
+
+}
 /* 
 .facebookOptionBtn {
   background-image: url("/arquivos/facebook.svg") !important;
