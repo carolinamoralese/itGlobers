@@ -1,6 +1,7 @@
 .container {
   background   : #1d2734;
   height       : 40px;
+  width        : 80px;
   top          : 24px;
   gap          : 10px;
   border-radius: 40px;
@@ -13,6 +14,7 @@
   color         : white;
   display       : block;
   text-transform: lowercase;
+  padding-left  : 0;
 }
 
 .label::first-letter {
@@ -187,7 +189,7 @@
   color           : white;
 }
 
-.inputContainerAccessCode :global(.vtex-input-prefix__group){
+.inputContainerAccessCode :global(.vtex-input-prefix__group) {
   width        : 368px;
   height       : 48px;
   gap          : 10px;
@@ -196,10 +198,11 @@
 
 }
 
-.inputContainerAccessCode :global(.vtex-styleguide-9-x-input){
+.inputContainerAccessCode :global(.vtex-styleguide-9-x-input) {
   background-color: transparent;
 
 }
+
 /* 
 .facebookOptionBtn {
   background-image: url("/arquivos/facebook.svg") !important;

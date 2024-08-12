@@ -12,6 +12,7 @@
   height          : 20px;
   position        : absolute;
   background-image: #1D2734;
+  margin-right: 7px;
 }
 
 @media (max-width: 768px) {

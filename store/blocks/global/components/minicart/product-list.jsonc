@@ -1,14 +1,10 @@
 {
-  //   "product-list": {
-  //     "blocks": [
-  //         "product-list-content-desktop",
-  //         "product-list-content-mobile"
-  //     ]
-  //   },
   "product-list-content-desktop": {
+    "title": "Product List - Desktop",
     "children": ["flex-layout.row#list-row.desktop"]
   },
   "flex-layout.row#list-row.desktop": {
+    "title": "Main Row of Product List - Desktop",
     "children": [
       "flex-layout.col#image.desktop",
       "flex-layout.col#main-container.desktop"
@@ -22,12 +18,14 @@
     }
   },
   "flex-layout.col#image.desktop": {
+    "title": "Column for Product Image - Desktop",
     "children": ["product-list-image"],
     "props": {
       "marginRight": "6"
     }
   },
   "flex-layout.col#main-container.desktop": {
+    "title": "Main Column for Product Information - Desktop",
     "children": [
       "flex-layout.row#sub-container.desktop",
       "flex-layout.row#message.desktop"
@@ -37,6 +35,7 @@
     }
   },
   "flex-layout.row#sub-container.desktop": {
+    "title": "Sub-Container Row - Desktop",
     "children": [
       "flex-layout.col#product-description",
       "flex-layout.col#quantity.desktop",
@@ -48,6 +47,7 @@
     }
   },
   "flex-layout.col#quantity.desktop": {
+    "title": "Column for Quantity Selector and Unit Price - Desktop",
     "children": [
       "flex-layout.row#quantity-selector.desktop",
       "flex-layout.row#unit-price.desktop"
@@ -57,6 +57,7 @@
     }
   },
   "flex-layout.row#price-remove": {
+    "title": "Row for Price and Remove Button - Desktop",
     "children": [
       "flex-layout.col#price.desktop",
       "flex-layout.col#remove-button.desktop"
@@ -66,12 +67,14 @@
     }
   },
   "flex-layout.row#quantity-selector.desktop": {
+    "title": "Row for Quantity Selector - Desktop",
     "children": ["quantity-selector"],
     "props": {
       "preventHorizontalStretch": "true"
     }
   },
   "flex-layout.row#unit-price.desktop": {
+    "title": "Row for Unit Price - Desktop",
     "children": ["unit-price#desktop"],
     "props": {
       "marginTop": "3",
@@ -79,11 +82,13 @@
     }
   },
   "unit-price#desktop": {
+    "title": "Unit Price - Desktop",
     "props": {
       "textAlign": "center"
     }
   },
   "flex-layout.col#price.desktop": {
+    "title": "Column for Price - Desktop",
     "children": ["price#desktop"],
     "props": {
       "blockClass": "priceWrapper",
@@ -93,11 +98,13 @@
     }
   },
   "price#desktop": {
+    "title": "Price - Desktop",
     "props": {
       "textAlign": "right"
     }
   },
   "flex-layout.col#remove-button.desktop": {
+    "title": "Column for Remove Button - Desktop",
     "children": ["remove-button"],
     "props": {
       "marginLeft": "6",
@@ -105,21 +112,25 @@
     }
   },
   "flex-layout.row#message.desktop": {
+    "title": "Row for Message - Desktop",
     "children": ["message#desktop"],
     "props": {
       "marginTop": "4"
     }
   },
   "message#desktop": {
+    "title": "Message - Desktop",
     "props": {
       "layout": "cols"
     }
   },
 
   "product-list-content-mobile": {
+    "title": "Product List - Mobile",
     "children": ["flex-layout.row#list-row.mobile"]
   },
   "flex-layout.row#list-row.mobile": {
+    "title": "Main Row of Product List - Mobile",
     "children": [
       "flex-layout.col#image.mobile",
       "flex-layout.col#main-container.mobile"
@@ -133,25 +144,25 @@
     }
   },
   "flex-layout.col#image.mobile": {
+    "title": "Column for Product Image - Mobile",
     "children": ["product-list-image"],
     "props": {
       "marginRight": "5"
     }
   },
   "flex-layout.col#main-container.mobile": {
+    "title": "Main Column for Product Information - Mobile",
     "children": [
       "flex-layout.row#top.mobile",
       "flex-layout.row#price.mobile",
       "flex-layout.row#quantity-selector.mobile"
-      //   "flex-layout.row#unit-price.mobile",
-
-      //   "flex-layout.row#message.mobile"
     ],
     "props": {
       "width": "grow"
     }
   },
   "flex-layout.row#top.mobile": {
+    "title": "Top Row of Main Container - Mobile",
     "children": [
       "flex-layout.col#product-description",
       "flex-layout.col#remove-button.mobile"
@@ -162,16 +173,16 @@
       "blockClass": "product-description"
     }
   },
-
   "flex-layout.col#remove-button.mobile": {
+    "title": "Column for Remove Button - Mobile",
     "children": ["remove-button"],
     "props": {
       "blockClass": "product-buttonremove",
-      "icon" : "/arquivos/icon-delete.svg"
+      "icon": "/arquivos/icon-delete.svg"
     }
   },
-
   "flex-layout.row#quantity-selector.mobile": {
+    "title": "Row for Quantity Selector - Mobile",
     "children": ["quantity-selector"],
     "props": {
       "blockClass": "product--quantity",
@@ -180,46 +191,13 @@
     }
   },
   "quantity-selector": {
+    "title": "Quantity Selector",
     "props": {
       "mode": "stepper"
     }
   },
-  //   "flex-layout.row#unit-price.mobile": {
-  //     "children": ["unit-price"],
-  //     "props": {
-  //       "marginTop": "3"
-  //     }
-  //   },
-  //   "flex-layout.row#price.mobile": {
-  //     "children": ["price#mobile"],
-  //     "props": {
-  //       "marginTop": "5",
-  //       "preventHorizontalStretch": "true"
-  //     }
-  //   },
-  //   "price": {
-  //     "props": {
-  //       "textAlign": "left"
-  //     }
-  //   },
-  //   "flex-layout.col#remove-button.mobile": {
-  //     "children": ["remove-button"],
-  //     "props": {
-  //       "marginLeft": "3"
-  //     }
-  //   },
-  //   "flex-layout.row#message.mobile": {
-  //     "children": ["message#mobile"],
-  //     "props": {
-  //       "marginTop": "3"
-  //     }
-  //   },
-  //   "message#mobile": {
-  //     "props": {
-  //       "layout": "rows"
-  //     }
-  //   }
   "flex-layout.row#price.mobile": {
+    "title": "Row for Price - Mobile",
     "children": ["price"],
     "props": {
       "blockClass": "product--price",
@@ -228,6 +206,7 @@
     }
   },
   "price": {
+    "title": "Price - Mobile",
     "props": {
       "textAlign": "left"
     }

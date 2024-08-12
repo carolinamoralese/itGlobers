@@ -6,11 +6,17 @@
     justify-content: left;
 }
 .flexColChild--minicart-footer-column :global(.vtex-minicart-2-x-minicartSummary){
-    border: 1px solid red;
     width: 368px;
     height: 126px;  
     border-radius: 4px;
     border: 1px solid #E7E7E7;
     margin-left: 16px;
 
+}
+.flexRowContent :global(.vtex-product-list-0-x-productImageContainer){
+border: 0.95px solid #E7E7E7;
+margin-left: 20px;
+}
+.flexRow--mini-cart-logo-header-row {
+padding-left: 20px;
 }

@@ -11,19 +11,34 @@
     font-weight: 300;
     line-height: 15.12px;
     text-align : left;
+    width      : 140.84px;
+    height     : 32.14px;
 }
 
 /* .removeButtonContainer :global(.vtex-product-list-0-x-deleteIcon){
     background-image: url("/arquivos/icon-delete.svg") !important
 } */
 
-.productBrandName{
+.productBrandName {
     display: none;
 }
-.productVariationsContainer{
+
+.productVariationsContainer {
     display: none;
 }
-.quantitySelectorWrapper :global(.vtex-product-list-0-x-quantitySelectorButton){
-    background-color:#1D2734;
-    color: white
+
+.quantitySelectorWrapper :global(.vtex-product-list-0-x-quantitySelectorButton) {
+    background-color: #1D2734;
+    color           : white
+}
+
+.productImage {
+    width        : 145.19px !important;
+    height       : 120.99px;
+    border-radius: 3.78px;
+    border       : 0.95px;
+}
+
+.removeButtonContainer {
+    margin-right: 20px;
 }
