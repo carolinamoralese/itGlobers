@@ -1,28 +1,4 @@
 {
-  "checkout-summary": {
-    "props": {
-      "title": "Order Summary"
-    }
-  },
-  "checkout-summary.compact": {
-    "props": {
-      "totalizersToShow": ["Items"]
-    }
-  },
-  "summary-totalizers": {
-    "props": {
-      "showTotal": true,
-      "showDeliveryTotal": true,
-      "showOriginalTotal": false
-    }
-  },
-  "summary-coupon": {},
-  "summary-installments": {
-    "props": {
-      "message": "Up to {installmentsNumber}x {installmentValue}",
-      "markers": []
-    }
-  },
   "minicart.v2": {
     "title": "Minicart",
     "props": {
@@ -73,8 +49,19 @@
   "minicart-base-content": {
     "title": "Minicart Base Content",
     "blocks": ["minicart-empty-state"],
-    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+    "children": ["flex-layout.col#minicart-container"]
+    // "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
   },
+  "flex-layout.col#minicart-container": {
+    "props": {
+      "blockClass": "minicart--container"
+    },
+    "children": [
+      "flex-layout.row#product--list",
+      "flex-layout.row#minicart-footer"
+    ]
+  },
+
   "flex-layout.row#minicart-footer": {
     "title": "Minicart Footer Row",
     "props": {
@@ -89,13 +76,16 @@
       "blockClass": "minicart-footer-column"
     }
   },
-  "minicart-product-list": {
-    "title": "Minicart Product List",
+  "flex-layout.row#product--list": {
     "props": {
-      "blockClass": "minicart-product-list"
+      "blockClass": "product--list"
     },
+    "children": ["minicart-product-list"]
+  },
+  "minicart-product-list": {
     "blocks": ["product-list#minicart"]
   },
+
   "product-list#minicart": {
     "title": "Product List for Minicart",
     "props": {
@@ -103,6 +93,7 @@
     },
     "blocks": ["product-list-content-mobile"]
   },
+
   "minicart-summary": {
     "title": "Minicart Summary",
     "blocks": ["checkout-summary.compact#minicart"],
@@ -123,7 +114,9 @@
     "props": {
       "showOriginalTotal": true,
       "showTotal": true,
-      "blockClass": "minicart-summary-totalizers"
+      "showDiscount": true,
+      "blockClass": "minicart-summary-totalizers",
+      "showDeliveryTotal": false
     }
   },
   "minicart-checkout-button": {

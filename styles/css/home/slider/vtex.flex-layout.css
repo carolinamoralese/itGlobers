@@ -10,16 +10,6 @@
   }
 }
 
-
-/* .flexRowContent--phone_main-shelf-products{
-  width: 328px;
-  height:292px;
-} */
-/* .flexRow--container-shelf-product{
-  width: 1092px !important;
-  height: 378px !important;
-} */
-
 @media (max-width: 768px) {
   .flexCol--second__row-text {
     width: 20%;

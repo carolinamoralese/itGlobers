@@ -105,4 +105,8 @@
   .container{
     width: 900px;
   }
+
+}
+.logoContainer{
+  padding-left: 8px !important;
 }

@@ -1,6 +1,6 @@
 {
-  "footer-layout.desktop": {
-    "title": "desktop footer",
-    "children": ["flex-layout.row#footer-desktop"]
-  }
+  // "footer-layout.desktop": {
+  //   "title": "desktop footer",
+  //   "children": ["flex-layout.row#footer-desktop"]
+  // }
 }

@@ -12,7 +12,7 @@
   text-align      : left;
   margin-bottom   : 20px;
   margin-top      : 30px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(0, 157, 255);
 }
 
 .wrapper--texto-section-one-desktop {
@@ -27,7 +27,7 @@
   width           : 500px;
   size            : 16;
   font-family     : lexend;
-  background-color: rgb(170, 255, 127);
+  background-color: rgb(255, 127, 127);
 }
 
 .wrapper--texto-section-two-phone {
@@ -99,7 +99,7 @@
   padding         : 8px;
   gap             : 8px;
   border          : 0.86px;
-  margin-left     : 40%;
+  margin-left     : 30%;
   padding-left    : 18px;
   margin-top      : 5px;
 }
@@ -122,7 +122,7 @@
 .container--texto-section-two-desktop {
   max-width        : 1280px;
   margin           : auto;
-  height           : 140px;
+  height           : 80px;
   margin-top       : 150px;
 }
 

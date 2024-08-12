@@ -5,9 +5,21 @@
 
 .summaryItemContainer--minicart-summary-totalizers {
     width : 280px;
-    height: 50px;
+    height: 17px;
 }
 
-.summarySmallDisclaimer--minicart-checkout-summary{
+.summarySmallDisclaimer--minicart-checkout-summary {
     display: none;
+}
+
+.summaryItemLabel--minicart-summary-totalizers {
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+}
+
+.price--minicart-summary-totalizers {
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 16.8px;
 }

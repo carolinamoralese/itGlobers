@@ -18,6 +18,8 @@
         "tablet": 3,
         "phone": 2
       },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
       "blockClass": "custom-slider-shelf"
     }
   },
@@ -25,7 +27,6 @@
     "children": [
       "flex-layout.row#container-price_salving-add_favorite",
       "flex-layout.col#shelf-image",
-      // "product-quantity",
       "flex-layout.col#shelf-description",
       "flex-layout.col#shelf-price",
       "vtex.product-highlights@2.x:product-highlights",

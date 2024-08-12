@@ -1,0 +1,12 @@
+{
+  "search-result-layout.mobile": {
+    "title": "mobile search",
+    "children": [
+      "flex-layout.row#container__result--order-filter",
+      "search-content#global__search--layout"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  }
+}
