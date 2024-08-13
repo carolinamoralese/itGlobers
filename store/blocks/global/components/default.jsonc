@@ -50,7 +50,7 @@
   "flex-layout.col#product-image": {
     "children": ["product-summary-image"],
     "props": {
-      "width": "50%",  // Adjust width as needed
+      "width": "50%", 
       "blockClass": "product-image-col"
     }
   },
@@ -60,8 +60,8 @@
       "flex-layout.row#price-shipping"
     ],
     "props": {
-      "width": "50%",  // Adjust width as needed
-      "paddingLeft": "3",  // Add some padding for spacing
+      "width": "50%", 
+      "paddingLeft": "3", 
       "blockClass": "product-details-col"
     }
   },

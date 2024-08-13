@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#desktop__plp": {
+    "title": "Desktop Layout Row for PLP",
+    "children": ["flex-layout.col#container__plp"],
+    "props": {
+      "blockClass": "desktop__plp"
+    }
+  },
+
+  "flex-layout.col#container__plp": {
+    "title": "Main Container column for PLP",
+    "children": ["flex-layout.row#head__plp", "flex-layout.row#body__plp"],
+    "props": {
+      "blockClass": "container__plp"
+    }
+  },
+
+  "flex-layout.row#head__plp": {
+    "title": "PLP Header Row",
+    "children": [
+      "flex-layout.col#breadcrumb__search",
+      "flex-layout.col#sort__options"
+    ],
+    "props": {
+      "blockClass": "head__plp",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#breadcrumb__search": {
+    "title": "Breadcrumbs and Search Information column",
+    "children": ["breadcrumb.search", "search-title.v2", "total-products.v2"],
+    "props": {
+      "blockClass": "breadcrumb__search"
+    }
+  },
+
+  "flex-layout.col#sort__options": {
+    "title": "Sort Options column",
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "sort__options"
+    }
+  },
+
+  "flex-layout.row#body__plp": {
+    "title": "PLP Body Row",
+    "children": [
+      "flex-layout.col#filter__options",
+      "flex-layout.col#product__gallery"
+    ],
+    "props": {
+      "blockClass": "body__plp",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#filter__options": {
+    "title": "Filter Navigator Column",
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filter__options"
+    }
+  },
+
+  "flex-layout.col#product__gallery": {
+    "title": "Product Gallery Column",
+    "children": [
+      "gallery-layout-switcher",
+      "search-content#plp",
+      "search-products-count-per-page"
+    ],
+    "props": {
+      "blockClass": "product__gallery"
+    }
+  },
+  "gallery-layout-switcher": {
+    "title": "Gallery Layout Switcher",
+    "children": [
+      //It follows the same whole -> two -> many order
+      "gallery-layout-option#whole",
+      "gallery-layout-option#two",
+      "gallery-layout-option#many"
+    ]
+  },
+  "search-content#plp": {
+    "title": "Search Content and Results",
+    "blocks": ["gallery#global__search", "not-found"]
+  }
+}

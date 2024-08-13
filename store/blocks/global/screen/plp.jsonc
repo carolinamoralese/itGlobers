@@ -1,62 +1,24 @@
 {
-  "store.search": {
-    "title": "global search",
-    "blocks": ["search-result-layout", "search-fetch-more",
-    "search-title.v2",
-  "total-products.v2"],
+  "search-content#global__search--layout": {
+    "title": "search content",
+    "blocks": ["gallery#global__search", "not-found"]
+  },
+
+  "flex-layout.row#container__result--order-filter": {
+    "title": "container result filter and order",
+    "children": ["filter-navigator.v3", "order-by.v2"]
+  },
+
+  "order-by.v2": {
+    "title": "order by result layout",
     "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
+      "blockClass": []
     }
   },
-  "store.search#department": {
-    "title": "global search department",
-    "blocks": ["search-result-layout"],
+  "filter-navigator.v3": {
+    "title": "filter result layout",
     "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
+      "blockClass": []
     }
-  },
-  "store.search#category": {
-    "title": "global search category",
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
-  "store.search#subcategory": {
-    "title": "global search subcategory",
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
-  "store.search#brand": {
-    "title": "global search brand",
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
-  "search-result-layout": {
-    "title": "global search layout",
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
   }
 }

@@ -1,3 +1,17 @@
-.installmentsPrice{
+.installmentsPrice {
     display: none;
 }
+
+.imageElement--container-product-image {
+    width : 324px;
+    height: 186.62px;
+
+}
+
+.imageElement--container-product-image-section-two {
+    width     : 178px;
+    height    : 140px;
+    gap       : 0px;
+    opacity   : 0px;
+    margin-top: -5%;
+} 

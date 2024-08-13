@@ -5,3 +5,21 @@
     line-height   : 16.8px;
     padding-bottom: 10px;
 }
+
+.slideChildrenContainer--custom-slider-shelf {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .slideChildrenContainer--custom-slider-shelf {
+        padding: 0%;
+    }
+}
+
+/*------------tablet---------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .paginationDotsContainer--custom-slider-shelf {
+        top: 600px !important;
+    }
+
+}

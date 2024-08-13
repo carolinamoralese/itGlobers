@@ -178,7 +178,7 @@
     "children": ["remove-button"],
     "props": {
       "blockClass": "product-buttonremove",
-      "icon": "/arquivos/icon-delete.svg"
+      "id": "hpa-delete"
     }
   },
   "flex-layout.row#quantity-selector.mobile": {

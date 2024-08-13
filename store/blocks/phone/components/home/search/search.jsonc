@@ -1,5 +1,6 @@
 {
-    "overlay-trigger#header__overlay--mobile": {
+  "overlay-trigger#header__overlay--mobile": {
+    "title": "Overlay Trigger for Mobile Header",
     "children": [
       "icon#header__search--mobile",
       "overlay-layout#header__overlayout"
@@ -9,6 +10,7 @@
     }
   },
   "icon#header__search--mobile": {
+    "title": "Search Icon for Mobile Header",
     "props": {
       "id": "hpa-search",
       "size": 23,
@@ -16,9 +18,8 @@
     }
   },
   "overlay-layout#header__overlayout": {
-    "children": [
-      "search-bar#header__search--mobile"
-    ],
+    "title": "Overlay Layout for Mobile Search",
+    "children": ["search-bar#header__search--mobile"],
     "props": {
       "placement": "right",
       "blockClass": "header__overlayout",

@@ -1,10 +1,9 @@
 {
-    "flex-layout.row#tablet__main-slider": {
-        "children": [
-            "list-context.image-list#tablet__container-imagenes"
-        ]
-    },
-    "list-context.image-list#tablet__container-imagenes": {
+  "flex-layout.row#tablet__main-slider": {
+    "title": "slider tablet home",
+    "children": ["list-context.image-list#tablet__container-imagenes"]
+  },
+  "list-context.image-list#tablet__container-imagenes": {
     "title": "list image home banner",
     "children": ["slider-layout#tablet__slider"],
     "props": {
@@ -18,7 +17,7 @@
             "props": {
               "label": "",
               "href": "#"
-             }
+            }
           }
         }
       ]
@@ -26,11 +25,11 @@
   },
   "slider-layout#tablet__slider": {
     "props": {
-        "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 3,
-            "phone": 1
-        }
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      }
     }
   }
 }
