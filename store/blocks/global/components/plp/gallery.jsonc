@@ -26,15 +26,15 @@
       "ManyByLineSummary": "product-summary.shelf"
     }
   },
-  "gallery-layout-switcher": {
-    "title": "Product Layout Switcher for PLP",
-    "children": [
-      //It follows the same whole -> two -> many order
-      "gallery-layout-option#whole",
-      "gallery-layout-option#two",
-      "gallery-layout-option#many"
-    ]
-  },
+  // "gallery-layout-switcher": {
+  //   "title": "Product Layout Switcher for PLP",
+  //   "children": [
+  //     //It follows the same whole -> two -> many order
+  //     "gallery-layout-option#whole",
+  //     "gallery-layout-option#two",
+  //     "gallery-layout-option#many"
+  //   ]
+  // },
   "gallery-layout-option#whole": {
     "title": "Single Item Layout Option",
     "props": {

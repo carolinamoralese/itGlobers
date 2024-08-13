@@ -75,12 +75,6 @@
       "blockClass": "product__gallery"
     }
   },
-
-  "search-content#plp": {
-    "title": "Search Content and Results",
-    "blocks": ["gallery", "not-found"]
-  },
-  //
   "gallery-layout-switcher": {
     "title": "Gallery Layout Switcher",
     "children": [
@@ -89,5 +83,9 @@
       "gallery-layout-option#two",
       "gallery-layout-option#many"
     ]
+  },
+  "search-content#plp": {
+    "title": "Search Content and Results",
+    "blocks": ["gallery#global__search", "not-found"]
   }
 }
