@@ -6,13 +6,27 @@
 } */
 
 .productName {
-    font-family: Lexend;
-    font-size  : 11.34px;
-    font-weight: 300;
-    line-height: 15.12px;
+    font-size     : 11.34px;
+    font-weight   : 300;
+    line-height   : 15.12px;
+    text-align    : left;
+    width         : 140.84px;
+    /* height     : 32.14px; */
+}
+
+.productPrice {
+    font-size  : 15.12px;
+    font-weight: 600;
+    line-height: 18.15px;
     text-align : left;
-    width      : 140.84px;
-    height     : 32.14px;
+}
+
+.productPriceCurrency {
+    font-size  : 11.34px;
+    font-weight: 400;
+    line-height: 15.88px;
+    text-align : left;
+
 }
 
 /* .removeButtonContainer :global(.vtex-product-list-0-x-deleteIcon){

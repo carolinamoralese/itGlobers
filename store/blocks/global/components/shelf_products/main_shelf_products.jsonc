@@ -1,17 +1,19 @@
 {
   "flex-layout.row#global__main-shelf--container": {
-    "title": "container shelf prodcuts global",
+    "title": "Main Shelf Products Container",
     "children": ["list-context.product-list#global__main-shelf"],
     "props": {
       "blockClass": "container-shelf-product"
     }
   },
- 
+
   "list-context.product-list#global__main-shelf": {
+    "title": "Product List Context for Main Shelf",
     "blocks": ["product-summary.shelf#global__main-summary"],
     "children": ["slider-layout#global__slider-shelf"]
   },
   "slider-layout#global__slider-shelf": {
+    "title": "Slider Layout for Main Shelf",
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -24,6 +26,7 @@
     }
   },
   "product-summary.shelf#global__main-summary": {
+    "title": "Product Summary for Main Shelf",
     "children": [
       "flex-layout.row#container-price_salving-add_favorite",
       "flex-layout.col#shelf-image",
@@ -37,67 +40,58 @@
     }
   },
   "flex-layout.col#shelf-image": {
-    "title": "container image shefl prodcuts",
-    "children": [
-      "product-summary-image"
-    ],
+    "title": "Image Container for Shelf Products",
+    "children": ["product-summary-image"],
     "props": {
       "blockClass": ["container-shelf-image"]
     }
   },
-  "product-summary-image":{
+  "product-summary-image": {
+    "title": "Product Image",
     "props": {
       "showBadge": false
     }
   },
   "flex-layout.row#container-price_salving-add_favorite": {
-    "children": [
-      "product-price-savings",
-      "add-to-list-btn"
-    ],
+    "title": "Container for Price, Savings, and Favorite Button",
+    "children": ["product-price-savings", "add-to-list-btn"],
     "props": {
       "blockClass": "container-price_salving-add_favorite"
     }
   },
   "add-to-list-btn": {
+    "title": "Add to Favorites Button",
     "props": {
       "blockClass": "favorite"
     }
   },
   "product-price-savings": {
+    "title": "Price Savings Message",
     "props": {
       "message": "{savingsPercentage} OFF"
     }
   },
 
   "flex-layout.col#shelf-description": {
-    "title": "container description shelf prodcuts",
-    "children": [
-      "product-summary-description"
-    ]
+    "title": "Description Container for Shelf Products",
+    "children": ["product-summary-description"]
   },
   "flex-layout.col#shelf-price": {
-    "title": "container price shelf prodcuts",
-    "children": [
-      "product-summary-price"
-    ]
+    "title": "Price Container for Shelf Products",
+    "children": ["product-summary-price"]
   },
   "flex-layout.row#shelf-button": {
-    "title": "container button add to cart",
-    "children": [
-      "add-to-cart-button#button-buy"
-    ],
+    "title": "Container for Add to Cart Button",
+    "children": ["add-to-cart-button#button-buy"],
     "props": {
       "blockClass": "container-button-buy"
     }
   },
   "add-to-cart-button#button-buy": {
-    "title": "button add to cart",
+    "title": "Add to Cart Button",
     "props": {
       "text": "Comprar",
       "blockClass": "custom-buy-button"
     }
   }
-  
-
 }

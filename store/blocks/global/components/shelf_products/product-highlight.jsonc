@@ -1,24 +1,27 @@
 {
   "vtex.product-highlights@2.x:product-highlights": {
-    "title": "free shipping",
+    "title": "Free Shipping Highlight",
     "children": ["product-highlight-wrapper"]
   },
   "product-highlight-wrapper": {
+    "title": "Wrapper for Highlight Components",
     "children": [
       "product-highlight-text#text-free-shipping",
       "icon#summary-list-flash"
     ]
   },
   "product-highlight-text#text-free-shipping": {
+    "title": "Free Shipping Text",
     "props": {
       "message": "Envio gratis",
       "blockClass": "text-free-shipping"
     }
   },
   "icon#summary-list-flash": {
+    "title": "Flash Icon for Free Shipping",
     "props": {
       "id": "flash",
-    "blockClass": "icon-flash"
+      "blockClass": "icon-flash"
     }
   }
 }

@@ -1,0 +1,5 @@
+/*------------banner home---------------*/
+.sliderLayoutContainer{
+  position: relative;
+  z-index: 300; 
+}
