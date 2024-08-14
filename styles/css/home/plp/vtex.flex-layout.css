@@ -1,0 +1,32 @@
+.flexColChild--breadcrumb__search {
+    width : 312px;
+    height: 25px;
+}
+
+.flexCol--breadcrumb__search :global(.vtex-search-result-3-x-totalProducts--layout) {
+    font-size   : 14px;
+    font-weight : 300;
+    line-height : 17.5px;
+    text-align  : left;
+    padding-left: 0%;
+}
+
+/*----------------------------------------- quitar si no se usa---------------------*/
+.flexColChild--product__gallery {
+    margin-top: -160px;
+}
+
+.flexColChild--shelf__details--gallery {
+    display       : flex;
+    padding       : 10px;
+    padding-bottom: 0;
+}
+
+.flexCol--sort__options :global(.vtex-search-result-3-x-orderByButton) {
+    width        : 170px;
+    height       : 40px;
+    padding      : 14px 12px 14px 12px;
+    border-radius: 40px;
+    justify      : space-between;
+    background   : #E7E7E7;
+}

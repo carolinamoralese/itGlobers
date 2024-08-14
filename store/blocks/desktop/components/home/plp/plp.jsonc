@@ -69,10 +69,17 @@
     "children": [
       "gallery-layout-switcher",
       "search-content#plp",
-      "search-products-count-per-page"
+      "search-products-count-per-page",
+      "search-fetch-more"
     ],
     "props": {
       "blockClass": "product__gallery"
+    }
+  },
+  "search-fetch-more": {
+    "props": {
+      "blockClass": "buttom-see-more-gallery",
+      "text": "Ver más" 
     }
   },
   "gallery-layout-switcher": {
