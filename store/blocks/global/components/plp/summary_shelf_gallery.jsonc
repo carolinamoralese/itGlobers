@@ -1,0 +1,64 @@
+{
+    "product-summary.shelf#global__gallery--summary": {
+      "title": "Product Summary Block for Global Gallery Shelf",
+      "children": [
+        "flex-layout.row#shelf__content--gallery"
+      ],
+      "props": {}
+    },
+    "flex-layout.row#shelf__content--gallery": {
+      "title": "Row for Image and Description in Gallery Shelf",
+      "children": [
+        "flex-layout.col#shelf__image--gallery",
+        "flex-layout.col#shelf__details--gallery"
+      ],
+      "props": {
+        "blockClass": "shelf__content--gallery"
+      }
+    },
+    "flex-layout.col#shelf__image--gallery": {
+      "title": "Product Image Column in Shelf Gallery",
+      "children": ["product-summary-image"],
+      "props": {
+        "blockClass": ["shelf__image--gallery"]
+      }
+    },
+    "product-summary-image": {
+      "title": "Product Image Component",
+      "props": {
+        "showBadge": false
+      }
+    },
+    "flex-layout.col#shelf__details--gallery": {
+      "title": "Product Details Column in Shelf Gallery",
+      "children": [
+        "product-summary-description",
+        "product-list-price",
+        "product-selling-price",
+        "vtex.product-highlights@2.x:product-highlights"
+      ],
+      "props": {
+        "blockClass": ["shelf__details--gallery"]
+      }
+    },
+    "product-summary-description": {
+      "title": "Product Description Component",
+      "props": {
+        "blockClass": "product-summary-description-gallery"
+      }
+    },
+    "product-list-price": {
+      "title": "Product List Price Component",
+      "props": {
+      }
+    },
+    "product-selling-price": {
+      "title": "Product Selling Price Component",
+      "props": {}
+    },
+    "vtex.product-highlights@2.x:product-highlights": {
+      "title": "Product Highlights Component",
+      "props": {}
+    }
+  }
+  

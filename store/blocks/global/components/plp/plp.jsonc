@@ -2,8 +2,8 @@
   "store.search": {
     "title": "global search",
     "blocks": [
-      "search-result-layout",
-      "search-fetch-more"
+      "search-result-layout"
+      // "search-fetch-more"
       // "search-title.v2",
       // "total-products.v2"
     ],
@@ -70,25 +70,25 @@
   "total-products.v2": {
     "title": "Total Products Display",
     "props": {
-      "blocksClass": [""]
+      "blocksClass": ["plp__total--products"]
     }
   },
   "search-title.v2": {
     "title": "PLP Search Title",
     "props": {
-      "blocksClass": [""]
+      "blocksClass": ["plp__title--products"]
     }
   },
   "order-by.v2": {
     "title": "Order By Filter",
     "props": {
-      "blocksClass": [""]
+      "blocksClass": ["plp__order--by--filter"]
     }
   },
   "filter-navigator.v3": {
     "title": "PLP Filter Navigator",
     "props": {
-      "blocksClass": [""]
+      "blocksClass": ["plp__filter--navigation"]
     }
   },
   "breadcrumb.search": {
@@ -100,7 +100,7 @@
   "search-products-count-per-page": {
     "title": "Products Per Page Count",
     "props": {
-      "blocksClass": [""]
+      "blocksClass": ["plp__products--per--page"]
     }
   }
 }

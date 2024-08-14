@@ -22,19 +22,10 @@
           }
         }
       ],
-      "OneOrTwoLineSummary": "product-summary.shelf",
-      "ManyByLineSummary": "product-summary.shelf"
+      "OneOrTwoLineSummary": "product-summary.shelf#global__gallery--summary",
+      "ManyByLineSummary":"product-summary.shelf#global__gallery--summary"
     }
   },
-  // "gallery-layout-switcher": {
-  //   "title": "Product Layout Switcher for PLP",
-  //   "children": [
-  //     //It follows the same whole -> two -> many order
-  //     "gallery-layout-option#whole",
-  //     "gallery-layout-option#two",
-  //     "gallery-layout-option#many"
-  //   ]
-  // },
   "gallery-layout-option#whole": {
     "title": "Single Item Layout Option",
     "props": {
