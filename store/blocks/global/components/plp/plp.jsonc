@@ -3,9 +3,6 @@
     "title": "global search",
     "blocks": [
       "search-result-layout"
-      // "search-fetch-more"
-      // "search-title.v2",
-      // "total-products.v2"
     ],
     "props": {
       "context": {
@@ -88,15 +85,22 @@
   "filter-navigator.v3": {
     "title": "PLP Filter Navigator",
     "props": {
-      "blocksClass": ["plp__filter--navigation"]
+      "blocksClass": ["plp__filter--navigation"],
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ]
     }
   },
-  "breadcrumb.search": {
-    "title": "Breadcrumb Search Navigation",
-    "props": {
-      "showOnMobile": true
-    }
-  },
+  // "breadcrumb.search": {
+  //   "title": "Breadcrumb Search Navigation",
+  //   "props": {
+  //     "showOnMobile": true
+  //   }
+  // },
   "search-products-count-per-page": {
     "title": "Products Per Page Count",
     "props": {

@@ -8,15 +8,16 @@
 }
 
 .menuContainerNav--components-mega-menu {
-    width: max-content !important;
+    width      : max-content !important;
     z-index    : 1000;
     font-family: lexend;
     font-size  : 12px;
     line-height: 15px;
     font-weight: 300;
-  
+
 }
-.styledLinkText--components-mega-menu{
+
+.styledLinkText--components-mega-menu {
     font-family: Lexend;
     font-size  : 12px;
     font-weight: 400;
@@ -24,16 +25,20 @@
     text-align : left;
 
 }
-.menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-menuContainer){
+
+.menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-menuContainer) {
     max-height: max-content;
-    width: 300px;
+    width     : 220px;
+    height     : 647px !important;
 }
-.menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer){
+
+.menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {
     background-color: #FFE6D3;
-    max-height: max-content;
-    border-radius: 0 0 16px 0;
-    width: 500px;
-    justify-content: left;
+    max-height      : max-content;
+    border-radius   : 0 0 16px 0;
+    width           : 464px;
+    justify-content : left;
+    height     : 647px !important;
 }
 
 .styledLinkContainer--components-mega-menu {

@@ -78,3 +78,14 @@
 .showingProducts {
     display: none;
 }
+
+@media (max-width: 767px) {
+    .container--layout :global(.vtex-flex-layout-0-x-flexRowContent) {
+        display: flex;
+    }
+}
+
+.orderByOptionsContainer :hover {
+    background-color: #1d2734;
+    color           : white;
+}

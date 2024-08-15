@@ -30,3 +30,31 @@
     justify      : space-between;
     background   : #E7E7E7;
 }
+
+.flexColChild--filter__options :global(.vtex-search-result-3-x-filterIcon) {
+    padding: 0%;
+    color  : #1D2734;
+}
+
+.flexCol--shelf__details--gallery :global(.vtex-product-summary-2-x-description--product-summary-description-gallery) {
+    font-size             : 12px !important;
+    font-weight           : 400 !important;
+    line-height           : 12.76px !important;
+    text-align            : left !important;
+    /* height             : 39px;
+        width             : 149px;
+        display           : -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow          : hidden;
+        text-overflow     : ellipsis;
+        max-height        : calc(1.5em * 3); */
+    /* margin-left        : 10px; */
+    padding               : 0%;
+    margin-right          : 0;
+    /* background-color: #FA2080; */
+}
+
+.flexColChild--shelf__details--gallery :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
+    color: #FA2080;
+}
