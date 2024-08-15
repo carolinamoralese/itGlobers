@@ -7,18 +7,18 @@
   "flex-layout.row#container__result--order-filter": {
     "title": "container result filter and order",
     "children": ["filter-navigator.v3", "order-by.v2"]
-  },
-
-  "order-by.v2": {
-    "title": "order by result layout",
-    "props": {
-      "blockClass": []
-    }
-  },
-  "filter-navigator.v3": {
-    "title": "filter result layout",
-    "props": {
-      "blockClass": []
-    }
   }
+
+  // "order-by.v2": {
+  //   "title": "order by result layout",
+  //   "props": {
+  //     "blockClass": []
+  //   }
+  // },
+  // "filter-navigator.v3": {
+  //   "title": "filter result layout",
+  //   "props": {
+  //     "blockClass": []
+  //   }
+  // }
 }
