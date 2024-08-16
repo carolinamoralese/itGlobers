@@ -1,9 +1,7 @@
 {
   "store.search": {
     "title": "global search",
-    "blocks": [
-      "search-result-layout"
-    ],
+    "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -64,18 +62,6 @@
       "search-not-found-layout"
     ]
   },
-  "total-products.v2": {
-    "title": "Total Products Display",
-    "props": {
-      "blocksClass": ["plp__total--products"]
-    }
-  },
-  "search-title.v2": {
-    "title": "PLP Search Title",
-    "props": {
-      "blocksClass": ["plp__title--products"]
-    }
-  },
   "order-by.v2": {
     "title": "Order By Filter",
     "props": {
@@ -95,16 +81,10 @@
       ]
     }
   },
-  // "breadcrumb.search": {
-  //   "title": "Breadcrumb Search Navigation",
-  //   "props": {
-  //     "showOnMobile": true
-  //   }
-  // },
-  "search-products-count-per-page": {
-    "title": "Products Per Page Count",
+  "breadcrumb.search": {
+    "title": "Breadcrumb Search Navigation",
     "props": {
-      "blocksClass": ["plp__products--per--page"]
+      "showOnMobile": true
     }
   }
 }

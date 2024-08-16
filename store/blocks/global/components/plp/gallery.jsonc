@@ -6,7 +6,10 @@
         {
           "name": "whole",
           "component": "OneOrTwoLineSummary",
-          "itemsPerRow": 1
+          "itemsPerRow": {
+            "desktop": 3,
+            "mobile": 1
+          }
         },
         {
           "name": "two",

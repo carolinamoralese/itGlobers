@@ -66,7 +66,7 @@
   "gallery#page_collection":{
     "title": "gallery page collection",
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#global__gallery--summary"
     ]
   }
 }

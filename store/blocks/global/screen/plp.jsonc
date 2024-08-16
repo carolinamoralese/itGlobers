@@ -1,13 +1,21 @@
 {
   "search-content#global__search--layout": {
     "title": "search content",
-    "blocks": ["gallery#global__search", "not-found"]
+    "blocks": ["gallery#global__search", 
+    "not-found"]
   },
 
   "flex-layout.row#container__result--order-filter": {
     "title": "container result filter and order",
     "children": ["filter-navigator.v3", "order-by.v2"]
   }
+
+
+
+    // "search-content": {
+    //   "title": "Search Content and Results",
+    //   "blocks": ["gallery#global__search", "not-found"]
+    // }
 
   // "order-by.v2": {
   //   "title": "order by result layout",

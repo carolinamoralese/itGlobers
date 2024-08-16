@@ -1,19 +1,19 @@
 {
-    "flex-layout.row#product-breadcrumb": {
-    "title": "Goblal producr pdp",
+  "flex-layout.row#product-breadcrumb": {
+    "title": "Global Product Breadcrumb Row",
     "props": {
       "marginTop": 4
     },
     "children": ["breadcrumb"]
   },
   "breadcrumb": {
-    "title": "global breadcrumb",
+    "title": "Global Breadcrumb",
     "props": {
       "showOnMobile": true
     }
   },
   "flex-layout.row#product-main": {
-    "title": "Global of main product",
+    "title": "Global Main Product Row",
     "props": {
       "colGap": 7,
       "rowGap": 7,
@@ -28,7 +28,7 @@
     ]
   },
   "flex-layout.col#product__image": {
-    "title": "Global Col Product image",
+    "title": "Global Product Image Column",
     "props": {
       "width": "60%",
       "rowGap": 0
@@ -36,35 +36,112 @@
     "children": ["product-images#global__pdp"]
   },
   "product-images#global__pdp": {
-    "title": "Global product image ",
+    "title": "Global Product Images",
     "props": {
       "displayThumbnailsArrows": true
     }
   },
   "flex-layout.col#product__information": {
-    "title": "Global col product informatio",
+    "title": "Global Product Information Column",
     "props": {
       "preventVerticalStretch": true,
+      "width": "40%",
       "rowGap": 0
     },
     "children": [
       "vtex.store-components:product-name#global__product-name",
-      "product-price",
-      "product-separator",
-      "product-quantity",
+      "flex-layout.row#pdp__price",
       "product-identifier.product",
       "sku-selector",
-      "flex-layout.row",
-      "shipping-simulator",
+      "flex-layout.row#pdp__quantity--button",
+      // "product-separator",
+      // "shipping-simulator",
       "share"
     ]
   },
   "vtex.store-components:product-name#global__product-name": {
-    "title": "Product name of pdp",
+    "title": "PDP Product Name",
     "props": {
       "showSku": true,
       "showBrandName": true
     }
-  }
+  },
+  "flex-layout.row#pdp__price": {
+    "title": "PDP Price Row",
+    "props": {
+      "fullWidth": true
+    },
+    "children": ["product-selling-price", "product-list-price"]
+  },
 
+  "flex-layout.row#pdp__quantity--button": {
+    "title": "PDP Quantity and Add to Cart Row",
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#pdp__quantity",
+      "flex-layout.col#pdp__button--add--to--cart"
+    ]
+  },
+  "flex-layout.col#pdp__quantity": {
+    "title": "PDP Quantity Column",
+    "children": ["product-quantity#pdp_quantity"],
+    "props": {
+      "width": "30%"
+    }
+  },
+
+  "flex-layout.col#pdp__button--add--to--cart": {
+    "title": "PDP Add to Cart Button Column",
+    "children": ["add-to-cart-button#pdp__button--add--to--cart"],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "add-to-cart-button#pdp__button--add--to--cart": {
+    "title": "PDP Add to Cart Button",
+    "props": {
+      "text": "Agregar al carrito",
+      "blockClass": "pdp__button--add--to--cart"
+    }
+  },
+  "product-quantity#pdp_quantity": {
+    "title": "PDP Product Quantity Selector",
+    "props": {
+      "showLabel": false,
+      "collapsible": "never"
+    }
+  }
+  // "product-specifications#product": {
+  //   "props": {
+  //     "shoudCollapseOnTabChange": true,
+  //     "collapsible": "desktopOnly"
+  //   }
+  // }
+
+  // "vtex.product-highlights@2.x:product-highlights#flash__deal": {
+  //   "children": ["product-highlight-wrapper"]
+  // },
+
+  // "product-highlight-wrapper": {
+  //   "title": "Wrapper for Highlight Components",
+  //   "children": ["product-highlight-text#text__flash-deal"]
+  // },
+  // "product-highlight-text#text__flash-deal": {
+  //   "props": {
+  //     "message": "Flash Deal",
+  //     "blockClass": "pdp__highlight"
+  //   }
+  // },
+  // "shelf.relatedProducts": {
+  //   "blocks": ["product-summary.shelf#global__gallery--summary"],
+  //   "props": {
+  //     "recommendation": "view",
+  //     "productList": {
+  //       "titleText": "Who saw also saw",
+  //       "itemsPerPage": 3
+  //     }
+  //   }
+  // }
 }
