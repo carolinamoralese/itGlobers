@@ -79,7 +79,7 @@
   "search-fetch-more": {
     "props": {
       "blockClass": "buttom-see-more-gallery",
-      "text": "Ver más" 
+      "text": "Ver más"
     }
   },
   "gallery-layout-switcher": {
