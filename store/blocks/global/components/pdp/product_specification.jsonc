@@ -4,12 +4,16 @@
     "children": [
       "product-specification-text#group",
       "flex-layout.row#product__specification"
-    ]
+    ],
+    "props": {
+      "blockClass":"pdp__product-specification-group"
+    }
   },
   "product-specification-text#group": {
     "title": "Specification Group Text",
     "props": {
-      "message": "{groupName}"
+      "message": "{groupName}",
+       "blockClass": "group__name"
     }
   },
   "flex-layout.row#product__specification": {
@@ -21,7 +25,10 @@
     "children": [
       "product-specification-text#specification",
       "product-specification-values"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__specification"
+    }
   },
   "product-specification-text#specification": {
     "title": "Product Specification Text",
@@ -32,7 +39,10 @@
 
   "product-specification-values": {
     "title": "Product Specification Values",
-    "children": ["product-specification-text#value"]
+    "children": ["product-specification-text#value"],
+    "props": {
+      "blockClass": "specification__values"
+    }
   },
 
   "product-specification-text#value": {

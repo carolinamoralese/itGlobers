@@ -1,0 +1,17 @@
+.groupName {
+  margin-left: 15%;
+}
+
+.specificationName {
+  box-sizing : border-box;
+  padding    : 1rem;
+  grid-column: 1;
+
+
+}
+
+.specificationValue {
+  box-sizing : border-box;
+  padding    : 1rem;
+  grid-column: 2;
+}

@@ -69,7 +69,8 @@
   "flex-layout.row#pdp__price": {
     "title": "PDP Price Row",
     "props": {
-      "fullWidth": true
+      // "fullWidth": true,
+      "blockClass": "pdp__price"
     },
     "children": ["product-selling-price", "product-list-price"]
   },
@@ -77,7 +78,8 @@
   "flex-layout.row#pdp__quantity--button": {
     "title": "PDP Quantity and Add to Cart Row",
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "pdp__quantity--button"
     },
     "children": [
       "flex-layout.col#pdp__quantity",
@@ -110,7 +112,13 @@
     "title": "PDP Product Quantity Selector",
     "props": {
       "showLabel": false,
-      "collapsible": "never"
+      "collapsible": "never",
+      "blockClass": "pdp_quantity"
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "blockClass": ["sku-selector--pdp", "sku-size--pdp"]
     }
   }
   // "product-specifications#product": {

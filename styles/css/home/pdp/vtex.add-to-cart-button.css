@@ -1,0 +1,24 @@
+.buttonText--pdp__button--add--to--cart {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align : center;
+    text-transform: lowercase;
+}
+.buttonText--pdp__button--add--to--cart::first-letter {
+    text-transform: capitalize;
+}
+.buttonDataContainer--pdp__button--add--to--cart::before{
+    content      : url("/arquivos/add-to-cart-pdp.svg");
+    width        : 16.8px;
+    height       : 17.5px;
+    padding-right: 10px;
+}
+/* 
+.buttonDataContainer--custom-buy-button::before {
+    content      : url("/arquivos/car-buy.svg");
+    width        : 16.8px;
+    height       : 17.5px;
+    padding-right: 10px;
+} */
