@@ -1,0 +1,13 @@
+.quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button) {
+    background: rgba(29, 39, 52, 1);
+    color     : white;
+}
+
+.quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button) {
+    background: rgba(29, 39, 52, 1);
+    color     : white;
+}
+
+.quantitySelectorContainer :global(.vtex-numeric-stepper__input) {
+    background: rgba(255, 255, 255, 1);
+}

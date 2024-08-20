@@ -1,0 +1,47 @@
+.flexRowContent--pdp__price {
+    width: 50%;
+}
+
+.flexRow--pdp__price {
+    margin-top: 20px;
+}
+
+.flexRowContent--pdp__quantity--button :global(.vtex-button) {
+    width        : 312px;
+    height       : 48px;
+    padding      : 10px;
+    border-radius: 4px;
+    border       : 1px;
+    background   : rgba(73, 42, 119, 1);
+    color        : white;
+}
+.flexColChild--product__gallery{
+    height: 0;
+}
+
+@media (max-width: 767px) {
+    .flexRowContent--pdp__price {
+        display: flex;
+    }
+
+    .flexRowContent--pdp__price {
+        width: 75%;
+    }
+
+    .flexRowContent--pdp__quantity--button {
+        display: flex;
+    }
+
+    .flexRowContent--pdp__quantity--button :global(.vtex-button) {
+        width        : 160px;
+        height       : 48px;
+        padding      : 10px;
+        border-radius: 4px;
+        background   : rgba(73, 42, 119, 1);
+        color        : white;
+    }
+
+    .flexRow--pdp__quantity--button :global(.vtex-flex-layout-0-x-flexRowContent--pdp__quantity--button) {
+        width: 85% !important;
+    }
+}
