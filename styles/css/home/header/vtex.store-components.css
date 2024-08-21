@@ -23,6 +23,11 @@
     display: block;
 }
 
+.searchIcon {
+    width : 24px;
+    height: 24px;
+}
+
 .autoCompleteOuterContainer--icon-header-section-one-information :global(.vtex-input-prefix__group) {
     height          : 40px;
     padding         : 11px 16px 11.76px 16px;
@@ -46,6 +51,18 @@
 
 .logoContainer:global(.vtex-store-components-3-x-logoImage) {
     margin-top: 15px;
+}
+
+.searchIcon--icon-header-section-one-information {
+    width : 12.19px;
+    height: 12.19px;
+    color : #1D2734;
+}
+
+.searchBarInnerContainer--icon-header-section-one-information {
+    width        : 280px;
+    height       : 40px;
+    border-radius: 40px;
 }
 
 @media (min-width: 640px) and (max-width: 1024px) {

@@ -15,8 +15,22 @@
     background   : rgba(73, 42, 119, 1);
     color        : white;
 }
-.flexColChild--product__gallery{
-    height: 0;
+
+.flexColChild--product__gallery {
+    height: 10px;
+}
+
+.flexRowContent:nth-child(odd) {
+    background-color: #ffffff;
+
+}
+
+.flexRowContent:nth-child(even) {
+    background-color: #cccccc;
+
+}
+.flexRow--especificartion__pdp .stretchChildrenWidth{
+    display: grid;
 }
 
 @media (max-width: 767px) {
@@ -43,5 +57,8 @@
 
     .flexRow--pdp__quantity--button :global(.vtex-flex-layout-0-x-flexRowContent--pdp__quantity--button) {
         width: 85% !important;
+    }
+    .flexRow--especificartion__pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidt){
+        justify-content: left;
     }
 }

@@ -1,108 +1,104 @@
+.productImagesContainer {
+    display       : flex;
+    flex-direction: column;
+    width         : 328px;
+    height        : 503px;
+}
+
+.productImagesGallerySlide {
+    width        : 328px;
+    height       : 419px;
+    border-radius: 4px;
+}
+
+/* cambiarx*/
+.carouselGaleryThumbs {
+    width        : 328px;
+    height       : 121px;
+    display      : block;
+    z-index      : 16;
+    /* margin-top: 330px; */
+}
+
+/*----- contenedor de talla y color ----*/
+/* .skuSelectorItemImage :global(.vtex-store-components-3-x-frameAround) {
+    width        : 64px;
+    height       : 64px;
+    border-radius: 4px;
+    border       : 1px solid rgba(231, 231, 231, 1);
+} */
+
+/* .skuSelectorInternalBox--sku-selector--pdp {
+    width        : 40px;
+    height       : 40px;
+    border-radius: 50%;
+    margin       : inherit;
+    align-items  : flex-start
+} */
+
+.skuSelectorSubcontainer--color :global(.vtex-store-components-3-x-skuSelectorItem){
+    width        : 64px;
+    height       : 64px;
+    border-radius: 4px;
+    display      : ruby;
+}
+
 .skuSelectorItem--sku-selector--pdp {
-    width        : 108.07px;
+    width        : 77.69px;
     height       : 40px;
     border-radius: 4px;
-    border       : 1px;
-    text-align   : center;
-
+    border       : 1px solid rgba(231, 231, 231, 1)
 }
 
-.productNameContainer {
-    width      : 481px;
-    height     : 34px;
-    font-family: Lexend;
-    font-size  : 16px;
-    font-weight: 300;
-    line-height: 16.8px;
-    text-align : left;
-}
 
-.swiperCaret {
-    display: none;
-}
 
-.swiperPaginationClickable {
-    display: none;
-}
 
-/*---- tiene todo el contenedor */
+@media screen and (min-width: 1024px) {
 
-.productImagesContainer--carousel {
-    width      : 631px;
-    height     : 650px !important;
-    margin-left: auto;
-}
-
-/*---- tiene imagen grande */
-.productImagesGallerySlide {
-    width        : 515px !important;
-    height       : 650px !important;
-    border-radius: 4px;
-    border       : 1px;
-}
-
-/*---- tiene imagenes pequena */
-.carouselGaleryThumbs {
-    width : 92px;
-    height: 650px;
-}
-
-/*---- tiene imagen pequena */
-.productImagesThumb {
-    width        : 90px;
-    height       : 76px;
-    border-radius: 4px;
-    border       : 1px;
-}
-
-.container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-    display: grid;
-}
-
-@media (max-width: 767px) {
-    .productImagesContainer {
-        display       : flex;
-        flex-direction: column;
-        width         : 328px;
-        height        : 503px;
+    .skuSelectorItem--sku-selector--pdp {
+        width        : 108.07px;
+        height       : 40px;
+        border-radius: 4px;
+        border       : 1px;
+        text-align   : center;
     }
 
+    .productNameContainer {
+        width      : 481px;
+        height     : 34px;
+        font-family: Lexend;
+        font-size  : 16px;
+        font-weight: 300;
+        line-height: 16.8px;
+        text-align : left;
+    }
+
+    .productImagesContainer--carousel {
+        width      : 631px;
+        height     : 650px !important;
+        margin-left: auto;
+    }
+
+    /*---- tiene imagen grande */
     .productImagesGallerySlide {
-        width        : 328px !important;
-        height       : 419px !important;
+        width        : 515px !important;
+        height       : 650px !important;
         border-radius: 4px;
+        border       : 1px;
     }
 
-    /* cambiarx*/
+    /*---- tiene imagenes pequena */
     .carouselGaleryThumbs {
-        width     : 328px !important;
-        height    : 121px;
-        display   : block;
-        z-index   : 16;
-        margin-top: 330px;
+        width : 92px;
+        height: 650px;
     }
 
-     /*----- contenedor de talla y color ----*/
-    .skuSelectorItemImage :global(.vtex-store-components-3-x-frameAround) {
-        width        : 64px;
-        height       : 64px;
+    /*---- tiene imagen pequena */
+    .productImagesThumb {
+        width        : 90px;
+        height       : 76px;
         border-radius: 4px;
-        border       : 1px solid rgba(231, 231, 231, 1);
-    }
-
-    .skuSelectorInternalBox--sku-selector--pdp {
-        width        : 40px;
-        height       : 40px;
-        border-radius: 50%;
-        margin       : inherit;
-        align-items  : flex-start
-    }
-
-    .skuSelectorItem--sku-selector--pdp{
-        width        : 77.69px;
-        height       : 40px;
-        border-radius: 4px;
-        border       : 1px solid rgba(231, 231, 231, 1)
+        border       : 1px;
     }
 
 }

@@ -15,7 +15,7 @@
 }
 
 .flexRow--header-container-menu-desktop {
-    margin-left      : 45px;
+    margin-left: 45px;
 }
 
 .flexRowContent--header-container-menu-desktop-section-one {
@@ -24,11 +24,21 @@
 
 }
 
+.flexRow--drawer-header :global(.vtex-flex-layout-0-x-flexRowContent--drawer-header) {
+    display: flow-root;
+}
+
+.flexRow--drawer-header :global(.vtex-store-components-3-x-logoImage) {
+    margin-top : 29px;
+    margin-left: 16px;
+}
+
 @media (max-width: 767px) {
     .flexRowContent--header-container-menu-desktop {
-        gap        : 30px;
+        gap: 30px;
     }
-    .flexRow--header-container-menu-desktop{
+
+    .flexRow--header-container-menu-desktop {
         margin-left: 0%;
     }
 }

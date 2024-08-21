@@ -1,0 +1,13 @@
+.paragraph--header__options--mega--menu--mobile::before {
+    content      : url("/arquivos/Icon_Color-it-globers.svg");
+    padding-right: 1px;
+}
+
+.container--header__options--mega--menu--mobile {
+    display: flow-root;
+}
+
+.paragraph--header__options--mega--menu--mobile {
+    margin-left: 14px;
+    margin-top : 20px;
+}

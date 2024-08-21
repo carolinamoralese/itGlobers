@@ -17,19 +17,29 @@
 
 }
 
+.menuContainerVertical :global(.vtex-mega-menu-2-x-styledLinkText) {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align : left;
+}
+
 .styledLinkText--components-mega-menu {
     font-family: Lexend;
     font-size  : 12px;
     font-weight: 400;
     line-height: 15px;
     text-align : left;
-
+}
+.accordionIconContainer{
+    display: none;
 }
 
 .menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-menuContainer) {
     max-height: max-content;
     width     : 220px;
-    height     : 647px !important;
+    height    : 647px !important;
 }
 
 .menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {
@@ -38,7 +48,7 @@
     border-radius   : 0 0 16px 0;
     width           : 464px;
     justify-content : left;
-    height     : 647px !important;
+    height          : 647px !important;
 }
 
 .styledLinkContainer--components-mega-menu {

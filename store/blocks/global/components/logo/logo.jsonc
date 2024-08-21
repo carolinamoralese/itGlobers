@@ -11,7 +11,8 @@
           "title": "Logo",
           "href": "/",
           "url": "assets/img/icon_logo.svg",
-          "width": "32px"
+          "width": 32,
+          "height": 16
         }
       }
 }

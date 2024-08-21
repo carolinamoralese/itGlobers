@@ -1,4 +1,12 @@
 {
+  "flex-layout.row#especificartion__pdp": {
+    "children": [
+      "product-specification-group"
+    ],
+    "props": {
+      "blockClass": "especificartion__pdp"
+    }
+  },
   "product-specification-group": {
     "title": "Product Specification Group",
     "children": [
