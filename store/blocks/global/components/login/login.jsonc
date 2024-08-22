@@ -1,5 +1,5 @@
 {
-  "login#header-desktop": {
+  "login#global": {
     "title": "global login",
     "props": {
       "optionsTitle": "LOG IN",

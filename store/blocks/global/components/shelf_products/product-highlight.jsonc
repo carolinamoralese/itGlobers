@@ -1,7 +1,17 @@
 {
   "vtex.product-highlights@2.x:product-highlights": {
     "title": "Free Shipping Highlight",
-    "children": ["product-highlight-wrapper"]
+    "children": ["product-highlight-wrapper"],
+    "props": {
+      "filter": {
+        "highlightNames": [
+          "Envío Gratis"
+        ],
+      "type": "show"
+      }
+   
+
+    }
   },
   "product-highlight-wrapper": {
     "title": "Wrapper for Highlight Components",
