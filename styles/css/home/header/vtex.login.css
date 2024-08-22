@@ -20,6 +20,8 @@
   text-transform: capitalize;
 }
 
+
+
 .accessCodeOptionBtn :global(.vtex-button) {
   width           : 368px;
   height          : 48px;
@@ -39,7 +41,24 @@
   text-transform: lowercase;
 }
 
-.accessCodeOptionBtn :global(.vtex-button__label) ::first-letter {
+.accessCodeOptionBtn :global(.vtex-button__label) ::before {
+  content       : "Receive access code by email";
+  display       : inline-block;
+  font-size     : 14px;
+  text-transform: lowercase;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label) {
+  font-size: 0;
+  display  : flex;
+}
+
+.accessCodeOptionBtn .vtex-button__label {
+  font-size: 0;
+  display  : flex;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label) ::before {
   text-transform: capitalize;
 }
 
@@ -67,13 +86,12 @@
 }
 
 .googleOptionBtn :global(.vtex-button) {
-  width        : 368px;
-  height       : 48px;
-  padding      : 0px 68px 0px 22px;
-  gap          : 15px;
-  border-radius: 40px;
-  border       : 1px solid #1D2734;
-  ;
+  width           : 368px;
+  height          : 48px;
+  padding         : 0px 68px 0px 22px;
+  gap             : 15px;
+  border-radius   : 40px;
+  border          : 1px solid #1D2734;
   background-color: #FFFFFF;
 }
 
@@ -84,6 +102,7 @@
   text-align    : center;
   color         : #1D2734;
   text-transform: lowercase;
+  white-space   : nowrap;
 }
 
 .googleOptionBtn :global(.vtex-button__label) ::first-letter {
@@ -114,8 +133,12 @@
 }
 
 .content--loginOptions {
-  margin-top: 80px;
-  position  : sticky;
+  margin-top   : 80px;
+  /* position  : sticky; */
+  background   : #F5F4F6;
+  width        : 423px;
+  height       : 303px;
+  border-radius: 0px 0px 8px 8px;
 
 }
 
@@ -180,6 +203,7 @@
   line-height: 17.5px;
   text-align : center;
   color      : #0C2340;
+  margin-top : 6px;
 }
 
 .optionsList :hover {
@@ -202,15 +226,6 @@
 
 }
 
-/* 
-.facebookOptionBtn {
-  background-image: url("/arquivos/facebook.svg") !important;
-  width           : 20px;
-  height          : 20px;
-  position        : absolute;
-  background-image: white;
-} */
-
 
 /*------------tablet---------------*/
 @media (min-width: 640px) and (max-width: 1024px) {
@@ -221,15 +236,124 @@
 
 .googleOptionBtn .oauthLabel {
   font-size: 0;
-  display: flex;
+  display  : flex;
 
 }
+
 .googleOptionBtn .oauthLabel::before {
-  content: "Continue with";
-  display: inline-block;
-  font-size: 16px;
+  content       : "Continue with";
+  display       : inline-block;
+  font-size     : 16px;
+  text-transform: lowercase;
 }
 
-.googleOptionBtn .oauthProvider{
-  font-size: 16px;
+.googleOptionBtn :global(.vtex-button__label) ::before {
+  text-transform: capitalize;
 }
+
+.googleOptionBtn .oauthProvider {
+  font-size     : 16px;
+  text-transform: lowercase;
+}
+
+.facebookOptionBtn :global(.vtex-login-2-x-oauthLabel)::before {
+  content       : "Continue with Facebook";
+  white-space   : nowrap;
+  font-size     : 16px;
+  text-transform: lowercase;
+}
+
+.facebookOptionBtn .oauthLabel {
+  font-size: 0;
+  display  : flex;
+}
+
+.facebookOptionBtn :global(.vtex-button__label) ::before {
+  text-transform: capitalize;
+}
+
+.sendButton :global(.vtex-button__label) ::before {
+  content       : "Login";
+  white-space   : nowrap;
+  font-size     : 16px;
+  text-transform: lowercase;
+}
+
+.sendButton :global(.t-small) {
+  font-size: 0;
+  display  : flex;
+}
+
+.formLinkContainer :global(.vtex-login-2-x-forgotPasswordLink) ::before {
+  content       : "Forgot your password?  Reset password";
+  white-space   : nowrap;
+  font-size     : 16px;
+  text-transform: lowercase;
+}
+
+.content--emailAndPassword {
+  width        : 423px;
+  height       : 375px;
+  border-radius: 0px 0px 8px 8px;
+  background   : #F5F4F6;
+}
+
+.formTitle {
+  font-family: Lexend;
+  font-size  : 20px;
+  font-weight: 300;
+  line-height: 22.92px;
+  text-align : center;
+
+}
+
+.loginOptionsContainer :global(.vtex-login-2-x-formTitle) {
+  margin-top: 0rem;
+}
+
+.inputContainerPassword :global(.vtex-input__suffix) {
+  background: #F5F4F6;
+}
+
+.content--beginCreatePass {
+  width        : 423px;
+  height       : 219px;
+  border-radius: 0px 0px 8px 8px;
+  background   : #F5F4F6;
+}
+
+.content--beginCreatePass :global(.vtex-login-2-x-formTitle)::before {
+  content      : "RECUPERAR CLAVE";
+  white-space  : nowrap;
+  font-size    : 20px;
+  font-weight  : 300;
+  line-height  : 22.92px;
+  text-align   : center;
+  margin-left  : 5rem;
+  margin-bottom: 2rem;
+}
+
+.content--beginCreatePass .formTitle {
+  font-size: 0;
+  display  : flex;
+}
+
+.content--recoveryPassword {
+  width        : 423px;
+  height       : 343px;
+  border-radius: 0px 0px 8px 8px;
+  background   : #F5F4F6;
+
+}
+.content--recoveryPassword :global(.vtex-login-2-x-inputContainerAccessCode){
+  display: none;
+}
+:global(.vtex-login-2-x-emailVerification .vtex-login-2-x-formTitle){
+  content       : "RESET YOUR PASSWORD";
+  white-space   : nowrap;
+  font-size     : 16px;
+}
+/* .content--beginCreatePass .formTitle {
+  font-size: 0;
+  display  : flex;
+} */

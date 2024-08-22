@@ -21,7 +21,8 @@
     "title": "components mega menu desktop",
     "props": {
       "openOnly": "horizontal",
-      "blockClass": "components-mega-menu"
+      "blockClass": "components-mega-menu",
+      "title": "All categories"
     }
   },
   "flex-layout.col#trigger-mega-menu": {

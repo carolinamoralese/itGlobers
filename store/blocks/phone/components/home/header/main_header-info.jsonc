@@ -11,7 +11,8 @@
       "flex-layout.col#logo-phone",
       "overlay-trigger#header__overlay--mobile",
       "minicart.v2",
-      "login#header-phone"
+      "login#global"
+      // "login#header-phone"
     ],
     "props": {
       "topMenuIcons": true,
@@ -46,17 +47,17 @@
       "url": "assets/img/icon_logo.svg",
       "width": "32px"
     }
-  },
-  "login#header-phone": {
-    "title": "Login Icon for Phone Header",
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "blockClass": "icon-login-phone",
-      "iconLabel": "Login"
-    }
   }
+  // "login#header-phone": {
+  //   "title": "Login Icon for Phone Header",
+  //   "props": {
+  //     "emailAndPasswordTitle": "LOG-IN",
+  //     "accessCodeTitle": "Acess Code LOG-IN",
+  //     "emailPlaceholder": "e-mail",
+  //     "passwordPlaceholder": "password",
+  //     "showPasswordVerificationIntoTooltip": true,
+  //     "blockClass": "icon-login-phone",
+  //     "iconLabel": "Login"
+  //   }
+  // }
 }

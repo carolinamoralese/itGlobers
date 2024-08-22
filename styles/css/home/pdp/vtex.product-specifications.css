@@ -1,17 +1,33 @@
 .groupName {
-  margin-left: 15%;
+  margin-left: 0rem;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .groupName {
+    margin-left: 5rem;
+  }
 }
 
 .specificationName {
   box-sizing : border-box;
   padding    : 1rem;
   grid-column: 1;
-
-
+  font-family: Lexend;
+  font-size  : 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+  text-align : left;
 }
 
 .specificationValue {
   box-sizing : border-box;
   padding    : 1rem;
   grid-column: 2;
+  font-family: Lexend;
+  font-size  : 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  text-align : left;
 }

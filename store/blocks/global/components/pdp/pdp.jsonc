@@ -15,8 +15,8 @@
   "flex-layout.row#product-main": {
     "title": "Global Main Product Row",
     "props": {
-      "colGap": 7,
-      "rowGap": 7,
+      // "colGap": 7,
+      // "rowGap": 7,
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
@@ -31,28 +31,23 @@
     "title": "Global Product Image Column",
     "props": {
       "width": "60%",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "product__image-pdp"
     },
     "children": [
       "responsive-layout.mobile#pdp__images",
-         "responsive-layout.desktop#pdp__images"
+      "responsive-layout.desktop#pdp__images"
     ]
   },
   "responsive-layout.desktop#pdp__images": {
-    "children": [
-      "product-images#desktop__pdp"
-    ]
+    "title": "pdp container images desktop",
+    "children": ["product-images#desktop__pdp"]
   },
   "responsive-layout.mobile#pdp__images": {
-    "children": [
-      "product-images#mobile__pdp"
-    ]
+    "title": "pdp container images mobile",
+    "children": ["product-images#mobile__pdp"]
   },
-  // "flex-layout.row#container__images-pdp": {
-  //   "children": [
-  //     "product-images#global__pdp"
-  //   ]
-  // },
+
   "product-images#desktop__pdp": {
     "title": "Global Product Images",
     "props": {
@@ -69,7 +64,6 @@
       "showPaginationDots": false,
       "showNavigationArrows": false,
       "thumbnailsOrientation": "horizontal"
-
     }
   },
   "flex-layout.col#product__information": {
@@ -77,9 +71,12 @@
     "props": {
       "preventVerticalStretch": true,
       "width": "40%",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "product__information--pdp"
     },
     "children": [
+      "vtex.product-highlights@2.x:product-highlights#pdp__flash-Deal",
+      "vtex.product-highlights@2.x:product-highlights#pdp__best--seller",
       "vtex.store-components:product-name#global__product-name",
       "flex-layout.row#pdp__price",
       "product-identifier.product",
@@ -127,15 +124,34 @@
 
   "flex-layout.col#pdp__button--add--to--cart": {
     "title": "PDP Add to Cart Button Column",
-    "children": ["add-to-cart-button#pdp__button--add--to--cart"],
+    "children": [
+      "responsive-layout.mobile#pdp__button--add--to-cart",
+      "responsive-layout.desktop#pdp__button--add--to-cart"
+    ],
     "props": {
       "width": "70%"
     }
   },
-  "add-to-cart-button#pdp__button--add--to--cart": {
+  "responsive-layout.desktop#pdp__button--add--to-cart": {
+    "title": "pdp container button add to cart desktop",
+    "children": ["add-to-cart-button#pdp__button--add--to--cart--desktop"]
+  },
+  "responsive-layout.mobile#pdp__button--add--to-cart": {
+    "title": "pdp container button add to cart mobile",
+    "children": ["add-to-cart-button#pdp__button--add--to--cart-mobile"]
+  },
+
+  "add-to-cart-button#pdp__button--add--to--cart--desktop": {
     "title": "PDP Add to Cart Button",
     "props": {
       "text": "Agregar al carrito",
+      "blockClass": "pdp__button--add--to--cart"
+    }
+  },
+  "add-to-cart-button#pdp__button--add--to--cart-mobile": {
+    "title": "PDP Add to Cart Button",
+    "props": {
+      "text": "Agregar",
       "blockClass": "pdp__button--add--to--cart"
     }
   },
@@ -151,36 +167,55 @@
     "props": {
       "blockClass": ["sku-selector--pdp", "sku-size--pdp"]
     }
+  },
+  "flex-layout.row#pdp__highlights": {
+    "title": "container hishlights pdp",
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#pdp__flash-Deal",
+      "vtex.product-highlights@2.x:product-highlights#pdp__best--seller"
+    ]
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#pdp__flash-Deal": {
+    "title": "Flash deal Highlight",
+    "children": ["product-highlight-wrapper#pdp__flash-Deal"],
+    "props": {
+      "filter": {
+        "highlightNames": ["Flash Deal"],
+        "type": "show"
+      }
+    }
+  },
+  "product-highlight-wrapper#pdp__flash-Deal": {
+    "title": "Wrapper for Highlight pdp flash deal ",
+    "children": ["product-highlight-text#text__flash--deal"]
+  },
+  "product-highlight-text#text__flash--deal": {
+    "title": "Flas deal Text",
+    "props": {
+      "message": "Flash Deal",
+      "blockClass": "text__flash--deal"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#pdp__best--seller": {
+    "title": "Best Seller Highlight",
+    "children": ["product-highlight-wrapper#pdp__best--seller"],
+    "props": {
+      "filter": {
+        "highlightNames": ["Best Seller"],
+        "type": "show"
+      }
+    }
+  },
+  "product-highlight-wrapper#pdp__best--seller": {
+    "title": "Wrapper for Highlight pdp best seller",
+    "children": ["product-highlight-text#text__best--seller"]
+  },
+  "product-highlight-text#text__best--seller": {
+    "title": "Best Seller Text",
+    "props": {
+      "message": "Best Seller",
+      "blockClass": "text__best--seller"
+    }
   }
-  // "product-specifications#product": {
-  //   "props": {
-  //     "shoudCollapseOnTabChange": true,
-  //     "collapsible": "desktopOnly"
-  //   }
-  // }
-
-  // "vtex.product-highlights@2.x:product-highlights#flash__deal": {
-  //   "children": ["product-highlight-wrapper"]
-  // },
-
-  // "product-highlight-wrapper": {
-  //   "title": "Wrapper for Highlight Components",
-  //   "children": ["product-highlight-text#text__flash-deal"]
-  // },
-  // "product-highlight-text#text__flash-deal": {
-  //   "props": {
-  //     "message": "Flash Deal",
-  //     "blockClass": "pdp__highlight"
-  //   }
-  // },
-  // "shelf.relatedProducts": {
-  //   "blocks": ["product-summary.shelf#global__gallery--summary"],
-  //   "props": {
-  //     "recommendation": "view",
-  //     "productList": {
-  //       "titleText": "Who saw also saw",
-  //       "itemsPerPage": 3
-  //     }
-  //   }
-  // }
 }
