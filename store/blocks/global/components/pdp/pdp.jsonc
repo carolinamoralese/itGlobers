@@ -75,15 +75,11 @@
       "blockClass": "product__information--pdp"
     },
     "children": [
-      "vtex.product-highlights@2.x:product-highlights#pdp__flash-Deal",
-      "vtex.product-highlights@2.x:product-highlights#pdp__best--seller",
+      "flex-layout.row#pdp__highlights",
       "vtex.store-components:product-name#global__product-name",
       "flex-layout.row#pdp__price",
-      "product-identifier.product",
       "sku-selector",
       "flex-layout.row#pdp__quantity--button",
-      // "product-separator",
-      // "shipping-simulator",
       "share"
     ]
   },
@@ -173,7 +169,10 @@
     "children": [
       "vtex.product-highlights@2.x:product-highlights#pdp__flash-Deal",
       "vtex.product-highlights@2.x:product-highlights#pdp__best--seller"
-    ]
+    ],
+    "props": {
+      "blockClass": "pdp__highlights"
+    }
   },
 
   "vtex.product-highlights@2.x:product-highlights#pdp__flash-Deal": {
@@ -183,12 +182,17 @@
       "filter": {
         "highlightNames": ["Flash Deal"],
         "type": "show"
-      }
+      },
+      "blockClass": "pdp__flash-Deal"
+      // "width": "16%"
     }
   },
   "product-highlight-wrapper#pdp__flash-Deal": {
     "title": "Wrapper for Highlight pdp flash deal ",
-    "children": ["product-highlight-text#text__flash--deal"]
+    "children": ["product-highlight-text#text__flash--deal"],
+    "props": {
+      "blockClass": "pdp__flash-Deal"
+    }
   },
   "product-highlight-text#text__flash--deal": {
     "title": "Flas deal Text",
@@ -204,12 +208,17 @@
       "filter": {
         "highlightNames": ["Best Seller"],
         "type": "show"
-      }
+      },
+      "blockClass": "pdp__best--seller"
+      // "width": "16%"
     }
   },
   "product-highlight-wrapper#pdp__best--seller": {
     "title": "Wrapper for Highlight pdp best seller",
-    "children": ["product-highlight-text#text__best--seller"]
+    "children": ["product-highlight-text#text__best--seller"],
+    "props": {
+      "blockClass": "pdp__best--seller"
+    }
   },
   "product-highlight-text#text__best--seller": {
     "title": "Best Seller Text",

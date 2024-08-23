@@ -73,7 +73,7 @@
   },
   "flex-layout.col#minicart-footer": {
     "title": "Minicart Footer Column",
-    "children": ["minicart-summary", "minicart-checkout-button"],
+    "children": ["minicart-summary#container--totalizers", "minicart-checkout-button"],
     "props": {
       "blockClass": "minicart-footer-column"
     }
@@ -98,7 +98,7 @@
     "blocks": ["product-list-content-mobile"]
   },
 
-  "minicart-summary": {
+  "minicart-summary#container--totalizers": {
     "title": "Minicart Summary",
     "blocks": ["checkout-summary.compact#minicart"],
     "props": {
