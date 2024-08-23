@@ -23,3 +23,7 @@
     font-weight: 300;
     line-height: 16.8px;
 }
+
+.summarySmallContent--minicart-checkout-summary .summaryItemContainer--minicart-summary-totalizers:last-child .summaryItemLabel--minicart-summary-totalizers, .summarySmallContent--minicart-checkout-summary .summaryItemContainer--minicart-summary-totalizers:last-child .price--minicart-summary-totalizers{
+    color: red;
+}

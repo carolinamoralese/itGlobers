@@ -12,9 +12,11 @@
 }
 
 /*----------------------------------------- quitar si no se usa---------------------*/
-/* .flexColChild--product__gallery {
+.flexColChild--product__gallery {
+    display: flex ;
+    flex-direction: row-reverse;
     margin-top: -160px;
-} */
+}
 
 .flexColChild--shelf__details--gallery {
     display       : flex;

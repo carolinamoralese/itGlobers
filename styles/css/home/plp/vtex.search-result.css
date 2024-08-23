@@ -68,6 +68,32 @@
     /* white-space: nowrap;  */
 }
 
+.buttonShowMore--buttom-see-more-gallery :global(.vtex-button__label)::before {
+    content       : "ver más";
+    font-size     : 14px;
+    font-weight   : 400;
+    line-height   : 20px;
+    text-align    : left;
+    text-transform: lowercase;
+}
+
+.buttonShowMore--buttom-see-more-gallery :global(.vtex-button__label) {
+    font-size: 0;
+    display  : flex;
+}
+
+.buttonShowMore--buttom-see-more-gallery :global(.vtex-button__label)::before {
+    text-transform: capitalize;
+}
+
+.buttonShowMore--buttom-see-more-gallery :global(.vtex-button__label)::after {
+    content: url("/arquivos/svg__plp--ver--mas.svg");
+    padding: 5px;
+    width  : 11.67px;
+    height : 11.67px;
+
+}
+
 
 
 /*-------------mirar si quitar-------------*/

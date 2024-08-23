@@ -13,10 +13,10 @@
 
 /* cambiarx*/
 .carouselGaleryThumbs {
-    width        : 328px;
-    height       : 121px;
-    display      : block;
-    z-index      : 16;
+    width  : 328px;
+    height : 121px;
+    display: block;
+    z-index: 16;
 }
 
 
@@ -43,6 +43,78 @@
     width      : 328px;
     height     : 34px;
 }
+
+.skuSelectorContainer--sku-size--pdp {
+    display       : flex;
+    flex-direction: column;
+}
+
+.skuSelectorSubcontainer--color {
+    order: 2;
+}
+
+.skuSelectorSubcontainer--talla {
+    order: 1;
+}
+
+.skuSelectorNameContainer {
+    padding-top: 24px;
+}
+
+.skuSelectorName {
+    font-family: Lexend;
+    font-size  : 16px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align : left;
+    color      : #1D2734;
+}
+
+.skuSelectorOptionsList {
+    display: flex;
+    gap    : 8px;
+}
+
+
+.skuSelectorItem--sku-selector--pdp:focus {
+    outline: none;
+    border : 1px solid #1D2734
+}
+
+.frameAround {
+    bottom : 0;
+    top    : 0;
+    left   : 0;
+    right  : 0;
+    display: none;
+
+}
+
+.productImagesContainer :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer) {
+    border       : 1px solid #E7E7E7;
+    border-radius: 4px;
+}
+
+.productImagesContainer :global(.vtex-store-components-3-x-productImagesThumb) {
+    height: 74px !important;
+    border: 1px solid #E7E7E7;
+}
+
+
+.productImagesThumb {
+    margin-right: 0.5rem;
+}
+
+.thumbImg {
+    height: 71px;
+}
+
+/* .skuSelectorInternalBox--sku-selector--pdp {
+    width        : 40px;
+    height       : 40px;
+    border-radius: 100px;
+} */
+
 
 @media screen and (min-width: 1024px) {
 
@@ -80,9 +152,9 @@
 
     /*---- tiene imagenes pequena */
     .carouselGaleryThumbs {
-        width      : 92px !important;
-        height     : 650px;
-        margin-left: 2rem;
+        /* width      : 92px !important; */
+        height        : 650px;
+        /* margin-left: 2rem; */
     }
 
     /*---- tiene imagen pequena */
@@ -93,4 +165,11 @@
         border       : 1px;
     }
 
+    .productImagesContainer :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer) {
+        height: 650px;
+    }
+
+    .productImagesContainer :global(.vtex-store-components-3-x-productImagesThumb) {
+        height: 0
+    }
 }
