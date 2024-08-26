@@ -11,15 +11,29 @@
       "accessCodePlaceholder": "Enter your access code",
       "showPasswordVerificationIntoTooltip": true,
       "iconLabel": "Login",
-      "blockClass": "icon-login"
+      "blockClass": "icon-login",
+      "accountOptionLinks": [
+        {
+          "label": "Profile",
+          "path": "/account#/profile"
+        },
+        {
+          "label": "Addresses",
+          "path": "/account#/addresses"
+        },
+        {
+          "label": "Orders",
+          "path": "/account#/orders"
+        },
+        {
+          "label": "Credit cards",
+          "path": "/account#/cards"
+        },
+        {
+          "label": "Authentication",
+          "path": "/account#/authentication"
+        }
+      ]
     }
   }
 }
-
-      //E-mail and password
-     
-// "login-content": {
-//     "props": { 
-//         "optionsTitle": "PRUEBADDDDD"
-//     }
-//   }

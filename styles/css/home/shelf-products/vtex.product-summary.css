@@ -1,4 +1,4 @@
-.description {
+.productBrand {
   font-size         : 14px;
   font-weight       : 400;
   line-height       : 1.5;
@@ -9,6 +9,8 @@
   overflow          : hidden;
   text-overflow     : ellipsis;
   margin-right      : 7px;
+  color: rgba(29, 39, 52, 0.6);
+
 }
 
 
@@ -41,7 +43,7 @@
 }
 
 .imageStackContainer :global(.vtex-product-summary-2-x-imageNormal){
-  width: 178px;
+  width: 178px !important;
   height: 140px !important;
 
 }

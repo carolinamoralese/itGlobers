@@ -38,7 +38,7 @@
 
   "flex-layout.col#sort__options": {
     "title": "Sort Options column",
-    "children": ["order-by.v2"],
+    "children": ["order-by.v2", "gallery-layout-switcher"],
     "props": {
       "blockClass": "sort__options"
     }
@@ -67,7 +67,6 @@
   "flex-layout.col#product__gallery": {
     "title": "Product Gallery Column",
     "children": [
-      "gallery-layout-switcher",
       "search-content#plp",
       "search-products-count-per-page",
       "search-fetch-more"

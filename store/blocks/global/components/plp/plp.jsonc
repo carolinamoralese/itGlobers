@@ -62,6 +62,16 @@
       "search-not-found-layout"
     ]
   },
+  "total-products.v2": {
+    "props": {
+      "blocksClass": "plp__totalproducts"
+    }
+  },
+  "search-title.v2": {
+    "props": {
+      "blocksClass": "plp__title"
+    }
+  },
   "order-by.v2": {
     "title": "Order By Filter",
     "props": {
@@ -71,20 +81,18 @@
   "filter-navigator.v3": {
     "title": "PLP Filter Navigator",
     "props": {
-      "blocksClass": ["plp__filter--navigation"],
-      "facetOrdering": [
-        {
-          "key": "brand",
-          "orderBy": "name",
-          "order": "ASC"
-        }
-      ]
+      "blocksClass": ["plp__filter--navigation"]
     }
   },
   "breadcrumb.search": {
     "title": "Breadcrumb Search Navigation",
     "props": {
       "showOnMobile": true
+    }
+  },
+  "search-products-count-per-page": {
+    "props": {
+      "blocksClass": "plp__countproducts"
     }
   }
 }

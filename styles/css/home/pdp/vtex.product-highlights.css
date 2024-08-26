@@ -26,5 +26,14 @@
     text-align   : left;
     color        : #1D2734;
 
+}
 
+@media (max-width: 767px) {
+    .productHighlightWrapper--pdp__flash-Deal {
+        margin-right: 5rem;
+    }
+
+    .flexRow--header-container-menu-desktop {
+        margin-left: 0%;
+    }
 }

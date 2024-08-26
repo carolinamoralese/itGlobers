@@ -74,7 +74,7 @@
 
   "flex-layout.col#shelf-description": {
     "title": "Description Container for Shelf Products",
-    "children": ["product-summary-description"]
+    "children": ["product-summary-name"]
   },
   "flex-layout.col#shelf-price": {
     "title": "Price Container for Shelf Products",
