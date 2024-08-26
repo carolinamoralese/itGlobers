@@ -115,3 +115,12 @@
     background-color: #1d2734;
     color           : white;
 }
+
+.filter__container--category-2,
+.filter__container--brand,
+.filter__container--color,
+.filter__container--category-3,
+.filter__container--talla,
+.filter__container--priceRangefilter__container--priceRange{
+    border-bottom-style: none;
+}

@@ -13,7 +13,8 @@
         "flex-layout.col#shelf__details--gallery"
       ],
       "props": {
-        "blockClass": "shelf__content--gallery"
+        "blockClass": "shelf__content--gallery",
+        "colSizing": "auto"
       }
     },
     "flex-layout.col#shelf__image--gallery": {

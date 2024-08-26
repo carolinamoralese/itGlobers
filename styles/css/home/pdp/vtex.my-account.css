@@ -1,0 +1,7 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--especificartion__pdp .vtex-flex-layout-0-x-stretchChildrenWidth) > span:nth-child(4n-3){
+    background-color: #E7E7E7;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--especificartion__pdp .vtex-flex-layout-0-x-stretchChildrenWidth) > span:nth-child(4n-2){
+    background-color: #E7E7E7;
+}

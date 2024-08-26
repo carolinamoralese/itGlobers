@@ -13,9 +13,9 @@
 
 /*----------------------------------------- quitar si no se usa---------------------*/
 .flexColChild--product__gallery {
-    display: flex ;
+    display       : flex;
     flex-direction: row-reverse;
-    margin-top: -160px;
+    /* margin-top : -160px; */
 }
 
 .flexColChild--shelf__details--gallery {
@@ -43,6 +43,8 @@
     font-weight           : 400 !important;
     line-height           : 12.76px !important;
     text-align            : left !important;
+    height                : 39px;
+    width                 : 149px;
     /* height             : 39px;
         width             : 149px;
         display           : -webkit-box;
@@ -54,7 +56,12 @@
     /* margin-left        : 10px; */
     padding               : 0%;
     margin-right          : 0;
-    /* background-color: #FA2080; */
+ 
+}
+
+.flexCol--shelf__image--gallery {
+    width : 135.15px;
+    height: 106.3px;
 }
 
 .flexColChild--shelf__details--gallery :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
