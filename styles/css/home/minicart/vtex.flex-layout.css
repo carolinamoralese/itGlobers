@@ -44,3 +44,19 @@
     overflow  : auto;
     max-height: 700px;
 }
+
+.flexCol--product-buttonremove :global(.vtex-product-list-0-x-deleteIcon) {
+    display: none;
+}
+
+.flexCol--product-buttonremove :global(.vtex-product-list-0-x-removeButton)::before {
+    content            : "";
+    display            : inline-block;
+    width              : 22.69px;
+    height             : 22.69px;
+    background-image   : url("/arquivos/icon-delete.svg");
+    background-repeat  : no-repeat;
+    background-size    : 100%;
+    background-position: center;
+
+}

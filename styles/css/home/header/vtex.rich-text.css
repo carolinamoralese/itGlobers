@@ -1,6 +1,14 @@
 .paragraph--header__options--mega--menu--mobile::before {
-    content      : url("/arquivos/Icon_Color-it-globers.svg");
-    padding-right: 1px;
+    content            : "";
+    display            : inline-block;
+    width              : 10px;
+    height             : 10px;
+    border-radius      : 4px;
+    content            : url("/arquivos/mobile__icon--it--globers.png");
+    background-repeat  : no-repeat;
+    background-size    : 100%;
+    background-position: center;
+    margin-right       : 0.5rem;
 }
 
 .container--header__options--mega--menu--mobile {
@@ -10,4 +18,10 @@
 .paragraph--header__options--mega--menu--mobile {
     margin-left: 14px;
     margin-top : 20px;
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align : left;
+
 }

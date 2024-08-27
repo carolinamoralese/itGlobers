@@ -1,6 +1,6 @@
 {
   "flex-layout.row#tablet_main-slider-info-card": {
     "title": "tablet conatainer info card",
-    "children": ["flex-layout.row#home--slider"]
+    "children": ["flex-layout.row#global__home--slider"]
   }
 }

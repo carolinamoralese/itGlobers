@@ -1,12 +1,12 @@
 {
-  "header-row#menu-icon": {
-    "title": "menu icons",
-    "children": ["flex-layout.row#section-two-icon-menu"],
+  "header-row#global__menu-icon": {
+    "title": "menu icons global",
+    "children": ["flex-layout.row#global__section-two-icon-menu"],
     "props": {
       "blockClass": "container-menu-icon-global"
     }
   },
-  "flex-layout.row#section-two-icon-menu": {
+  "flex-layout.row#global__section-two-icon-menu": {
     "title": "menu header options section two",
     "props": {
       "topMenuIcons": true,
@@ -14,7 +14,6 @@
       "blockClass": ["header-container-menu-desktop"]
     },
     "children": [
-      // "flex-layout.col#spacer",
       "flex-layout.col#option-food",
       "flex-layout.col#option-gym",
       "flex-layout.col#option-place",
@@ -314,7 +313,7 @@
   "rich-text#text-section-header-walking-trails": {
     "title": "text icon walking trails",
     "props": {
-      "text": "Senderos",
+      "text": "Alpinismo",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "font": "t-heading-10",

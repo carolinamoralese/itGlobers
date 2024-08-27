@@ -2,6 +2,7 @@
   "header-layout.mobile": {
     "children": [
       "header-row#main-menu-phone",
-      "flex-layout.row#phone_header-menu-icons"]
+      "flex-layout.row#phone_header-menu-icons"
+    ]
   }
 }

@@ -1,25 +1,25 @@
 {
   "flex-layout.row#desktop__plp": {
     "title": "Desktop Layout Row for PLP",
-    "children": ["flex-layout.col#container__plp"],
+    "children": ["flex-layout.col#desktop__container--plp"],
     "props": {
       "blockClass": "desktop__plp"
     }
   },
 
-  "flex-layout.col#container__plp": {
+  "flex-layout.col#desktop__container--plp": {
     "title": "Main Container column for PLP",
-    "children": ["flex-layout.row#head__plp", "flex-layout.row#body__plp"],
+    "children": ["flex-layout.row#desktop__head--plp", "flex-layout.row#desktop__body--plp"],
     "props": {
       "blockClass": "container__plp"
     }
   },
 
-  "flex-layout.row#head__plp": {
+  "flex-layout.row#desktop__head--plp": {
     "title": "PLP Header Row",
     "children": [
-      "flex-layout.col#breadcrumb__search",
-      "flex-layout.col#sort__options"
+      "flex-layout.col#desktop__breadcrumb--search",
+      "flex-layout.col#desktop__sort--options"
     ],
     "props": {
       "blockClass": "head__plp",
@@ -28,7 +28,7 @@
     }
   },
 
-  "flex-layout.col#breadcrumb__search": {
+  "flex-layout.col#desktop__breadcrumb--search": {
     "title": "Breadcrumbs and Search Information column",
     "children": ["breadcrumb.search", "search-title.v2", "total-products.v2"],
     "props": {
@@ -36,7 +36,7 @@
     }
   },
 
-  "flex-layout.col#sort__options": {
+  "flex-layout.col#desktop__sort--options": {
     "title": "Sort Options column",
     "children": ["order-by.v2", "gallery-layout-switcher"],
     "props": {
@@ -44,7 +44,7 @@
     }
   },
 
-  "flex-layout.row#body__plp": {
+  "flex-layout.row#desktop__body--plp": {
     "title": "PLP Body Row",
     "children": [
       "flex-layout.col#filter__options",
@@ -84,7 +84,6 @@
   "gallery-layout-switcher": {
     "title": "Gallery Layout Switcher",
     "children": [
-      //It follows the same whole -> two -> many order
       "gallery-layout-option#whole",
       "gallery-layout-option#two",
       "gallery-layout-option#many"

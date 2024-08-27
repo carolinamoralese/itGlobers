@@ -92,3 +92,7 @@
 .flexRowContent--header-container-menu-desktop :hover {
     text-decoration-line: underline
 }
+
+.flexRow--header-container-menu-desktop-section-one-left{
+    min-width: 410px;
+}

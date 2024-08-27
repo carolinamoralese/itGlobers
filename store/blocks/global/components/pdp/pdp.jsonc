@@ -1,17 +1,4 @@
 {
-  "flex-layout.row#product-breadcrumb": {
-    "title": "Global Product Breadcrumb Row",
-    "props": {
-      "marginTop": 4
-    },
-    "children": ["breadcrumb"]
-  },
-  "breadcrumb": {
-    "title": "Global Breadcrumb",
-    "props": {
-      "showOnMobile": true
-    }
-  },
   "flex-layout.row#product-main": {
     "title": "Global Main Product Row",
     "props": {

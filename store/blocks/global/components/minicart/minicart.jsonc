@@ -17,7 +17,7 @@
     "props": {
       "blockClass": "mini-cart-logo-header-row"
     },
-    "children": ["flex-layout.col#logo-desktop"]
+    "children": ["flex-layout.col#global__logo-desktop"]
   },
   "flex-layout.row#minicart-header": {
     "title": "Minicart Header Row",
@@ -51,7 +51,6 @@
     "title": "Minicart Base Content",
     "blocks": ["minicart-empty-state"],
     "children": ["flex-layout.col#minicart-container"]
-    // "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
   },
   "flex-layout.col#minicart-container": {
     "title": "minicart container column",
@@ -73,7 +72,10 @@
   },
   "flex-layout.col#minicart-footer": {
     "title": "Minicart Footer Column",
-    "children": ["minicart-summary#container--totalizers", "minicart-checkout-button"],
+    "children": [
+      "minicart-summary#container--totalizers",
+      "minicart-checkout-button"
+    ],
     "props": {
       "blockClass": "minicart-footer-column"
     }

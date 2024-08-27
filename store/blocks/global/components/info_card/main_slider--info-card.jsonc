@@ -1,13 +1,13 @@
 {
-  "flex-layout.row#home--slider": {
+  "flex-layout.row#global__home--slider": {
     "title": "slider global",
-    "children": ["slider-layout#second__slider"],
+    "children": ["slider-layout#global__second__slider"],
     "props": {
       "blockClass": "conatainer-banner-home-desktop"
     }
   },
 
-  "slider-layout#second__slider": {
+  "slider-layout#global__second__slider": {
     "title": "Producto list at home",
     "props": {
       "itemsPerPage": {
@@ -21,21 +21,21 @@
       "blockClass": "custom-slider"
     },
     "children": [
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container",
-      "flex-layout.col#second__slider--container"
+      "flex-layout.col#global__second__slider--container",
+      "flex-layout.col#global__second__slider--container",
+      "flex-layout.col#global__second__slider--container",
+      "flex-layout.col#global__second__slider--container",
+      "flex-layout.col#global__second__slider--container",
+      "flex-layout.col#global__second__slider--container"
     ]
   },
 
-  "flex-layout.col#second__slider--container": {
+  "flex-layout.col#global__second__slider--container": {
     "title": "container whit image and text",
     "children": [
-      "flex-layout.row#slider__first-row",
-      "flex-layout.row#slider__second-row",
-      "flex-layout.row#slider__third-row"
+      "flex-layout.row#global__slider--first-row",
+      "flex-layout.row#global__slider--second-row",
+      "flex-layout.row#global__slider--third-row"
     ],
     "props": {
       "blockClass": "container-info-product",
@@ -43,15 +43,15 @@
     }
   },
 
-  "flex-layout.row#slider__first-row": {
+  "flex-layout.row#global__slider--first-row": {
     "title": "container image of products",
-    "children": ["image#first__row-image"],
+    "children": ["image#global__first--row-image"],
     "props": {
       "blockClass": "container-image-and-product"
     }
   },
 
-  "image#first__row-image": {
+  "image#global__first--row-image": {
     "title": "product image",
     "props": {
       "src": "/arquivos/card-product.png",
@@ -59,11 +59,11 @@
     }
   },
 
-  "flex-layout.row#slider__second-row": {
+  "flex-layout.row#global__slider--second-row": {
     "title": "container whit text of products and price",
     "children": [
-      "flex-layout.col#second__row-text",
-      "flex-layout.col#second__row-image"
+      "flex-layout.col#global__second--row-text",
+      "flex-layout.col#global__second--row-image"
     ],
 
     "props": {
@@ -71,16 +71,16 @@
     }
   },
 
-  "flex-layout.col#second__row-text": {
+  "flex-layout.col#global__second--row-text": {
     "title": "container text of product",
-    "children": ["rich-text#second__row-title"],
+    "children": ["rich-text#global__second--row-title"],
     "props": {
       "width": "70%",
       "blockClass":"second__row-text"
     }
   },
 
-  "rich-text#second__row-title": {
+  "rich-text#global__second--row-title": {
     "title": "text of product",
     "props": {
       "text": "### Heading\n Builder platform is made by, buildership platform is made by...",
@@ -88,15 +88,15 @@
     }
   },
 
-  "flex-layout.col#second__row-image": {
+  "flex-layout.col#global__second--row-image": {
     "title": "container img ecommer award",
-    "children": ["image#second__row-best-seller"],
+    "children": ["image#global__second--row-best-seller"],
     "props": {
       "blockClass":"second__row-image"
     }
   },
 
-  "image#second__row-best-seller": {
+  "image#global__second--row-best-seller": {
     "title": "img certifciate",
     "props": {
       "src": "/arquivos/certificado-ecommer-award.png",
@@ -104,12 +104,12 @@
     }
   },
 
-  "flex-layout.row#slider__third-row": {
+  "flex-layout.row#global__slider--third-row": {
     "title": "container price",
-    "children": ["rich-text#slider__third-row--button"]
+    "children": ["rich-text#gloabl__slider--third-row--button"]
   },
 
-  "rich-text#slider__third-row--button": {
+  "rich-text#gloabl__slider--third-row--button": {
     "title": "text of price",
     "props": {
       "text": "[Ver precio]()",

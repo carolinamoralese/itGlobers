@@ -1,18 +1,18 @@
 {
-    "flex-layout.col#logo-desktop": {
-        "title": "container logo desktop",
-        "props": {
-          "verticalAlign": "middle"
-        },
-        "children": ["logo#desktop"]
-      },
-      "logo#desktop": {
-        "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "assets/img/icon_logo.svg",
-          "width": 32,
-          "height": 16
-        }
-      }
+  "flex-layout.col#global__logo-desktop": {
+    "title": "container logo desktop",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/icon_logo.svg",
+      "width": 32,
+      "height": 16
+    }
+  }
 }

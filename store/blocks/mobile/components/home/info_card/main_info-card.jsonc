@@ -1,7 +1,7 @@
 {
   "flex-layout.row#phone_main-info-card": {
     "title": "phone container info card",
-    "children": ["flex-layout.row#home--slider"],
+    "children": ["flex-layout.row#global__home--slider"],
     "props": {
       "blockClass": "phone-mian-info-card"
     }
