@@ -1,6 +1,0 @@
-{
-    "flex-layout.row#tablet_header-menu-info": {
-    "title": "tablet container header menu icons",
-    "children": ["header-row#main-menu-desktop"]
-  }
-}

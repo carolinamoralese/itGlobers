@@ -1,6 +1,6 @@
 {
   "flex-layout.row#phone_header-menu-icons": {
     "title": "container menu icons phone",
-    "children": ["header-row#menu-icon"]
+    "children": ["header-row#global__menu-icon"]
   }
 }

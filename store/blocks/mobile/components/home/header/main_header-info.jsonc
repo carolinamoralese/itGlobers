@@ -12,7 +12,6 @@
       "overlay-trigger#header__overlay--mobile",
       "minicart.v2",
       "login#global"
-      // "login#header-phone"
     ],
     "props": {
       "topMenuIcons": true,
@@ -48,16 +47,4 @@
       "width": "32px"
     }
   }
-  // "login#header-phone": {
-  //   "title": "Login Icon for Phone Header",
-  //   "props": {
-  //     "emailAndPasswordTitle": "LOG-IN",
-  //     "accessCodeTitle": "Acess Code LOG-IN",
-  //     "emailPlaceholder": "e-mail",
-  //     "passwordPlaceholder": "password",
-  //     "showPasswordVerificationIntoTooltip": true,
-  //     "blockClass": "icon-login-phone",
-  //     "iconLabel": "Login"
-  //   }
-  // }
 }

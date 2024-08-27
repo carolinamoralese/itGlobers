@@ -53,7 +53,7 @@
       <path d="M15 14H1V16H15V14Z" fill="currentColor"/>
     </g>
     <g id="hpa-arrow-back">
-     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+     <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M9 19L10.41 17.59L5.83 13H22V11H5.83L10.42 6.41L9 5L2 12L9 19Z" fill="#1D2734"/>
     </svg>
     </g>

@@ -1,19 +1,17 @@
 {
-  "flex-layout.col#meda-menu-desktop": {
+  "flex-layout.col#desktop__mega-menu": {
     "title": "col mega menu container",
     "children": [
-      "flex-layout.row#row_trigger-desktop",
-      "flex-layout.row#mega-menu"
+      "flex-layout.row#desktop__row_trigger",
+      "flex-layout.row#desktop__mega-menu"
     ]
   },
-  "flex-layout.row#row_trigger-desktop": {
+  "flex-layout.row#desktop__row_trigger": {
     "title": "row mega menu",
-    "children": [
-       "flex-layout.col#trigger-mega-menu"
-    ]
+    "children": ["flex-layout.col#desktop__trigger-mega-menu"]
   },
 
-  "flex-layout.row#mega-menu": {
+  "flex-layout.row#desktop__mega-menu": {
     "title": "row mega menu desktop",
     "children": ["mega-menu#desktop"]
   },
@@ -25,7 +23,7 @@
       "title": "All categories"
     }
   },
-  "flex-layout.col#trigger-mega-menu": {
+  "flex-layout.col#desktop__trigger-mega-menu": {
     "title": "col mega menu desktop",
     "props": {
       "verticalAlign": "middle",

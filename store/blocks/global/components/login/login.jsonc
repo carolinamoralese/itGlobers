@@ -11,7 +11,7 @@
       "accessCodePlaceholder": "Enter your access code",
       "showPasswordVerificationIntoTooltip": true,
       "iconLabel": "Login",
-      "blockClass": "icon-login",
+      "blockClass": ["icon-login"],
       "accountOptionLinks": [
         {
           "label": "Profile",

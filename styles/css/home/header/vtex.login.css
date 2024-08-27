@@ -1,7 +1,7 @@
 .container {
   background   : #1d2734;
   height       : 40px;
-  width        : 80px;
+  min-width    : 80px;
   gap          : 10px;
   border-radius: 40px;
   border       : 1px;
@@ -174,7 +174,18 @@
   display: block;
 }
 
+.backButton :global(.vtex-button)::before {
+  content   : url("/arquivos/icon__back-login.png");
+   background-repeat  : no-repeat;
+   background-size    : 100%;
+   background-position: center
+ }
+
 .backButton :global(.t-small) {
+  display: none;
+}
+
+.arrowBackIcon{
   display: none;
 }
 
@@ -485,20 +496,20 @@
 
 
 .contentFormVisible :global(.c-muted-1) {
-  width          : 368px;
-  height         : 48px;
-  padding        : 10px;
-  gap            : 10px;
-  border-radius  : 40px;
-  margin-bottom  : 0.5rem;
-  display        : flex;
-  justify-content: center;
-  font-family    : Lexend;
-  font-size      : 14px;
-  font-weight    : 400;
-  line-height    : 17.5px;
-  border         : 1px solid rgba(29, 39, 52, 1);
-  color          : rgba(29, 39, 52, 1);
+  width             : 368px;
+  height            : 48px;
+  padding           : 10px;
+  gap               : 10px;
+  border-radius     : 40px;
+  margin-bottom     : 0.5rem;
+  display           : flex;
+  justify-content   : center;
+  font-family       : Lexend;
+  font-size         : 14px;
+  font-weight       : 400;
+  line-height       : 17.5px;
+  border            : 1px solid rgba(29, 39, 52, 1);
+  color             : rgba(29, 39, 52, 1);
   /* display        : none; */
 
 

@@ -1,5 +1,5 @@
 {
-  "header-row#main-menu-desktop": {
+  "header-row#desktop__main-menu": {
     "title": "header main menu",
     "children": ["flex-layout.row#desktop-section-one-main-information"],
     "props": {
@@ -18,11 +18,11 @@
       "blockClass": "header-container-menu-desktop-section-one"
     },
     "children": [
-      "flex-layout.row#section-left-menu-logo-search",
-      "flex-layout.row#section-right-information-carButton-login"
+      "flex-layout.row#desktop__section-left-menu-logo-search",
+      "flex-layout.row#desktop__section-right-information-carButton-login"
     ]
   },
-  "flex-layout.row#section-left-menu-logo-search": {
+  "flex-layout.row#desktop__section-left-menu-logo-search": {
     "title": "section menu, logo y search",
     "props": {
       "horizontalAlign": "center",
@@ -33,11 +33,12 @@
       "blockClass": "header-container-menu-desktop-section-one-left"
     },
     "children": [
-     "flex-layout.col#meda-menu-desktop", 
-      "flex-layout.col#logo-desktop", 
-      "search-bar"]
+      "flex-layout.col#desktop__mega-menu",
+      "flex-layout.col#global__logo-desktop",
+      "search-bar"
+    ]
   },
-  "flex-layout.row#section-right-information-carButton-login": {
+  "flex-layout.row#desktop__section-right-information-carButton-login": {
     "title": "section information, cart button y login",
     "props": {
       "horizontalAlign": "center",
@@ -45,47 +46,25 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "header-container-menu-desktop-section-one-right"
+      "blockClass": ["header-container-menu-desktop-section-one-right"]
     },
     "children": [
-      "menu-item#trends",
-      "menu-item#colecionts",
-      "menu-item#offerts",
-      "menu-item#cyber-day",
-      "menu-item#never-say-never",
+      "menu-item#desktop__section--trends",
+      "menu-item#desktop__section--colecionts",
+      "menu-item#desktop__section--offerts",
+      "menu-item#desktop__section--cyber-day",
+      "menu-item#desktop__section--never-say-never",
       "minicart.v2",
       "login#global"
     ]
   },
-  // "drawer#desktop": {
-  //   "props": {
-  //     "verticalAlign": "middle",
-  //     "blockClass": ["menu-desktop"]
-  //   }
-  // },
-
-  // "flex-layout.col#logo-desktop": {
-  //   "title": "container logo desktop",
-  //   "props": {
-  //     "verticalAlign": "middle"
-  //   },
-  //   "children": ["logo#desktop"]
-  // },
-  // "logo#desktop": {
-  //   "props": {
-  //     "title": "Logo",
-  //     "href": "/",
-  //     "url": "assets/img/icon_logo.svg",
-  //     "width": "32px"
-  //   }
-  // },
   "search-bar": {
     "props": {
       "placeholder": "Search products....",
       "blockClass": "icon-header-section-one-information"
     }
   },
-  "menu-item#trends": {
+  "menu-item#desktop__section--trends": {
     "props": {
       "id": "trends",
       "type": "custom",
@@ -101,7 +80,7 @@
     }
   },
 
-  "menu-item#colecionts": {
+  "menu-item#desktop__section--colecionts": {
     "props": {
       "id": "colections",
       "type": "custom",
@@ -116,7 +95,7 @@
       }
     }
   },
-  "menu-item#offerts": {
+  "menu-item#desktop__section--offerts": {
     "props": {
       "id": "offerts",
       "type": "custom",
@@ -131,7 +110,7 @@
       }
     }
   },
-  "menu-item#cyber-day": {
+  "menu-item#desktop__section--cyber-day": {
     "props": {
       "id": "ciber-day",
       "type": "custom",
@@ -146,7 +125,7 @@
       }
     }
   },
-  "menu-item#never-say-never": {
+  "menu-item#desktop__section--never-say-never": {
     "props": {
       "id": "never-say-never",
       "type": "custom",
@@ -161,20 +140,4 @@
       }
     }
   }
-  // "minicart.v2": {
-  //   "props": {
-  //     "blockClass": "minicart-header"
-  //   }
-  // },
-//   "login#header-desktop": {
-//     "props": {
-//       "emailAndPasswordTitle": "LOG-IN",
-//       "accessCodeTitle": "Access Code LOG-IN",
-//       "emailPlaceholder": "e-mail",
-//       "passwordPlaceholder": "password",
-//       "showPasswordVerificationIntoTooltip": true,
-//       "iconLabel": "Login",
-//       "blockClass": "icon-login"
-//     }
-//   }
 }

@@ -1,6 +1,5 @@
 {
   "search-result-layout.desktop": {
-    "title": "desktop search",
     "children": [
        "flex-layout.row#desktop__plp"
     ],

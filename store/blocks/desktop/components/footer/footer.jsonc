@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#desktop__footer": {
+    "title": "desktop row footer",
+    "children": ["flex-layout.col#desktop__footer"],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#desktop__footer": {
+    "title": "desktop row footer",
+    "children": [
+      "flex-layout.row#desktop__social--network--footer",
+      "flex-layout.row#desktop__payments--methods--footer",
+      "flex-layout.row#desktop__powered--by--footer"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.row#desktop__social--network--footer": {
+    "title": "row social networks",
+    "children": ["social-networks"]
+  },
+  "flex-layout.row#desktop__payments--methods--footer": {
+    "title": "row payments method",
+    "children": ["accepted-payment-methods"]
+  },
+  "flex-layout.row#desktop__powered--by--footer": {
+    "title": "row powered by",
+    "children": ["powered-by"]
+  }
+}

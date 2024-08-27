@@ -1,11 +1,16 @@
 {
-    "header": {
-        "blocks": ["header-layout.desktop", "header-layout.desktop#tablet","header-layout.mobile"]
-      },
-      "header.full": {
-        "blocks": ["header-layout.desktop","header-layout.desktop#tablet", "header-layout.mobile"]
-      }
-
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.desktop#tablet",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.desktop#tablet",
+      "header-layout.mobile"
+    ]
+  }
 }
-
-

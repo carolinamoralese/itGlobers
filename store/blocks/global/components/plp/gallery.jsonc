@@ -26,7 +26,7 @@
         }
       ],
       "OneOrTwoLineSummary": "product-summary.shelf#global__gallery--summary",
-      "ManyByLineSummary":"product-summary.shelf#global__gallery--summary"
+      "ManyByLineSummary": "product-summary.shelf#global__gallery--summary"
     }
   },
   "gallery-layout-option#whole": {

@@ -19,11 +19,9 @@
   "flex-layout.row#drawer-header": {
     "title": "Drawer Header Row",
     "children": [
-      // "flex-layout.col#mega-menu-go-back-btn",
-      "flex-layout.col#logo-desktop",
+      "flex-layout.col#global__logo-desktop",
       "rich-text#header__options--mega--menu--mobile",
       "flex-layout.col#spacer"
-      // "flex-layout.col#drawer-close-button"
     ],
     "props": {
       "blockClass": "drawer-header",
@@ -38,23 +36,6 @@
     "props": {
       "text": "ITGlobers+",
       "blockClass": "header__options--mega--menu--mobile"
-    }
-  },
-  "flex-layout.col#drawer-close-button": {
-    "title": "Drawer Close Button Column",
-    "children": ["drawer-close-button"],
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "right"
-    }
-  },
-  "flex-layout.col#mega-menu-go-back-btn": {
-    "title": "Mega Menu Go Back Button Column",
-    "children": ["mega-menu-go-back-btn"],
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "left",
-      "paddingLeft": 4
     }
   },
   "flex-layout.col#spacer": {

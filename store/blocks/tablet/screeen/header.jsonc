@@ -1,15 +1,7 @@
-// {
-//   "header-layout.desktop#tablet": {
-//     "children": [
-//       "flex-layout.row#tablet_header-menu-info",
-//       "flex-layout.row#tablet_menu-icons"
-//     ]
-//   }
-// }
 {
   "header-layout.desktop#tablet": {
     "children": [
-      "header-row#main-menu-desktop",
+      "header-row#desktop__main-menu",
       "flex-layout.row#desktop_main-header-icons"
     ]
   }

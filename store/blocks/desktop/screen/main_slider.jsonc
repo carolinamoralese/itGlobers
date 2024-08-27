@@ -2,13 +2,13 @@
   "responsive-layout.desktop": {
     "children": [
       "flex-layout.row#desktop__main-slider",
-      "rich-text#title-section-one-desktop",
+      "rich-text#desktop__title-section-one",
       "flex-layout.row#desktop-slider-info-card",
-      "rich-text#title-section-two-desktop",
+      "rich-text#desktop__title-section-two",
       "flex-layout.row#desktop_main-shelf",
-      "rich-text#title-section-three-desktop",
+      "rich-text#desktop__title-section-three",
       "flex-layout.row#desktop-slider-info-card",
-      "rich-text#title-section-two-desktop",
+      "rich-text#desktop__title-section-two",
       "flex-layout.row#desktop_main-shelf"
     ]
   }

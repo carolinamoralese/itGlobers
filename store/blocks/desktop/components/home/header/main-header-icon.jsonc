@@ -2,7 +2,7 @@
     "flex-layout.row#desktop_main-header-icons": {
         "title": "container menu header icons",
         "children": [
-            "header-row#menu-icon"
+            "header-row#global__menu-icon"
         ]
     }
 }

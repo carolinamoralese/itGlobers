@@ -91,6 +91,7 @@
     padding: 5px;
     width  : 11.67px;
     height : 11.67px;
+    color  : white;
 
 }
 
@@ -121,6 +122,6 @@
 .filter__container--color,
 .filter__container--category-3,
 .filter__container--talla,
-.filter__container--priceRangefilter__container--priceRange{
+.filter__container--priceRangefilter__container--priceRange {
     border-bottom-style: none;
 }
