@@ -1,10 +1,3 @@
-/*------------tablet---------------*/
-
-@media (min-width: 640px) and (max-width: 1024px) {
-  .openIconContainer {
-    margin-left: 90px;
-  }
-}
 
 /*------------color boton ventana pop up---------------*/
 .minicartCheckoutButton--minicart-checkout-button :global(.vtex-button) {
@@ -95,4 +88,9 @@
   .minicartCheckoutButton--minicart-checkout-button :global(.vtex-button) {
     width: 280px !important;
   }
+}
+
+.openIconContainer--minicart-container{
+  padding: 0;
+  padding-left: 3rem;
 }

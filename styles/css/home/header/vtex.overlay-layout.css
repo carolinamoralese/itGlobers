@@ -1,14 +1,6 @@
 .trigger--header__overlay--mobile{
-    margin-top: 30%;
-    margin-left: 265%;
     z-index: 400 !important;
 }
 
 
-/*------------tablet---------------*/
-@media (min-width: 640px) and (max-width: 1024px) {
-    .trigger--header__overlay--mobile{
-    margin-top: 20px;
-    }
-}
 

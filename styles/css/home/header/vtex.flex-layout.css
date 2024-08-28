@@ -1,6 +1,5 @@
 /*--------------------------------------------css header desktop--------------------------------*/
 .header-container-menu-desktop {
-
     width  : 1136px;
     height : 47px;
     top    : 9px;
@@ -16,12 +15,6 @@
 
 .flexRow--header-container-menu-desktop {
     margin-left: 45px;
-}
-
-.flexRowContent--header-container-menu-desktop-section-one {
-    width : Fixed (1, 280px) px;
-    height: Fixed (56px) px;
-
 }
 
 .flexRow--drawer-header :global(.vtex-flex-layout-0-x-flexRowContent--drawer-header) {
@@ -42,7 +35,6 @@
         margin-left: 0%;
     }
 }
-
 
 .flexRow--header-container-menu-desktop-section-one-rigth {
     margin-left: 35px;
@@ -67,18 +59,14 @@
 }
 
 .flexRowContent--header-container-menu-phone-section-one {
-    display: flex;
+    display        : flex;
+    justify-content: space-between;
 }
 
-.flexCol--logo-phone {
-    margin-left   : -9px;
-    margin-bottom : 16px;
-    margin-right  : 50px;
-    padding-bottom: 20px !important;
-}
 
 .flexRow--header-container-menu-phone-section-one {
     margin-top: 15px;
+    height    : 72px;
 }
 
 .flexRowContent--header-container-menu-desktop-section-one-left {
@@ -86,13 +74,32 @@
 }
 
 .flexRowContent--header-container-menu-desktop-section-one-right :hover {
-    text-decoration-line: underline
+    text-decoration-line: underline;
 }
 
 .flexRowContent--header-container-menu-desktop :hover {
-    text-decoration-line: underline
+    text-decoration-line: underline;
 }
 
-.flexRow--header-container-menu-desktop-section-one-left{
+.flexRow--header-container-menu-desktop-section-one-left {
     min-width: 410px;
+}
+
+.flexRowContent--container__menu--logo :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width : 18px;
+    height: 12px;
+}
+
+.flexCol--container__menu--logo,
+.flexCol--container-menu-serach-minicart-login-mobile {
+    display: contents;
+}
+
+.flexColChild--container__menu--logo :global(.vtex-flex-layout-0-x-flexCol) {
+    margin-top: 1rem;
+    height    : auto;
+}
+
+.flexColChild--container-menu-serach-minicart-login-mobile {
+    align-content: center;
 }
