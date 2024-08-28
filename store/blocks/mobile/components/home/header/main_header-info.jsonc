@@ -1,54 +1,42 @@
 {
-  "sticky-layout#main-menu-phone": {
-    "title": "sticky main menu header for phone",
-    "children": ["header-row#main-menu-phone"]
-  },
-  "header-row#main-menu-phone": {
-    "title": "Main Menu Header for Phone",
-    "children": ["flex-layout.row#phone-section-one-information"]
+  "sticky-layout#mobile__main-menu": {
+    "title": "sticky main menu header for mobile",
+    "children": ["flex-layout.row#mobile__section-one-information"]
   },
 
-  "flex-layout.row#phone-section-one-information": {
-    "title": "Header Menu Options Section One Phone",
+  "flex-layout.row#mobile__section-one-information": {
+    "title": "Header Menu Options Section One mobile",
     "children": [
-      "drawer",
-      "flex-layout.col#logo-phone",
+      "flex-layout.col#mobile__container--menu--logo",
+      "flex-layout.col#mobile__container--serach-minicart-login-mobile"
+    ],
+    "props": {
+      "blockClass": "header-container-menu-phone-section-one",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#mobile__container--menu--logo": {
+    "title": "Container menu and logo",
+    "children": ["drawer", "flex-layout.col#global__logo-desktop"],
+    "props": {
+      "blockClass": ["container__menu--logo"],
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#mobile__container--serach-minicart-login-mobile": {
+    "title": "Container for Menu, Search, Minicart, and Login Mobile",
+    "children": [
       "overlay-trigger#header__overlay--mobile",
       "minicart.v2",
       "login#global"
     ],
     "props": {
-      "topMenuIcons": true,
-      "blockClass": "header-container-menu-phone-section-one"
-    }
-  },
-  "drawer": {
-    "title": "Navigation Drawer for Phone Menu",
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass": ["menu-phone"]
-    }
-  },
-  "flex-layout.row#container-menu-serach-minicart-login-mobile": {
-    "title": "Container for Menu, Search, Minicart, and Login Mobile",
-
-    "children": []
-  },
-  "flex-layout.col#logo-phone": {
-    "title": "Logo Column for Phone Header",
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass": ["logo-phone"]
-    },
-    "children": ["logo"]
-  },
-  "logo": {
-    "title": "Logo Component",
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/icon_logo.svg",
-      "width": "32px"
+      "blockClass": ["container-menu-serach-minicart-login-mobile"],
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
     }
   }
 }

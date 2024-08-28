@@ -16,6 +16,8 @@
     display       : flex;
     flex-direction: row-reverse;
     /* margin-top : -160px; */
+
+
 }
 
 .flexColChild--shelf__details--gallery {
@@ -25,12 +27,11 @@
 }
 
 .flexCol--sort__options :global(.vtex-search-result-3-x-orderByButton) {
-    min-width    : 170px;
-    height       : 40px;
-    padding      : 14px 12px 14px 12px;
-    border-radius: 40px;
-    justify      : space-between;
-    background   : #E7E7E7;
+    width          : 170px;
+    height         : 40px;
+    border-radius  : 40px;
+    background     : #E7E7E7;
+    justify-content: center;
 }
 
 .flexColChild--filter__options :global(.vtex-search-result-3-x-filterIcon) {
@@ -67,3 +68,15 @@
 .flexColChild--shelf__details--gallery :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
     color: #FA2080;
 }
+
+.flexColChild--sort__options :global(.vtex-search-result-3-x-orderByText)::before {
+    content       : "ordenar por";
+    font-size     : 14px;
+    text-transform: lowercase;
+    color         : rgba(29, 39, 52, 1);
+
+}
+
+/* .flexColChild--sort__options :global(.vtex-search-result-3-x-orderByText)::first-letter{
+    text-transform: capitalize;
+} */

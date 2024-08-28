@@ -61,11 +61,8 @@
 }
 
 .filterPopupTitle {
-    font-size     : 14px;
-    font-weight   : 400;
-    line-height   : 17.5px;
-    text-align    : center;
-    /* white-space: nowrap;  */
+    font-size: 0;
+    display  : flex;
 }
 
 .buttonShowMore--buttom-see-more-gallery :global(.vtex-button__label)::before {
@@ -124,4 +121,46 @@
 .filter__container--talla,
 .filter__container--priceRangefilter__container--priceRange {
     border-bottom-style: none;
+}
+
+.filterContent {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align : left;
+}
+
+.totalProductsMessage {
+    text-transform: lowercase;
+}
+
+.totalProductsMessage::after {
+    content     : "encontrados";
+    font-size   : 14px;
+    font-weight : 300;
+    line-height : 17.5px;
+    padding-left: 4px;
+
+}
+
+.orderByText::first-letter {
+    text-transform: capitalize;
+}
+
+.filterPopupTitle::before {
+    content      : url("/arquivos/plp-filter-settings.png");
+    width        : 20px;
+    height       : 20px;
+    padding-right: 4px;
+}
+
+.filterPopupTitle::after {
+    content: url("/arquivos/arrow_drop_down.png");
+    width  : 20px;
+    height : 20px;
+}
+
+.filterPopupArrowIcon {
+    display: none;
 }

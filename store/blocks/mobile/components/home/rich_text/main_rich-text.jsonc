@@ -1,6 +1,6 @@
 {
-  "rich-text#title-section-one-phone": {
-    "title": "rich text title section one phone",
+  "rich-text#mobile__title--section--one": {
+    "title": "rich text title section one mobile",
     "props": {
       "text": "An amazing product PHONE",
       "textAlignment": "LEFT",
@@ -9,8 +9,8 @@
       "blockClass": ["texto-section-one-phone"]
     }
   },
-  "rich-text#title-section-two-phone": {
-    "title": "rich text title section two phone",
+  "rich-text#mobile__title--section--two": {
+    "title": "rich text title section two mobile",
     "props": {
       "text": "An amazing product PHONE",
       "textAlignment": "LEFT",
@@ -19,8 +19,8 @@
       "blockClass": ["texto-section-two-phone"]
     }
   },
-  "rich-text#title-section-there-phone": {
-    "title": "rich text title section there phone",
+  "rich-text#mobile__title--section--there": {
+    "title": "rich text title section there mobile",
     "props": {
       "text": "An amazing product PHONE",
       "textAlignment": "LEFT",

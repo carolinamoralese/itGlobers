@@ -20,7 +20,7 @@
     "title": "Drawer Header Row",
     "children": [
       "flex-layout.col#global__logo-desktop",
-      "rich-text#header__options--mega--menu--mobile",
+      "rich-text#mobile__header--options--mega--menu",
       "flex-layout.col#spacer"
     ],
     "props": {
@@ -31,7 +31,7 @@
       "fullWidth": true
     }
   },
-  "rich-text#header__options--mega--menu--mobile": {
+  "rich-text#mobile__header--options--mega--menu": {
     "title": "header options mega menu mobile",
     "props": {
       "text": "ITGlobers+",

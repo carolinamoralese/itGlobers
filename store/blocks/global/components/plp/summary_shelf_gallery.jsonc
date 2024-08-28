@@ -4,7 +4,9 @@
       "children": [
         "flex-layout.row#shelf__content--gallery"
       ],
-      "props": {}
+      "props": {
+        "blockClass": ["global__gallery--summary"]
+      }
     },
     "flex-layout.row#shelf__content--gallery": {
       "title": "Row for Image and Description in Gallery Shelf",
@@ -27,7 +29,8 @@
     "product-summary-image": {
       "title": "Product Image Component",
       "props": {
-        "showBadge": false
+        "showBadge": false,
+        "blockClass":["shelf__image--gallery"]
       }
     },
     "flex-layout.col#shelf__details--gallery": {
@@ -45,7 +48,7 @@
     "product-summary-description": {
       "title": "Product Description Component",
       "props": {
-        "blockClass": "product-summary-description-gallery"
+        "blockClass": ["product-summary-description-gallery"]
       }
     },
     "product-list-price": {

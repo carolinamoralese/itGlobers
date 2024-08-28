@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#phone_header-menu-icons": {
+  "flex-layout.row#mobile_header-menu-icons": {
     "title": "container menu icons phone",
     "children": ["header-row#global__menu-icon"]
   }

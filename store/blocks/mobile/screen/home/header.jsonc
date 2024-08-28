@@ -1,8 +1,8 @@
 {
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#main-menu-phone",
-      "flex-layout.row#phone_header-menu-icons"
+      "sticky-layout#mobile__main-menu",
+      "flex-layout.row#mobile_header-menu-icons"
     ]
   }
 }
