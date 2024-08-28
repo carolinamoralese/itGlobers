@@ -1,15 +1,15 @@
 {
   "responsive-layout.phone": {
     "children": [
-      "flex-layout.row#phone__main-slider",
-      "rich-text#title-section-one-phone",
-      "flex-layout.row#phone_main-info-card",
-      "rich-text#title-section-two-phone",
-      "flex-layout.row#phone_main-shelf-products",
-      "rich-text#title-section-there-phone",
-      "flex-layout.row#phone_main-info-card",
-      "rich-text#title-section-two-phone",
-      "flex-layout.row#phone_main-shelf-products"
+      "flex-layout.row#mobile__main-slider",
+      "rich-text#mobile__title--section--one",
+      "flex-layout.row#mobile_main-info-card",
+      "rich-text#mobile__title--section--two",
+      "flex-layout.row#mobile__main--shelf--products",
+      "rich-text#mobile__title--section--there",
+      "flex-layout.row#mobile_main-info-card",
+      "rich-text#mobile__title--section--two",
+      "flex-layout.row#mobile__main--shelf--products"
     ]
   }
 }

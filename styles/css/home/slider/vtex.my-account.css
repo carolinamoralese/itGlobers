@@ -1,4 +1,4 @@
-:global(.vtex-slider-layout-0-x-paginationDot--isActive~.vtex-slider-layout-0-x-paginationDot:after) {
+:global(.vtex-slider-layout-0-x-paginationDot--isActive~.vtex-slider-layout-0-x-paginationDot::after) {
      width    : 44px;
      height   : 2px;
      content  : "";

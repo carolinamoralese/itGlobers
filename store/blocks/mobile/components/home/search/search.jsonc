@@ -6,7 +6,7 @@
       "overlay-layout#header__overlayout"
     ],
     "props": {
-      "blockClass": "header__overlay--mobile"
+      "blockClass": ["header__overlay--mobile"]
     }
   },
   "icon#header__search--mobile": {

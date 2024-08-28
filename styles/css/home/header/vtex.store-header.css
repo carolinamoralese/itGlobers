@@ -9,7 +9,6 @@
     .headerStickyRow--container-menu-icon-global {
         max-width  : 1280px;
         margin     : auto;
-        /* overflow: auto; */
     }
 }
 
@@ -30,9 +29,13 @@
 }
 
 /*------------tablet---------------*/
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 1023px) {
     .headerRowBackground--container-menu-icon-global {
         padding-left: 0%;
         width       : 0% !important;
+    }
+    .headerRowContentContainer--container-menu-icon-global{
+        margin-left: 0;
+        max-width: max-content;
     }
 }

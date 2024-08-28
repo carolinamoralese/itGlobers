@@ -1,4 +1,10 @@
 {
+  // "sticky-layout#global__menu-icon": {
+  //   "title": "stucky global menu icon ",
+  //   "children": [
+  //     "header-row#global__menu-icon"
+  //   ]
+  // },
   "header-row#global__menu-icon": {
     "title": "menu icons global",
     "children": ["flex-layout.row#global__section-two-icon-menu"],

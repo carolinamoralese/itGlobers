@@ -1,9 +1,9 @@
 {
-  "flex-layout.row#phone__main-slider": {
-    "title": "phone main slider",
-    "children": ["list-context.image-list#phone__container-imagenes"]
+  "flex-layout.row#mobile__main-slider": {
+    "title": "mobile main slider",
+    "children": ["list-context.image-list#mobile__container-imagenes"]
   },
-  "list-context.image-list#phone__container-imagenes": {
+  "list-context.image-list#mobile__container-imagenes": {
     "title": "list image home banner",
     "children": ["slider-layout#phone__slider"],
     "props": {
