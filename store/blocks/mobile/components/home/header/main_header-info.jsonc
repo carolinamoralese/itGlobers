@@ -1,4 +1,8 @@
 {
+  "sticky-layout#main-menu-phone": {
+    "title": "sticky main menu header for phone",
+    "children": ["header-row#main-menu-phone"]
+  },
   "header-row#main-menu-phone": {
     "title": "Main Menu Header for Phone",
     "children": ["flex-layout.row#phone-section-one-information"]

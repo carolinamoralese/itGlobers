@@ -1,4 +1,10 @@
 {
+  "sticky-layout#desktop__mega-menu": {
+    "children": [
+      "flex-layout.col#desktop__mega-menu"
+    ]
+
+  },
   "flex-layout.col#desktop__mega-menu": {
     "title": "col mega menu container",
     "children": [
