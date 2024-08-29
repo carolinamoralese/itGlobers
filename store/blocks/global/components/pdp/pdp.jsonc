@@ -73,8 +73,9 @@
   "vtex.store-components:product-name#global__product-name": {
     "title": "PDP Product Name",
     "props": {
-      "showSku": true,
-      "showBrandName": true
+      "showSku": false,
+      "showBrandName": false,
+      "displayMode": "plainText"
     }
   },
   "flex-layout.row#pdp__price": {

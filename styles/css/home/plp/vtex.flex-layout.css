@@ -55,11 +55,3 @@
 .flexColChild--shelf__details--gallery :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
     color: #FA2080;
 }
-
-.flexColChild--sort__options :global(.vtex-search-result-3-x-orderByText)::before {
-    content       : "ordenar por";
-    font-size     : 14px;
-    text-transform: lowercase;
-    color         : rgba(29, 39, 52, 1);
-
-}
