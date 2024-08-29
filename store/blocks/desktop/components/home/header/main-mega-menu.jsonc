@@ -1,25 +1,22 @@
 {
-  "sticky-layout#desktop__mega-menu": {
-    "children": [
-      "flex-layout.col#desktop__mega-menu"
-    ]
-
-  },
   "flex-layout.col#desktop__mega-menu": {
     "title": "col mega menu container",
     "children": [
-      "flex-layout.row#desktop__row_trigger",
+      // "flex-layout.row#desktop__row_trigger",
       "flex-layout.row#desktop__mega-menu"
     ]
   },
-  "flex-layout.row#desktop__row_trigger": {
-    "title": "row mega menu",
-    "children": ["flex-layout.col#desktop__trigger-mega-menu"]
-  },
+  // "flex-layout.row#desktop__row_trigger": {
+  //   "title": "row mega menu",
+  //   "children": ["flex-layout.col#desktop__trigger-mega-menu"]
+  // },
 
   "flex-layout.row#desktop__mega-menu": {
     "title": "row mega menu desktop",
-    "children": ["mega-menu#desktop"]
+    "children": [
+      "mega-menu#desktop",
+      "flex-layout.col#desktop__trigger-mega-menu"
+  ]
   },
   "mega-menu#desktop": {
     "title": "components mega menu desktop",

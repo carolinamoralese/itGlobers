@@ -65,12 +65,12 @@
     border-radius: 40px;
 }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+/* @media (min-width: 640px) and (max-width: 1024px) {
     .container {
         width: 900px;
     }
 
-}
+} */
 
 .logoContainer {
     padding-left: 8px !important;

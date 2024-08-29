@@ -6,12 +6,12 @@
 
 .paragraph--texto-section-one-desktop {
 
-  font-family     : lexend;
-  font-size       : 16px;
-  line-height     : 16.8px;
-  text-align      : left;
-  margin-bottom   : 20px;
-  margin-top      : 30px;
+  font-family  : lexend;
+  font-size    : 16px;
+  line-height  : 16.8px;
+  text-align   : left;
+  margin-bottom: 20px;
+  margin-top   : 30px;
 }
 
 .wrapper--texto-section-one-desktop {
@@ -22,26 +22,26 @@
 }
 
 .wrapper--texto-section-one-phone {
-  margin-left     : 10px;
-  width           : 500px;
-  size            : 16;
-  font-family     : lexend;
+  margin-left: 10px;
+  width      : 500px;
+  size       : 16;
+  font-family: lexend;
 }
 
 .wrapper--texto-section-two-phone {
-  margin-left     : 10px;
-  width           : 500px;
-  size            : 16;
-  font-family     : lexend;
-  margin-top      : 70px;
+  margin-left: 10px;
+  width      : 500px;
+  size       : 16;
+  font-family: lexend;
+  margin-top : 70px;
 }
 
 .wrapper--texto-section-there-phone {
-  margin-left     : 10px;
-  width           : 500px;
-  size            : 16;
-  font-family     : lexend;
-  margin-top      : 50px;
+  margin-left: 10px;
+  width      : 500px;
+  size       : 16;
+  font-family: lexend;
+  margin-top : 50px;
 }
 
 .paragraph--info-product {
@@ -90,16 +90,16 @@
 }
 
 .wrapper--slider_third-row--button {
-  background-color: #1d2734;
-  border-radius   : 40px;
-  width           : 134px;
-  height          : 43px;
-  padding         : 8px;
-  gap             : 8px;
-  border          : 0.86px;
-  margin-left     : 30%;
-  padding-left    : 18px;
-  margin-top      : 5px;
+  background-color   : #1d2734;
+  border-radius      : 40px;
+  width              : 134px;
+  height             : 43px;
+  padding            : 8px;
+  gap                : 8px;
+  border             : 0.86px;
+  /* margin-left     : 30%; */
+  padding-left       : 18px;
+  margin-top         : 5px;
 }
 
 
@@ -109,49 +109,42 @@
   color      : white;
 }
 
-@media (max-width: 780px) {
-  .wrapper--slider_third-row--button {
-    margin-left     : 100px;
-
-  }
-}
 
 /*------------------------------------------------section two home------------------------------*/
 .container--texto-section-two-desktop {
-  max-width        : 1280px;
-  margin           : auto;
-  height           : 80px;
-  margin-top       : 120px;
+  max-width    : 1280px;
+  margin       : auto;
+  margin-top   : 120px;
+  margin-bottom: 16px;
 }
 
 .paragraph--texto-section-two-desktop {
-  font-family     : lexend;
-  font-size       : 16px;
-  line-height     : 16.8px;
-  text-align      : left;
+  font-family: lexend;
+  font-size  : 16px;
+  line-height: 16.8px;
+  text-align : left;
 
 }
 
 .wrapper--texto-section-two-desktop {
-  margin-left     : 72px;
-  width           : 500px;
-  size            : 16;
-  font-family     : lexend;
+  margin-left: 72px;
+  width      : 500px;
+  size       : 16;
+  font-family: lexend;
 }
 
 .container--texto-section-three-desktop {
-  max-width : 1280px;
-  margin    : auto;
-  margin-top: 60px;
+  max-width: 1280px;
+  margin   : auto;
 }
 
 .paragraph--texto-section-three-desktop {
-  font-family     : lexend;
-  font-size       : 16px;
-  line-height     : 16.8px;
-  text-align      : left;
-  margin-bottom   : 30px;
-  margin-top      : 30px;
+  font-family  : lexend;
+  font-size    : 16px;
+  line-height  : 16.8px;
+  text-align   : left;
+  margin-bottom: 30px;
+  margin-top   : 30px;
 }
 
 .wrapper--texto-section-three-desktop {
@@ -196,16 +189,19 @@
 /*------------------------------------------------slider info card------------------------------*/
 
 .container--slider_third-row--button {
-  padding-top: 13.82px;
+  padding-top    : 13.82px;
+  display        : flex;
+  justify-content: space-around;
 }
 
 
 /*------------------------------------------------text tablet------------------------------*/
 .container--texto-section-one-tablet {
-  margin-left     : 10px;
+  margin-left: 10px;
 }
 
 .container--texto-section-two-tablet {
-  margin-left: 10px;
-  margin-top : 50px;
+  margin-left   : 10px;
+  margin-bottom : 16px;
+  /* margin-top : 50px; */
 }

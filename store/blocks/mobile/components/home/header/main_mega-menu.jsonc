@@ -1,5 +1,5 @@
 {
-  "drawer": {
+  "drawer#prueba": {
     "title": "Mobile Drawer",
     "children": ["mega-menu#mobile"],
     "blocks": ["drawer-header#my-drawer"]
