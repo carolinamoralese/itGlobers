@@ -3,12 +3,13 @@
         max-width: 1280px;
         margin   : auto;
     }
-}
-
-@media (min-width: 1024px) {
     .headerStickyRow--container-menu-icon-global {
         max-width  : 1280px;
         margin     : auto;
+    }
+    .headerRowBackground--container-menu-icon-global {
+        max-width : 1280px;
+        height: 56px;
     }
 }
 
@@ -18,21 +19,15 @@
 }
 
 .headerRowContentContainer--container-menu-icon-global {
-    margin-left: 15px;
+    margin-left: 0;
 }
 
-@media (min-width: 1024px) {
-    .headerRowBackground--container-menu-icon-global {
-        width : 1280px;
-        height: 56px;
-    }
-}
 
 /*------------tablet---------------*/
 @media (min-width: 640px) and (max-width: 1023px) {
     .headerRowBackground--container-menu-icon-global {
         padding-left: 0%;
-        width       : 0% !important;
+        /* width       : 0% !important; */
     }
     .headerRowContentContainer--container-menu-icon-global{
         margin-left: 0;

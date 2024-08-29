@@ -164,3 +164,15 @@
 .filterPopupArrowIcon {
     display: none;
 }
+
+.orderBy--layout :global(.vtex-search-result-3-x-orderByText)::before{
+    content       : "ordenar por";
+    font-size     : 14px;
+    text-transform: lowercase;
+    color         : rgba(29, 39, 52, 1);
+}
+
+.orderBy--layout :global(.vtex-search-result-3-x-orderByButton){
+    /* display: flex; */
+    justify-content: center;
+}

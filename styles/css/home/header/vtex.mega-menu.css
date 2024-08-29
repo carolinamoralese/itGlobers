@@ -1,21 +1,12 @@
-.triggerContainer {
-    margin-top: 30px;
-}
-
 .triggerButtonIcon--mega-menu-trigger {
     width : 24px !important;
     height: 24px !important;
 }
 
 .menuContainerNav--components-mega-menu {
-    width      : max-content !important;
-    z-index    : 1000;
-    font-family: lexend;
-    font-size  : 12px;
-    line-height: 15px;
-    font-weight: 300;
-    margin-top : 1.3rem;
-
+    width     : max-content !important;
+    z-index   : 1000;
+    margin-top: 5rem;
 }
 
 .menuContainerVertical :global(.vtex-mega-menu-2-x-styledLinkText) {
@@ -39,9 +30,10 @@
 }
 
 .menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-menuContainer) {
-    max-height: max-content;
-    width     : 220px;
-    height    : 647px !important;
+    max-height   : max-content;
+    width        : 220px;
+    height       : 647px !important;
+    border-radius: 0px 0px 0px 16px;
 }
 
 .menuContainerNav--components-mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {

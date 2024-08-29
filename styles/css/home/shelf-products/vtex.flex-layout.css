@@ -13,13 +13,18 @@
 
 .flexRowContent--container-button-buy :global(.vtex-button):hover {
   background-color: #1D2734;
-  ;
   color       : white;
   border-color: #1D2734;
   opacity     : 1;
 }
 
+.slideChildrenContainer--custom-slider-shelf :global(.vtex-product-summary-2-x-clearLink) {
+  max-width: min-content;
+}
 
+.flexRowContent--tablet__title--two{
+  margin-top: 65px;
+}
 
 /*------------------- info card-----------*/
 @media (min-width: 1024px) {
@@ -40,5 +45,5 @@
   .flexRow--header-container-menu-desktop {
     overflow   : auto;
     margin-left: 0%;
-  } 
+  }
 }

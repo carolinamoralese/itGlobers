@@ -2,14 +2,27 @@
   "responsive-layout.tablet": {
     "children": [
       "flex-layout.row#tablet__main-slider",
-      "rich-text#title-section-one-tablet",
+      "flex-layout.row#tablet__title",
       "flex-layout.row#tablet_main-slider-info-card",
-      "rich-text#title-section-two-tablet",
+      "flex-layout.row#tablet__title--two",
       "flex-layout.row#tablet_shelf-products",
-      "rich-text#title-section-two-tablet",
+      "flex-layout.row#tablet__title--two",
       "flex-layout.row#tablet_main-slider-info-card",
-      "rich-text#title-section-two-tablet",
+      "flex-layout.row#tablet__title--two",
       "flex-layout.row#tablet_shelf-products"
     ]
+  },
+  "flex-layout.row#tablet__title": {
+    "children": ["rich-text#title-section-one-tablet"],
+    "props": {
+      "blockClass": "tablet__title"
+    }
+  },
+  "flex-layout.row#tablet__title--two": {
+    "children": ["rich-text#title-section-two-tablet"],
+    "props": {
+      "blockClass": "tablet__title--two"
+    }
   }
+
 }

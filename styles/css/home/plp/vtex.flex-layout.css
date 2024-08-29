@@ -11,13 +11,9 @@
     padding-left: 0%;
 }
 
-/*----------------------------------------- quitar si no se usa---------------------*/
 .flexColChild--product__gallery {
     display       : flex;
     flex-direction: row-reverse;
-    /* margin-top : -160px; */
-
-
 }
 
 .flexColChild--shelf__details--gallery {
@@ -46,15 +42,6 @@
     text-align            : left !important;
     height                : 39px;
     width                 : 149px;
-    /* height             : 39px;
-        width             : 149px;
-        display           : -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow          : hidden;
-        text-overflow     : ellipsis;
-        max-height        : calc(1.5em * 3); */
-    /* margin-left        : 10px; */
     padding               : 0%;
     margin-right          : 0;
 
@@ -76,7 +63,3 @@
     color         : rgba(29, 39, 52, 1);
 
 }
-
-/* .flexColChild--sort__options :global(.vtex-search-result-3-x-orderByText)::first-letter{
-    text-transform: capitalize;
-} */

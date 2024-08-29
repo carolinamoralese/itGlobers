@@ -18,7 +18,7 @@
   },
   "flex-layout.col#mobile__container--menu--logo": {
     "title": "Container menu and logo",
-    "children": ["drawer", "flex-layout.col#global__logo-desktop"],
+    "children": ["drawer#prueba", "flex-layout.col#global__logo-desktop"],
     "props": {
       "blockClass": ["container__menu--logo"],
       "colSizing": "auto"

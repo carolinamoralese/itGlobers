@@ -1,6 +1,7 @@
 {
   "sticky-layout#desktop__main-menu": {
-    "children": ["header-row#desktop__main-menu"]
+    "children": [
+      "header-row#desktop__main-menu"]
   },
 
   "header-row#desktop__main-menu": {
@@ -17,7 +18,7 @@
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
+      // "preventVerticalStretch": true,
       "colJustify": "between",
       "fullWidth": true,
       "blockClass": "header-container-menu-desktop-section-one"

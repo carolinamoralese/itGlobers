@@ -8,6 +8,7 @@
           "component": "OneOrTwoLineSummary",
           "itemsPerRow": {
             "desktop": 3,
+            "tablet": 2,
             "mobile": 1
           }
         },
@@ -21,6 +22,7 @@
           "component": "ManyByLineSummary",
           "itemsPerRow": {
             "desktop": 3,
+            "tablet": 2,
             "mobile": 1
           }
         }

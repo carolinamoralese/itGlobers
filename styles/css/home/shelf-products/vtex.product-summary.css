@@ -47,6 +47,9 @@
   height: 140px !important;
 
 }
+.nameContainer{
+  justify-content: flex-start;
+}
 
 @media (max-width: 767px) {
   .imageStackContainer {
