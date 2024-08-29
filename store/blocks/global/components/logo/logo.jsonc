@@ -2,7 +2,8 @@
   "flex-layout.col#global__logo-desktop": {
     "title": "container logo desktop",
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "width": "grow"
     },
     "children": ["logo#desktop"]
   },

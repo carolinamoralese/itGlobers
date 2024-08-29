@@ -2,11 +2,14 @@
   "search-result-layout.mobile": {
     "title": "mobile search",
     "children": [
+      "breadcrumb.search",
+      "search-title.v2",
       "flex-layout.row#container__result--order-filter",
       "search-content#global__search--layout"
     ],
     "props": {
-      "preventRouteChange": true
+      "preventRouteChange": true,
+      "blockClass":  "mobile__plp--order--filter"
     }
   }
 }

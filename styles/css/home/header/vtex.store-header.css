@@ -27,7 +27,6 @@
 @media (min-width: 640px) and (max-width: 1023px) {
     .headerRowBackground--container-menu-icon-global {
         padding-left: 0%;
-        /* width       : 0% !important; */
     }
     .headerRowContentContainer--container-menu-icon-global{
         margin-left: 0;

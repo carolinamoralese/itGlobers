@@ -45,6 +45,11 @@
     margin-top   : 1rem;
 }
 
+.flexCol--product__image-pdp {
+    display    : flex;
+    align-items: center;
+}
+
 @media screen and (min-width: 1024px) {
     .flexRow--especificartion__pdp .stretchChildrenWidth {
         display        : grid;
@@ -75,7 +80,8 @@
     .flexCol--product__information--pdp {
         margin-left: -120px;
     }
-    .flexRowContent--pdp__highlights{
+
+    .flexRowContent--pdp__highlights {
         margin-top: 0;
     }
 

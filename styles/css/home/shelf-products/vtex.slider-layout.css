@@ -15,6 +15,9 @@
         padding  : 0%;
         max-width: max-content;
     }
+    .slideChildrenContainer--custom-slider-shelf {
+        max-width  : min-content;
+    }
 }
 
 /*------------tablet---------------*/

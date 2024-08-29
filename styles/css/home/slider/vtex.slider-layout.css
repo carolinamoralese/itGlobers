@@ -61,10 +61,6 @@
 }
 
 
-/* .paginationDotsContainer--custom-slider-shelf {
-    top: 425px;
-} */
-
 .carousel .rich-text {
     text-align: center;
     margin-top: 10px;
@@ -87,15 +83,12 @@
     .sliderLayoutContainer--custom-slider{
         max-width: min-content;
     }
-    /* .slideChildrenContainer--custom-slider-shelf{
-        max-width: max-content;
-    } */
+
 }
 
 @media (min-width: 1024px) {
     .sliderLayoutContainer--custom-slider-shelf {
         width : 1092px !important;
-        /* height: 374px; */
     }
 }
 

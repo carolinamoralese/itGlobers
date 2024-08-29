@@ -93,22 +93,6 @@
 }
 
 
-
-/*-------------mirar si quitar-------------*/
-.showingProductsCount {
-    display: none;
-}
-
-.showingProducts {
-    display: none;
-}
-
-@media (max-width: 767px) {
-    .container--layout :global(.vtex-flex-layout-0-x-flexRowContent) {
-        display: flex;
-    }
-}
-
 .orderByOptionsContainer :hover {
     background-color: #1d2734;
     color           : white;
@@ -147,12 +131,26 @@
 .orderByText::first-letter {
     text-transform: capitalize;
 }
+.orderByText{
+    display: block;
+}
 
-.filterPopupTitle::before {
+.orderByButton::before {
     content      : url("/arquivos/plp-filter-settings.png");
     width        : 20px;
     height       : 20px;
     padding-right: 4px;
+}
+
+.orderByButton,
+.filterPopupButton {
+    width        : 147px;
+    height       : 40px;
+    padding      : 14px 12px 14px 12px;
+    border-radius: 40px;
+    justify      : space-between;
+    background   : rgba(231, 231, 231, 1);
+
 }
 
 .filterPopupTitle::after {
@@ -165,14 +163,39 @@
     display: none;
 }
 
-.orderBy--layout :global(.vtex-search-result-3-x-orderByText)::before{
+.orderBy--layout :global(.vtex-search-result-3-x-orderByText)::before {
     content       : "ordenar por";
     font-size     : 14px;
     text-transform: lowercase;
     color         : rgba(29, 39, 52, 1);
+    white-space   : nowrap;
+    width         : 70px;
 }
 
-.orderBy--layout :global(.vtex-search-result-3-x-orderByButton){
-    /* display: flex; */
+.orderBy--layout :global(.vtex-search-result-3-x-orderByButton) {
     justify-content: center;
+}
+
+.filterPopupButton::before {
+    content      : url("/arquivos/icon__filter--plp.png");
+    width        : 20px;
+    height       : 20px;
+    padding-right: 4px;
+}
+
+.filters--layout :global(.vtex-search-result-3-x-filterPopupTitle)::before {
+    content       : "filtros";
+    font-size     : 14px;
+    text-transform: lowercase;
+    color         : rgba(29, 39, 52, 1);
+    width         : 80px;
+}
+
+.filters--layout :global(.vtex-search-result-3-x-filterPopupTitle)::first-letter {
+    text-transform: capitalize;
+}
+@media (max-width: 767px) {
+    .container--layout :global(.vtex-flex-layout-0-x-flexRowContent) {
+        display: flex;
+    }
 }
