@@ -7,17 +7,7 @@
 }
 
 .slideChildrenContainer--custom-slider-shelf {
-    padding: 3px;
-}
-
-@media (max-width: 768px) {
-    .slideChildrenContainer--custom-slider-shelf {
-        padding  : 0%;
-        max-width: max-content;
-    }
-    .slideChildrenContainer--custom-slider-shelf {
-        max-width  : min-content;
-    }
+    max-width  : min-content;
 }
 
 /*------------tablet---------------*/

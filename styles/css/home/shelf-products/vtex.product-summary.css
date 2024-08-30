@@ -10,7 +10,6 @@
   text-overflow     : ellipsis;
   margin-right      : 7px;
   color: rgba(29, 39, 52, 0.6);
-
 }
 
 
@@ -43,27 +42,17 @@
 }
 
 .imageStackContainer :global(.vtex-product-summary-2-x-imageNormal){
-  width: 178px !important;
-  height: 140px !important;
-
+  width  : 135.15px;
+  height : 106.3px;
 }
 .nameContainer{
   justify-content: flex-start;
 }
 
-@media (max-width: 767px) {
-  .imageStackContainer {
-
-    width  : 135.15px;
-    height : 106.3px;
-    gap    : 0px;
-    opacity: 0px;
-
+@media (min-width: 1280px){
+  .imageStackContainer :global(.vtex-product-summary-2-x-imageNormal){
+    width: 178px !important;
+    height: 140px !important;
   }
 
-  .buyButton--custom-buy-button {
-    font-size: 14px;
-    padding  : 5px 10px;
-
-  }
 }

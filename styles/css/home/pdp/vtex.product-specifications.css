@@ -2,14 +2,6 @@
   margin-left: 0rem;
 }
 
-
-
-@media screen and (min-width: 1024px) {
-  .groupName {
-    margin-left: 5rem;
-  }
-}
-
 .specificationName {
   box-sizing : border-box;
   padding    : 1rem;
@@ -30,4 +22,10 @@
   font-weight: 300;
   line-height: 16.8px;
   text-align : left;
+}
+
+@media screen and (min-width: 1024px) {
+  .groupName {
+    margin-left: 5rem;
+  }
 }

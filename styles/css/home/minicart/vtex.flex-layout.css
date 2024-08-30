@@ -9,6 +9,7 @@
 
 .flexColChild--minicart-footer-column :global(.vtex-minicart-2-x-minicartSummary) {
     height         : 126px;
+    width          : 328px;
     border-radius  : 4px;
     border         : 1px solid #E7E7E7;
     margin         : 0;

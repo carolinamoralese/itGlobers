@@ -10,6 +10,8 @@
     line-height  : 20px;
     text-align   : left;
     color        : #FF8324;
+    margin-right : 0rem;
+    white-space  : nowrap;
 
 }
 
@@ -28,12 +30,6 @@
 
 }
 
-@media (max-width: 767px) {
-    .productHighlightWrapper--pdp__flash-Deal {
-        margin-right: 5rem;
-    }
-
-    .flexRow--header-container-menu-desktop {
-        margin-left: 0%;
-    }
+.flexRow--header-container-menu-desktop {
+    margin-left: 0%;
 }

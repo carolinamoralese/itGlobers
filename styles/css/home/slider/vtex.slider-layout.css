@@ -1,6 +1,5 @@
 .paginationDot {
     width           : 44px !important;
-    /* height       : 60px !important; */
     border-radius   : 0;
     background-color: transparent;
     position        : relative;
@@ -66,31 +65,23 @@
     margin-top: 10px;
 }
 .sliderLayoutContainer--custom-slider{
-    max-width: max-content;
-}
-@media (max-width: 640px) {
-    .sliderLeftArrow {
-        display: none;
-    }
-
-    .sliderRightArrow {
-        display: none;
-    }
-
-    .paginationDotsContainer--custom-slider-shelf {
-        top: 460px !important;
-    }
-    .sliderLayoutContainer--custom-slider{
-        max-width: min-content;
-    }
-
+    max-width: min-content;
 }
 
 @media (min-width: 1024px) {
     .sliderLayoutContainer--custom-slider-shelf {
         width : 1092px !important;
     }
+       .sliderLayoutContainer--custom-slider{
+        max-width: max-content;
+    }
 }
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    .sliderLayoutContainer--custom-slider{
+        max-width: max-content;
+    }
+  }
 
 @media (max-width: 900px) {
     .sliderLeftArrow {

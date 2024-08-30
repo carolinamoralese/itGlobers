@@ -1,6 +1,6 @@
-.flexRow--pdp__price {
+/* .flexRow--pdp__price {
     margin-top: 16px;
-}
+} */
 
 .flexColChild--product__gallery {
     height: 10px;
@@ -29,9 +29,13 @@
     color        : white;
 }
 
-.flexRow--pdp__quantity--button :global(.vtex-flex-layout-0-x-flexRowContent--pdp__quantity--button) {
-    width: 85% !important;
+.flexRowContent--pdp__quantity--button :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
 }
+
+/* .flexRow--pdp__quantity--button :global(.vtex-flex-layout-0-x-flexRowContent--pdp__quantity--button) {
+    width: 85% !important;
+} */
 
 .flexRow--especificartion__pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidt) {
     justify-content: left;
@@ -50,6 +54,26 @@
     align-items: center;
 }
 
+.flexRow--global__product--main {
+    max-width: 1280px;
+    margin   : auto;
+}
+
+
+/* .flexColChild--product__information--pdp :global(.vtex-product-price-1-x-currencyContainer)::before {
+    content      : "Now";
+    font-size    : 24px;
+    font-weight  : 600;
+    line-height  : 16.8px;
+    width        : 195px;
+    height       : 17px;
+    padding-right: 0.5rem;
+
+} */
+.flexRowContent--global__product--main {
+    justify-content: flex-start;
+}
+
 @media screen and (min-width: 1024px) {
     .flexRow--especificartion__pdp .stretchChildrenWidth {
         display        : grid;
@@ -57,18 +81,19 @@
         margin-left    : 5rem;
     }
 
-    .flexRowContent--pdp__price {
+    /* .flexRowContent--pdp__price {
         width: 50%;
-    }
+    } */
 
     .flexRowContent--pdp__quantity--button :global(.vtex-button) {
-        width        : 312px;
+        max-width    : 312px;
         height       : 48px;
         padding      : 10px;
         border-radius: 4px;
         border       : 1px;
         background   : rgba(73, 42, 119, 1);
         color        : white;
+        white-space  : nowrap;
     }
 
     .flexCol--product__image-pdp {
@@ -77,12 +102,12 @@
         margin: auto;
     }
 
-    .flexCol--product__information--pdp {
-        margin-left: -120px;
-    }
-
     .flexRowContent--pdp__highlights {
         margin-top: 0;
+    }
+
+    .flexCol--product__information--pdp {
+        padding-left: 24px;
     }
 
 }

@@ -18,7 +18,6 @@
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      // "preventVerticalStretch": true,
       "colJustify": "between",
       "fullWidth": true,
       "blockClass": "header-container-menu-desktop-section-one"
@@ -40,7 +39,7 @@
     },
     "children": [
       "flex-layout.col#desktop__mega-menu",
-      "flex-layout.col#global__logo-desktop",
+      "flex-layout.col#global__logo",
       "search-bar"
     ]
   },

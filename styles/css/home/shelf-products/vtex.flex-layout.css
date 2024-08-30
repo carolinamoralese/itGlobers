@@ -1,4 +1,3 @@
-/*------------------- buttom mini-----------*/
 .flexRowContent--container-button-buy :global(.vtex-button) {
   background-color: transparent;
   color           : black;
@@ -26,15 +25,7 @@
   margin-top: 65px;
 }
 
-/*------------------- info card-----------*/
-@media (min-width: 1024px) {
-  .flexRow--container-shelf-product {
-    max-width: 1280px;
-    margin   : auto;
-  }
-}
 
-/*------------------- shelf product-----------*/
 .flexRowContent--container-price_salving-add_favorite {
   display: flex;
 }
@@ -45,5 +36,13 @@
   .flexRow--header-container-menu-desktop {
     overflow   : auto;
     margin-left: 0%;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .flexRow--container-shelf-product {
+    max-width: 1280px;
+    margin   : auto;
   }
 }

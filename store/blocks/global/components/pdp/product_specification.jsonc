@@ -1,5 +1,6 @@
 {
-  "flex-layout.row#especificartion__pdp": {
+  "flex-layout.row#global__especification--pdp": {
+    "title": "container prduct specification",
     "children": [
       "product-specification-group"
     ],
@@ -10,14 +11,14 @@
   "product-specification-group": {
     "title": "Product Specification Group",
     "children": [
-      "product-specification-text#group",
+      "product-specification-text#group__name",
       "flex-layout.row#product__specification"
     ],
     "props": {
       "blockClass":"pdp__product-specification-group"
     }
   },
-  "product-specification-text#group": {
+  "product-specification-text#group__name": {
     "title": "Specification Group Text",
     "props": {
       "message": "{groupName}",
