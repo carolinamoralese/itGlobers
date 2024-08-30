@@ -13,10 +13,14 @@
   position        : absolute;
   background-image: #1D2734;
   margin-right: 7px;
+} 
+
+.wishlistIconContainer--favorite :global(.vtex-button) {
+  margin-left: 20%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1280px) {
   .wishlistIconContainer--favorite :global(.vtex-button) {
-    margin-left: 20%;
+    margin-left: 0%;
   }
 }

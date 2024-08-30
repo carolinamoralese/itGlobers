@@ -1,13 +1,13 @@
 {
-  "flex-layout.col#global__logo-desktop": {
+  "flex-layout.col#global__logo": {
     "title": "container logo desktop",
     "props": {
       "verticalAlign": "middle",
       "width": "grow"
     },
-    "children": ["logo#desktop"]
+    "children": ["logo#global"]
   },
-  "logo#desktop": {
+  "logo#global": {
     "props": {
       "title": "Logo",
       "href": "/",

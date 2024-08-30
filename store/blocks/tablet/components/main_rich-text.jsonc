@@ -18,15 +18,5 @@
       "font": "lexed",
       "blockClass": ["texto-section-two-tablet"]
     }
-  },
-  "rich-text#title-section-three-tablet": {
-    "title": "title section three tablet",
-    "props": {
-      "text": "An amazing product  TABLET",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "font": "lexed",
-      "blockClass": ["texto-section-three-tablet"]
-    }
   }
 }

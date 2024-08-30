@@ -1,13 +1,15 @@
 /*------------color boton ventana pop up---------------*/
 .minicartCheckoutButton--minicart-checkout-button :global(.vtex-button) {
-  background-color: #1d2734;
-  width           : 328px;
-  height          : 48px;
-  left            : 16px;
-  padding         : 10px;
-  border-radius   : 40px;
-  border          : 1px;
-  margin-top      : 18px;
+  background-color   : #1d2734;
+  width              : 328px !important;
+  height             : 48px;
+  display            : flex;
+  /* left            : 16px; */
+  padding            : 10px;
+  border-radius      : 40px;
+  /* border          : 1px; */
+  margin-top         : 18px;
+
 }
 
 .minicartTitle {
@@ -46,8 +48,8 @@
 }
 
 .closeIcon--minicart-container {
-  background      : #f5f4f6;
-  border-radius   : 50%;
+  background   : #f5f4f6;
+  border-radius: 50%;
 }
 
 .opened {
@@ -113,18 +115,8 @@
   display  : flex;
 }
 
-.minicartCheckoutButton :global(.vtex-button__label)::first-letter{
+.minicartCheckoutButton :global(.vtex-button__label)::first-letter {
   text-transform: capitalize;
-}
-
-@media (max-width: 780px) {
-  .minicartSummary--minicart-summary {
-    width: 310px !important;
-  }
-
-  .minicartCheckoutButton--minicart-checkout-button :global(.vtex-button) {
-    width: 280px !important;
-  }
 }
 
 @media (min-width: 1280px) {
