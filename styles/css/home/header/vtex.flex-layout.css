@@ -57,15 +57,7 @@
     gap: 30px;
 }
 
-/* @media (max-width: 767px) { */
-/* .flexRowContent--header-container-menu-desktop {
-        gap: 30px;
-    }
 
-    .flexRow--header-container-menu-desktop {
-        margin-left: 0%;
-    } */
-/* } */
 
 @media (min-width: 1024px) {
     .flexRow--conatainer-banner-home-desktop {

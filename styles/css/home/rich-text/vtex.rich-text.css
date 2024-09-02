@@ -97,7 +97,6 @@
   padding            : 8px;
   gap                : 8px;
   border             : 0.86px;
-  /* margin-left     : 30%; */
   padding-left       : 18px;
   margin-top         : 5px;
 }
@@ -203,5 +202,4 @@
 .container--texto-section-two-tablet {
   margin-left   : 10px;
   margin-bottom : 16px;
-  /* margin-top : 50px; */
 }

@@ -2,7 +2,7 @@
   "rich-text#title-section-one-tablet": {
     "title": "title section one tablet",
     "props": {
-      "text": "An amazing product  TABLET",
+      "text": "An amazing product",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "font": "lexed",
@@ -12,7 +12,7 @@
   "rich-text#title-section-two-tablet": {
     "title": "title section two tablet",
     "props": {
-      "text": "An amazing product  TABLET",
+      "text": "An amazing product",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "font": "lexed",

@@ -8,6 +8,7 @@
   gap             : 10px;
   border-radius   : 8px;
   opacity         : 0px;
+  margin-left     : 1px;
 }
 
 .flexRowContent--container-button-buy :global(.vtex-button):hover {

@@ -24,8 +24,15 @@
   text-align : left;
 }
 
-@media screen and (min-width: 1024px) {
-  .groupName {
-    margin-left: 5rem;
-  }
+.groupName {
+  background-color: transparent !important;
+  width           : 481px;
+  height          : 17px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16.8px;
+  text-align: left;
+  
 }
+

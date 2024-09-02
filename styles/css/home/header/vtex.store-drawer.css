@@ -1,9 +1,16 @@
-.openIconContainer--drawer-desktop{
+.openIconContainer--drawer-desktop {
     margin-top: 25px;
 }
-.menuIcon--menu-desktop{
+
+.menuIcon--menu-desktop {
     margin-top: 25px;
 }
-.opened{
+
+.opened {
     width: 66% !important;
+}
+
+.drawerHeader {
+    margin-top : 21px;
+    margin-left: 16px;
 }

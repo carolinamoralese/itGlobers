@@ -1,0 +1,30 @@
+:global(.vtex-mega-menu-2-x-menuContainer h3){
+    font-size: 14px;
+    font-weight: 600;
+    color: #1D2734;
+    display: flex;
+    align-items: center;
+}
+
+:global(.vtex-mega-menu-2-x-menuContainer h3::before){
+    content: "";
+    background: url("/arquivos/Icon_Color.png") no-repeat center center / cover;
+    margin-right: 0.4rem;
+    width: 20px;
+    height: 20px;
+}
+
+:global(.vtex-mega-menu-2-x-departmentsContainer h3::after){
+    content: "";
+    background: url("/arquivos/Icon_Color.png") no-repeat center center / cover;
+    max-width: 10px !important;
+    max-height: 10px !important;
+}
+
+:global(.vtex-mega-menu-2-x-menuContainerNavVertical h3){
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    
+}
+

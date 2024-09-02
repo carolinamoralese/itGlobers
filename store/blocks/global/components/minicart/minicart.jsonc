@@ -59,7 +59,8 @@
     },
     "children": [
       "flex-layout.row#product--list",
-      "flex-layout.row#minicart-footer"
+      "flex-layout.row#minicart-footer",
+      "minicart-checkout-button"
     ]
   },
 
@@ -73,8 +74,7 @@
   "flex-layout.col#minicart-footer": {
     "title": "Minicart Footer Column",
     "children": [
-      "minicart-summary#container--totalizers",
-      "minicart-checkout-button"
+      "minicart-summary#container--totalizers"
     ],
     "props": {
       "blockClass": "minicart-footer-column"
@@ -160,7 +160,9 @@
       "image#minicart-empty-state",
       "rich-text#minicart-default-empty-state-one",
       "rich-text#minicart-default-empty-state-two",
-      "flex-layout.row#minicart-footer"
+      "flex-layout.row#minicart-footer", 
+      "minicart-checkout-button#minicart__empty"
+
     ]
   },
   "image#minicart-empty-state": {
@@ -180,6 +182,14 @@
     "props": {
       "text": "Tenemos ofertas del 50% este mes",
       "blockClass": "minicart-empty-state-two-text"
+    }
+  },
+  "minicart-checkout-button#minicart__empty": {
+    "title": "Minicart Checkout Button empty",
+    "props": {
+      "finishShoppingButtonLink": "/checkout/#/orderform",
+      "customSummaryText": "Finalizar tu compra",
+      "blockClass": "minicart__empty"
     }
   }
 }

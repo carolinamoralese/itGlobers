@@ -2,7 +2,7 @@
   "rich-text#mobile__title--section--one": {
     "title": "rich text title section one mobile",
     "props": {
-      "text": "An amazing product PHONE",
+      "text": "An amazing product",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "font": "lexed",
@@ -12,7 +12,7 @@
   "rich-text#mobile__title--section--two": {
     "title": "rich text title section two mobile",
     "props": {
-      "text": "An amazing product PHONE",
+      "text": "An amazing product",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "font": "lexed",
@@ -22,7 +22,7 @@
   "rich-text#mobile__title--section--there": {
     "title": "rich text title section there mobile",
     "props": {
-      "text": "An amazing product PHONE",
+      "text": "An amazing product",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "font": "lexed",
