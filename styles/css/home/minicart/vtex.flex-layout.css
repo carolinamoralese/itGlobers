@@ -8,16 +8,19 @@
 
 
 .flexColChild--minicart-footer-column :global(.vtex-minicart-2-x-minicartSummary) {
-    height         : 126px;
-    width          : 328px;
-    border-radius  : 4px;
-    border         : 1px solid #E7E7E7;
-    margin         : 0;
-    padding        : 0;
-    display        : flex;
-    align-items    : center;
-    justify-content: center;
-    margin-left    : 17px;
+    height            : 126px;
+    width             : 328px;
+    border-radius     : 4px;
+    border            : 1px solid #E7E7E7;
+    margin            : 0;
+    padding           : 0;
+    display           : flex;
+    align-items       : center;
+    justify-content   : center;
+}
+
+.flexColChild--minicart-empty-state-column {
+    padding-bottom: 8px;
 }
 
 .flexRowContent :global(.vtex-product-list-0-x-productImageContainer) {
@@ -44,8 +47,10 @@
 }
 
 .flexColChild--minicart--container {
-    display    : flex;
-    align-items: flex-start;
+    display        : flex;
+    align-items    : flex-start;
+    justify-content: center;
+    height         : auto !important;
 }
 
 

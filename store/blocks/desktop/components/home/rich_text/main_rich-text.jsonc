@@ -2,7 +2,7 @@
   "rich-text#desktop__title-section-one": {
     "title": "texto section one desktop",
     "props": {
-      "text": "An amazing product  DESKTOP",
+      "text": "An amazing product",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "font": "t-heading-10",

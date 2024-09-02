@@ -19,7 +19,6 @@
   "flex-layout.col#global__product--image": {
     "title": "Global Product Image Column",
     "props": {
-      // "width": "60%",
       "rowGap": 0,
       "blockClass": "product__image-pdp"
     },
@@ -61,7 +60,6 @@
     "title": "Global Product Information Column",
     "props": {
       "preventVerticalStretch": true,
-      // "width": "40%",
       "rowGap": 0,
       "blockClass": "product__information--pdp"
     },
@@ -105,7 +103,7 @@
     "title": "PDP Quantity Column",
     "children": ["product-quantity#pdp_quantity"],
     "props": {
-      // "width": "30%"
+
     }
   },
 
@@ -116,7 +114,6 @@
       "responsive-layout.desktop#pdp__button--add--to-cart"
     ],
     "props": {
-      // "width": "70%"
     }
   },
   "responsive-layout.desktop#pdp__button--add--to-cart": {
