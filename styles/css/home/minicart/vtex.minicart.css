@@ -127,7 +127,7 @@
   display  : flex;
 }
 
-.minicartCheckoutButton :global(.vtex-button__label)::first-letter {
+.minicartCheckoutButton :global(.vtex-button__label)::after {
   text-transform: capitalize;
 }
 .minicartCheckoutButton--minicart__empty :global(.vtex-button){
