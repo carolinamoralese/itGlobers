@@ -308,6 +308,8 @@
   font-size     : 16px;
   text-transform: lowercase;
   margin-left   : 12.5px;
+  display       : flex;
+  align-items   : center;
 }
 
 .facebookOptionBtn .oauthLabel {
@@ -315,9 +317,10 @@
   display  : flex;
 }
 
-.facebookOptionBtn :global(.vtex-button__label)::before {
+.facebookOptionBtn :global(.vtex-button__label) ::after {
   text-transform: capitalize;
 }
+
 
 .sendButton :global(.vtex-button__label)::before {
   content       : "Login";
@@ -564,6 +567,21 @@
 .oauthLabel {
   margin: 0 !important;
 }
+
+.facebookOptionBtn :global(.vtex-login-2-x-oauthProvider)::before {
+  content: url("/arquivos/Facebook Logo.png");
+}
+
+.facebookOptionBtn :global(.vtex-login-2-x-oauthProvider) {
+  height: 24px;
+}
+
+/* .backButton :global(.vtex-button)::before {
+  content            : url("/arquivos/icon__back-login.png");
+  background-repeat  : no-repeat;
+  background-size    : 100%;
+  background-position: center
+} */
 
 /*------------tablet---------------*/
 @media (min-width: 640px) and (max-width: 1024px) {
