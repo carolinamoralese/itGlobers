@@ -1,10 +1,22 @@
 {
   "store.home": {
     "blocks": [
+      "whatsapp-button",
       "responsive-layout.phone",
       "responsive-layout.desktop",
       "responsive-layout.tablet"
-      // "modal-trigger#example"      
+
+      // "modal-trigger#example"
     ]
+  },
+  "whatsapp-button": {
+    "title": "whatsapp",
+    "props": {
+      "logo": "assets/img/whatsapp.jpg",
+      "phone": "3135609370",
+      "message": "Hola quieres comunicarte desde el store team",
+      "width": 80,
+      "height": 80
+    }
   }
 }
